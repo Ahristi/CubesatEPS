@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=NetC14_2 Pin=J1-17
+Added Pin To Net: NetName=NetC14_2 Pin=J1-18
+Added Pin To Net: NetName=NetC14_2 Pin=J1-19
+Added Pin To Net: NetName=NetC14_2 Pin=J1-20
+Change Net Name : Old Net Name=NetC14_2 New Net Name=SYS
+Change Net Name : Old Net Name=NetC20_2 New Net Name=PMID
+Added Room: Name=Top_Level

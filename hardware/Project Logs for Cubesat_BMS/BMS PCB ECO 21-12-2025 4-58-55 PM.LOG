@@ -1,0 +1,17 @@
+Add Component: Footprint Not Found SOD-523
+Added Component: Designator=L1(SPM7054VT-2R2M-D)
+Add component (AddParameter): Name = "Current - Saturation"; Value = "14.1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "12A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance"; Value = "7.4mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "445-SPM7054VT-2R2M-DCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "2.2uH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SPM7054VT-2R2M-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D1-A
+Add Pin To Net: Unknown Pin: Pin D1-K
+Added Pin To Net: NetName=NetC12_2 Pin=L1-1
+Added Pin To Net: NetName=NetC13_1 Pin=L1-2
+Add Class Member: Failed to add class member : Component D1 BZT52C12T-7
+Added Member To Class: ClassName=Power_Path Member=Component L1 SPM7054VT-2R2M-D

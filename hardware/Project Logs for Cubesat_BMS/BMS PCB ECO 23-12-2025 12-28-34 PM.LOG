@@ -1,0 +1,30 @@
+Added Component: Designator=MECH5(M3 x 0.50p x 8mm Bolt)
+Add component (AddParameter): Name = "Distributor"; Value = "Bolt and Nut Australia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Added Component: Designator=MECH6(M3 x 0.50p x 8mm Bolt)
+Add component (AddParameter): Name = "Distributor"; Value = "Bolt and Nut Australia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Added Component: Designator=MECH7(M3 x 0.50p x 8mm Bolt)
+Add component (AddParameter): Name = "Distributor"; Value = "Bolt and Nut Australia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Added Component: Designator=MECH8(M3 x 0.50p x 8mm Bolt)
+Add component (AddParameter): Name = "Distributor"; Value = "Bolt and Nut Australia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Added Component: Designator=MECH9(M3 x 0.50p x 8mm Bolt)
+Add component (AddParameter): Name = "Distributor"; Value = "Bolt and Nut Australia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Added Component: Designator=MECH10(M3 x 0.50p x 8mm Bolt)
+Add component (AddParameter): Name = "Distributor"; Value = "Bolt and Nut Australia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M3 x 0.50p x 8mm"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Top_Level Member=Component MECH5 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH6 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH7 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH8 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH9 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH10 M3x0.5x8
