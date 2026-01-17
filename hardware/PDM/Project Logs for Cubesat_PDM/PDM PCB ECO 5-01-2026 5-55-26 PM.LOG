@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=OBC_EN Pin=U3-2
+Removed Pin From Net: NetName=LED1 Pin=U3-3
+Removed Pin From Net: NetName=HEATER2_PWM Pin=U3-4
+Removed Pin From Net: NetName=HEATER1_PWM Pin=U3-5
+Removed Pin From Net: NetName=BMS_nQON Pin=U3-59
+Removed Pin From Net: NetName=BMS_nCE Pin=U3-60
+Removed Pin From Net: NetName=BMS_nSTAT Pin=U3-61
+Removed Pin From Net: NetName=BMS_nINT Pin=U3-62
+Added Pin To Net: NetName=BMS_nQON Pin=U3-2
+Added Pin To Net: NetName=BMS_nCE Pin=U3-3
+Added Pin To Net: NetName=BMS_nSTAT Pin=U3-4
+Added Pin To Net: NetName=BMS_nINT Pin=U3-5

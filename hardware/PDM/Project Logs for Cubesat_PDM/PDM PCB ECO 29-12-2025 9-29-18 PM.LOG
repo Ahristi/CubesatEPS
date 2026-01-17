@@ -1,0 +1,129 @@
+Added Component: Designator=C100(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part number"; Value = "1276-1005-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL10B104KO8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C101(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part number"; Value = "1276-1005-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL10B104KO8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=J4(G125-MH10605M4P)
+Add component (AddParameter): Name = "Current Rating"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "952-G125-MH10605M4P-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Harwin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "G125-MH10605M4P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Rating"; Value = "-65°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "450V"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(NTTFS5C454NLTAG)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.onsemi.com/pdf/datasheet/nttfs5c454nl-d.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Continuous Drain (Id)"; Value = "20A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gate Charge (Qg) (Max) @ Vgs"; Value = "18nC @ 10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 175°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "NTTFS5C454NL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation (Max) (Ta)"; Value = "3.2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rds On (Max)"; Value = "3.8mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vdss"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vgs (Max)"; Value = "20V"; VariantName = "[No Variations]"
+Added Component: Designator=R78(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "541-10.0KCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRCW080510K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R79(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RNCF0603AKT10R0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RNCF0603AKT10R0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.05%"; VariantName = "[No Variations]"
+Added Component: Designator=R80(LVK12R050CER-2)
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LVK12R050CER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "50mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±50ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.25%"; VariantName = "[No Variations]"
+Added Component: Designator=R81(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "541-10.0KCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRCW080510K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "15K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=U31(SOT23-5 IC)
+Add component (AddParameter): Name = "Current - Peak Output"; Value = "4A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-41038-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "UCC27517AQDBVRQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rise / Fall Time (Typ)"; Value = "8ns, 7ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VIH"; Value = "2.4V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VIL"; Value = "1V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Supply"; Value = "4.5V ~ 18V"; VariantName = "[No Variations]"
+Added Component: Designator=U32(SOT23-5 IC)
+Add component (AddParameter): Name = "Accuracy"; Value = "0.5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "INA139NA/250CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "INA139NA/250"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C100-1
+Added Pin To Net: NetName=+5V Pin=C100-2
+Added Pin To Net: NetName=GND Pin=C101-1
+Added Pin To Net: NetName=+3V3 Pin=C101-2
+Added Pin To Net: NetName=+5V Pin=J4-4
+Added Pin To Net: NetName=+5V Pin=J4-5
+Added Pin To Net: NetName=+5V Pin=J4-6
+Added Pin To Net: NetName=GND Pin=Q1-S
+Added Pin To Net: NetName=GND Pin=Q1-S
+Added Pin To Net: NetName=GND Pin=Q1-S
+Added Pin To Net: NetName=GND Pin=R78-1
+Added Pin To Net: NetName=GND Pin=R81-1
+Added Pin To Net: NetName=+5V Pin=U31-1
+Added Pin To Net: NetName=GND Pin=U31-2
+Added Pin To Net: NetName=GND Pin=U31-4
+Added Pin To Net: NetName=GND Pin=U32-2
+Added Pin To Net: NetName=+3V3 Pin=U32-5
+Added Pin To Net: NetName=HEATER_IMON Pin=R81-2
+Added Pin To Net: NetName=HEATER_IMON Pin=U32-1
+Added Net: Name=HEATER_IMON
+Added Pin To Net: NetName=HEATERN Pin=J4-1
+Added Pin To Net: NetName=HEATERN Pin=J4-2
+Added Pin To Net: NetName=HEATERN Pin=J4-3
+Added Pin To Net: NetName=HEATERN Pin=R80-1
+Added Net: Name=HEATERN
+Added Pin To Net: NetName=NetQ1_D Pin=Q1-D
+Added Pin To Net: NetName=NetQ1_D Pin=R80-4
+Added Net: Name=NetQ1_D
+Added Pin To Net: NetName=NetQ1_G Pin=Q1-G
+Added Pin To Net: NetName=NetQ1_G Pin=R79-2
+Added Net: Name=NetQ1_G
+Added Pin To Net: NetName=NetR79_1 Pin=R79-1
+Added Pin To Net: NetName=NetR79_1 Pin=U31-5
+Added Net: Name=NetR79_1
+Added Pin To Net: NetName=NetR80_2 Pin=R80-2
+Added Pin To Net: NetName=NetR80_2 Pin=U32-3
+Added Net: Name=NetR80_2
+Added Pin To Net: NetName=NetR80_3 Pin=R80-3
+Added Pin To Net: NetName=NetR80_3 Pin=U32-4
+Added Net: Name=NetR80_3
+Added Pin To Net: NetName=PWM Pin=R78-2
+Added Pin To Net: NetName=PWM Pin=U31-3
+Added Net: Name=PWM
+Added Class: Name=Heater_Driver
+Added Room: Name=Heater_Driver

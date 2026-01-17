@@ -1,0 +1,312 @@
+Removed Pin From Net: NetName=3V3_CONV_EN Pin=U5-2
+Removed Member From Class: ClassName=Controller Member=C32
+Removed Member From Class: ClassName=Controller Member=C33
+Removed Member From Class: ClassName=3V3_Supply Member=C54
+Removed Member From Class: ClassName=5V5_Supply Member=C54
+Removed Member From Class: ClassName=5V5_Supply Member=C63
+Removed Member From Class: ClassName=12V_Supply Member=C71
+Removed Member From Class: ClassName=12V_Supply Member=C80
+Removed Member From Class: ClassName=5V5_Supply Member=R42
+Removed Member From Class: ClassName=I2C_Buffer Member=R51
+Removed Member From Class: ClassName=12V_Supply Member=R57
+Change component parameters: Designator = "R78" ("R78"); Footprint = "RESC0603"; UniqueID = "\AEVAOYAC\JVFFLXVG\DVQONCRA" ("\AEVAOYAC\JVFFLXVG\DVQONCRA")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R79" ("R79"); Footprint = "RESC0603"; UniqueID = "\AEVAOYAC\JVFFLXVG\KOKJHZJW" ("\AEVAOYAC\JVFFLXVG\KOKJHZJW")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D8A(PESD5V0C1BLS-Q)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD5V0C1BLS-Q.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55C ~ 150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PESD5V0C1BLS-QYL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Breakdown (Min)"; Value = "7.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Clamping (Max) @ Ipp"; Value = "5.4V (Typ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Reverse Standoff (Typ)"; Value = "5V (Max)"; VariantName = "[No Variations]"
+Added Component: Designator=D8B(PESD5V0C1BLS-Q)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD5V0C1BLS-Q.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55C ~ 150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PESD5V0C1BLS-QYL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Breakdown (Min)"; Value = "7.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Clamping (Max) @ Ipp"; Value = "5.4V (Typ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Reverse Standoff (Typ)"; Value = "5V (Max)"; VariantName = "[No Variations]"
+Added Component: Designator=D8C(PESD5V0C1BLS-Q)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD5V0C1BLS-Q.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55C ~ 150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PESD5V0C1BLS-QYL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Breakdown (Min)"; Value = "7.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Clamping (Max) @ Ipp"; Value = "5.4V (Typ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Reverse Standoff (Typ)"; Value = "5V (Max)"; VariantName = "[No Variations]"
+Added Component: Designator=D8D(PESD5V0C1BLS-Q)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD5V0C1BLS-Q.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55C ~ 150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PESD5V0C1BLS-QYL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Breakdown (Min)"; Value = "7.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Clamping (Max) @ Ipp"; Value = "5.4V (Typ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Reverse Standoff (Typ)"; Value = "5V (Max)"; VariantName = "[No Variations]"
+Added Component: Designator=D8(SOD-323)
+Add component (AddParameter): Name = "Breakdown Voltage"; Value = "28V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Clamping Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipp - Peak Pulse Current"; Value = "4A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AQ27COM-01FTG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-40~150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vesd"; Value = "32kV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "27V"; VariantName = "[No Variations]"
+Added Component: Designator=D9(SOD-323)
+Add component (AddParameter): Name = "Breakdown Voltage"; Value = "28V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Clamping Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipp - Peak Pulse Current"; Value = "4A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "AQ27COM-01FTG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-40~150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vesd"; Value = "32kV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "27V"; VariantName = "[No Variations]"
+Added Component: Designator=R80(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RNCP0805FTD1K00CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RNCP0805FTD1K00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R81(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RNCP0805FTD1K00CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RNCP0805FTD1K00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R82(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT71K5CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT71K5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "71K5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R83(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R84(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R85(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R86(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R87(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D8-A
+Added Pin To Net: NetName=SYS Pin=D8-K
+Added Pin To Net: NetName=GND Pin=D8A-1
+Added Pin To Net: NetName=GND Pin=D8B-1
+Added Pin To Net: NetName=GND Pin=D8C-1
+Added Pin To Net: NetName=GND Pin=D8D-1
+Added Pin To Net: NetName=GND Pin=D9-A
+Added Pin To Net: NetName=SYS Pin=D9-K
+Added Pin To Net: NetName=GND Pin=R80-1
+Added Pin To Net: NetName=CAN_SHDN Pin=R80-2
+Added Pin To Net: NetName=GND Pin=R81-1
+Added Pin To Net: NetName=CAN_STB Pin=R81-2
+Added Pin To Net: NetName=SYS Pin=R82-2
+Added Pin To Net: NetName=GND Pin=R83-1
+Added Pin To Net: NetName=GND Pin=R84-1
+Added Pin To Net: NetName=5V5_CONV_EN Pin=R84-2
+Added Pin To Net: NetName=GND Pin=R85-1
+Added Pin To Net: NetName=RADIO_EN Pin=R85-2
+Added Pin To Net: NetName=GND Pin=R86-1
+Added Pin To Net: NetName=12V_CONV_EN Pin=R86-2
+Added Pin To Net: NetName=GND Pin=R87-1
+Added Pin To Net: NetName=5V_CONV_EN Pin=R87-2
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=ADCS_5V_EN Pin=R?-2
+Added Pin To Net: NetName=ADCS_12V_EN Pin=R?-2
+Added Pin To Net: NetName=AUX_5V_EN Pin=R?-2
+Added Pin To Net: NetName=PAYLOAD_EN Pin=R?-2
+Added Pin To Net: NetName=NetD8A_2 Pin=D8A-2
+Added Pin To Net: NetName=NetD8A_2 Pin=R4A-2
+Added Pin To Net: NetName=NetD8A_2 Pin=U1A-9
+Added Net: Name=NetD8A_2
+Added Pin To Net: NetName=NetD8B_2 Pin=D8B-2
+Added Pin To Net: NetName=NetD8B_2 Pin=R4B-2
+Added Pin To Net: NetName=NetD8B_2 Pin=U1B-9
+Added Net: Name=NetD8B_2
+Added Pin To Net: NetName=NetD8C_2 Pin=D8C-2
+Added Pin To Net: NetName=NetD8C_2 Pin=R4C-2
+Added Pin To Net: NetName=NetD8C_2 Pin=U1C-9
+Added Net: Name=NetD8C_2
+Added Pin To Net: NetName=NetD8D_2 Pin=D8D-2
+Added Pin To Net: NetName=NetD8D_2 Pin=R4D-2
+Added Pin To Net: NetName=NetD8D_2 Pin=U1D-9
+Added Net: Name=NetD8D_2
+Added Pin To Net: NetName=NetR82_1 Pin=R82-1
+Added Pin To Net: NetName=NetR82_1 Pin=R83-2
+Added Pin To Net: NetName=NetR82_1 Pin=U5-2
+Added Net: Name=NetR82_1
+Added Member To Class: ClassName=Controller Member=Component C5 CL21B104KACNNNC
+Added Member To Class: ClassName=Controller Member=Component C6 CL21B104KACNNNC
+Added Member To Class: ClassName=Controller Member=Component C7 CL21B105KAFNNNE
+Added Member To Class: ClassName=Controller Member=Component C10 CL10B103KO8WPNC
+Added Member To Class: ClassName=Controller Member=Component C17 CL05B104KB5NNNC
+Added Member To Class: ClassName=Controller Member=Component C18 CL05B104KB5NNNC
+Added Member To Class: ClassName=Controller Member=Component C19 CAPC0805
+Added Member To Class: ClassName=Controller Member=Component C20 CL10B104KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C22 GJM1555C1H140FB01D
+Added Member To Class: ClassName=Controller Member=Component C24 GJM1555C1H140FB01D
+Added Member To Class: ClassName=3V3_Supply Member=Component C25 CL21B104KACNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C26 CL32B106KBJNNNE
+Added Member To Class: ClassName=3V3_Supply Member=Component C27 CL32B106KBJNNNE
+Added Member To Class: ClassName=3V3_Supply Member=Component C28 CL05B104KB5NNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C29 CL21B103KBANNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C30 C0603C104K5RACTU
+Added Member To Class: ClassName=3V3_Supply Member=Component C31 TPSC107K010R0100
+Added Member To Class: ClassName=3V3_Supply Member=Component C35 C0603C104K5RACTU
+Added Member To Class: ClassName=3V3_Supply Member=Component C36 C0603C104K5RACTU
+Added Member To Class: ClassName=3V3_Supply Member=Component C37 CL21B473KBCNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C38 C0603C104K5RACTU
+Added Member To Class: ClassName=3V3_Supply Member=Component C39 CL21B473KBCNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C40 CL21B103KBANNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C42 CL21B104KACNNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C43 CL32B106KBJNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C44 CL32B106KBJNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C45 CL05B104KB5NNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C46 CL21B103KBANNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C47 C0603C104K5RACTU
+Added Member To Class: ClassName=5V5_Supply Member=Component C48 CL21A226MAYNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C49 CL21A226MAYNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C50 C0603C104K5RACTU
+Added Member To Class: ClassName=5V5_Supply Member=Component C51 C0603C104K5RACTU
+Added Member To Class: ClassName=5V5_Supply Member=Component C52 CL21B105KAFNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C53 GRM2165C1H272JA01D
+Added Member To Class: ClassName=12V_Supply Member=Component C55 CL32B106KBJNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C56 CL32B106KBJNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C57 CL05B104KB5NNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C58 CL21B103KBANNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C59 C0603C104K5RACTU
+Added Member To Class: ClassName=12V_Supply Member=Component C60 TPSC107K010R0100
+Added Member To Class: ClassName=12V_Supply Member=Component C61 CL21A226MAYNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C62 CL21A226MAYNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C64 C0603C104K5RACTU
+Added Member To Class: ClassName=12V_Supply Member=Component C65 C0603C104K5RACTU
+Added Member To Class: ClassName=12V_Supply Member=Component C66 C0603C104K5RACTU
+Added Member To Class: ClassName=12V_Supply Member=Component C67 CL21B473KBCNNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C69 CL21B103KBANNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C70 CL21B103KBANNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C72 CL21B104KACNNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C73 CL32B106KBJNNNE
+Added Member To Class: ClassName=5V_Supply Member=Component C74 CL05B104KB5NNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C75 CL21B103KBANNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C76 C0603C104K5RACTU
+Added Member To Class: ClassName=5V_Supply Member=Component C77 TPSC107K010R0100
+Added Member To Class: ClassName=5V_Supply Member=Component C78 CL21A226MAYNNNE
+Added Member To Class: ClassName=5V_Supply Member=Component C79 CL21A226MAYNNNE
+Added Member To Class: ClassName=5V_Supply Member=Component C81 C0603C104K5RACTU
+Added Member To Class: ClassName=5V_Supply Member=Component C82 C0603C104K5RACTU
+Added Member To Class: ClassName=5V_Supply Member=Component C84 CL21B473KBCNNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C85 CL21B473KBCNNNC
+Added Member To Class: ClassName=Ideal_DiodeA Member=Component D8A (D8) PESD5V0C1BLS-QYL
+Added Member To Class: ClassName=Ideal_DiodeB Member=Component D8B (D8) PESD5V0C1BLS-QYL
+Added Member To Class: ClassName=Ideal_DiodeC Member=Component D8C (D8) PESD5V0C1BLS-QYL
+Added Member To Class: ClassName=Ideal_DiodeD Member=Component D8D (D8) PESD5V0C1BLS-QYL
+Added Member To Class: ClassName=Top_Level Member=Component D8 AQ27COM-01FTG
+Added Member To Class: ClassName=Top_Level Member=Component D9 AQ27COM-01FTG
+Added Member To Class: ClassName=5V5_Supply Member=Component R38 RMCF0805FT120R
+Added Member To Class: ClassName=5V5_Supply Member=Component R40 RMCF0805FG100K
+Added Member To Class: ClassName=5V5_Supply Member=Component R41 RMCF0805FT29K4
+Added Member To Class: ClassName=12V_Supply Member=Component R43 RMCF0603FT47K0
+Added Member To Class: ClassName=12V_Supply Member=Component R44 RMCF0805FT53K6
+Added Member To Class: ClassName=12V_Supply Member=Component R46 RC0603FR-0710KL
+Added Member To Class: ClassName=12V_Supply Member=Component R47 RMCF0805FG100K
+Added Member To Class: ClassName=12V_Supply Member=Component R49 RMCF0805FG100K
+Added Member To Class: ClassName=12V_Supply Member=Component R51 RMCF0805FT270R
+Added Member To Class: ClassName=12V_Supply Member=Component R52 RMCF0805FT19K6
+Added Member To Class: ClassName=12V_Supply Member=Component R53 RMCF0805FT6K19
+Added Member To Class: ClassName=5V_Supply Member=Component R56 RMCF0603FT174K
+Added Member To Class: ClassName=5V_Supply Member=Component R58 RMCF0805FT53K6
+Added Member To Class: ClassName=5V_Supply Member=Component R59 RMCF0603FT52K3
+Added Member To Class: ClassName=5V_Supply Member=Component R60 RC0603FR-0710KL
+Added Member To Class: ClassName=5V_Supply Member=Component R61 RMCF0805FG100K
+Added Member To Class: ClassName=5V_Supply Member=Component R62 RMCF0805FT34K8
+Added Member To Class: ClassName=5V_Supply Member=Component R63 RMCF0805FG100K
+Added Member To Class: ClassName=5V_Supply Member=Component R64 RMCF0805FT34K8
+Added Member To Class: ClassName=5V_Supply Member=Component R65 RMCF0805FT120R
+Added Member To Class: ClassName=5V_Supply Member=Component R66 RMCF0805FT9K76
+Added Member To Class: ClassName=Heater_2 Member=Component R70B (R70) CRCW080510K0FKEA
+Added Member To Class: ClassName=I2C_Buffer Member=Component R74
+Added Member To Class: ClassName=I2C_Buffer Member=Component R75
+Added Member To Class: ClassName=I2C_Buffer Member=Component R76
+Added Member To Class: ClassName=I2C_Buffer Member=Component R77
+Added Member To Class: ClassName=Controller Member=Component R80 RNCP0805FTD1K00
+Added Member To Class: ClassName=Controller Member=Component R81 RNCP0805FTD1K00
+Added Member To Class: ClassName=3V3_Supply Member=Component R82 RMCF0805FT71K5
+Added Member To Class: ClassName=3V3_Supply Member=Component R83 RC0603FR-0710KL
+Added Member To Class: ClassName=5V5_Supply Member=Component R84 RMCF0805FT10K0
+Added Member To Class: ClassName=5V5_Supply Member=Component R85 RMCF0805FT10K0
+Added Member To Class: ClassName=12V_Supply Member=Component R86 RMCF0805FT10K0
+Added Member To Class: ClassName=5V_Supply Member=Component R87 RMCF0805FT10K0
+Added Member To Class: ClassName=5V_Supply Member=Component R? RMCF0805FT10K0
+Added Member To Class: ClassName=5V_Supply Member=Component R? RMCF0805FT10K0
+Added Member To Class: ClassName=12V_Supply Member=Component R? RMCF0805FT10K0
+Added Member To Class: ClassName=12V_Supply Member=Component R? RMCF0805FT10K0

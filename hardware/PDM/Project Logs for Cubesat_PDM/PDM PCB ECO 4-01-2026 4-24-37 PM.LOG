@@ -1,0 +1,18 @@
+Change component parameters: Designator = "R72A" ("R72"); Footprint = "LVK12R050CER-2"; UniqueID = "\MXTVUSBR\EFXRKTKY" ("\MXTVUSBR\EFXRKTKY")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "LVK12R050CER    "; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LVK12R050CER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "50mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "±50ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.25%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R72B" ("R72"); Footprint = "LVK12R050CER-2"; UniqueID = "\ZQVUCRYE\EFXRKTKY" ("\ZQVUCRYE\EFXRKTKY")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "LVK12R050CER    "; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LVK12R050CER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "50mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "±50ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.25%"; VariantName = "[No Variations]"

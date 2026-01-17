@@ -1,0 +1,87 @@
+Removed Pin From Net: NetName=BMS_SCL Pin=U3-92
+Removed Pin From Net: NetName=BMS_SDA Pin=U3-93
+Added Component: Designator=C3(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part number"; Value = "1276-1005-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL10B104KO8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R13(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R16(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R17(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4K7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R40(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "4K7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U27(VSSOP-8)
+Add component (AddParameter): Name = "Delay Time"; Value = "70ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TCA9511ADGKR"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+3V3 Pin=C3-2
+Added Pin To Net: NetName=+3V3 Pin=R4-2
+Added Pin To Net: NetName=+3V3 Pin=R13-2
+Added Pin To Net: NetName=+3V3 Pin=R14-2
+Added Pin To Net: NetName=+3V3 Pin=R16-2
+Added Pin To Net: NetName=BMS_SDA Pin=R17-1
+Added Pin To Net: NetName=+3V3 Pin=R17-2
+Added Pin To Net: NetName=BMS_SCL Pin=R40-1
+Added Pin To Net: NetName=+3V3 Pin=R40-2
+Added Pin To Net: NetName=BMS_SCL Pin=U27-2
+Added Pin To Net: NetName=GND Pin=U27-4
+Added Pin To Net: NetName=BMS_SDA Pin=U27-7
+Added Pin To Net: NetName=+3V3 Pin=U27-8
+Change Net Name : Old Net Name=NetPC104_B5 New Net Name=EPS_TX/OBC_RX
+Change Net Name : Old Net Name=NetPC104_B7 New Net Name=EPS_RX/OBC_TX
+Change Net Name : Old Net Name=NetR81A_2 New Net Name=HEATER2_IMON
+Change Net Name : Old Net Name=NetR81B_2 New Net Name=HEATER1_IMON
+Add Net: Net with name "BMS_SCL" already exists
+Add Net: Net with name "BMS_SDA" already exists
+Added Pin To Net: NetName=I2C_EN Pin=R4-1
+Added Pin To Net: NetName=I2C_EN Pin=U27-1
+Added Net: Name=I2C_EN
+Added Pin To Net: NetName=NetR16_1 Pin=R16-1
+Added Pin To Net: NetName=NetR16_1 Pin=U27-5
+Added Net: Name=NetR16_1
+Added Class: Name=I2C_Buffer
+Added Room: Name=I2C_Buffer
+Added Room: Name=PC104

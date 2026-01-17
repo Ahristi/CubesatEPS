@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+12V_ACDS Pin=PC1-A51
+Removed Pin From Net: NetName=+12V_ACDS Pin=PC1-A52
+Removed Pin From Net: NetName=+12V_PAYLOAD Pin=PC1-B51
+Removed Pin From Net: NetName=+12V_PAYLOAD Pin=PC1-B52
+Added Pin To Net: NetName=+12V_PAYLOAD Pin=PC1-A51
+Added Pin To Net: NetName=+12V_PAYLOAD Pin=PC1-A52
+Added Pin To Net: NetName=+12V_ACDS Pin=PC1-B51
+Added Pin To Net: NetName=+12V_ACDS Pin=PC1-B52

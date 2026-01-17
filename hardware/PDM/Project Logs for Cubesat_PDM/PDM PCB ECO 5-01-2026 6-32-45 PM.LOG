@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=5V_CONV_EN Pin=U3-90
+Added Pin To Net: NetName=5V_CONV_EN Pin=U3-61

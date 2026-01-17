@@ -1,0 +1,72 @@
+Removed Member From Class: ClassName=3V3_Supply Member=R33
+Removed Member From Class: ClassName=3V3_Supply Member=R34
+Removed Member From Class: ClassName=3V3_Supply Member=R36
+Removed Member From Class: ClassName=3V3_Supply Member=R37
+Removed Member From Class: ClassName=5V5_Supply Member=R41
+Removed Member From Class: ClassName=12V_Supply Member=R55
+Removed Member From Class: ClassName=12V_Supply Member=R56
+Removed Member From Class: ClassName=12V_Supply Member=R57
+Removed Member From Class: ClassName=12V_Supply Member=R58
+Removed Member From Class: ClassName=12V_Supply Member=R59
+Removed Member From Class: ClassName=12V_Supply Member=R60
+Removed Member From Class: ClassName=12V_Supply Member=R61
+Removed Member From Class: ClassName=12V_Supply Member=R62
+Removed Member From Class: ClassName=12V_Supply Member=R63
+Change Component Footprint: Designator=L2 Old Footprint=SRR1280-100M New Footprint=1274AS-H-100M=P3
+Change Component Footprint: Designator=L4 Old Footprint=SRR1280-100M New Footprint=1274AS-H-100M=P3
+Change Component Footprint: Designator=L5 Old Footprint=SRR1280-100M New Footprint=1274AS-H-100M=P3
+Change Component Comment : Designator=L2 Old Comment=SRR1280-100M New Comment=1274AS-H-100M=P3
+Change Component Comment : Designator=L4 Old Comment=SRR1280-100M New Comment=1274AS-H-100M=P3
+Change Component Comment : Designator=L5 Old Comment=SRR1280-100M New Comment=1274AS-H-100M=P3
+Change component parameters: Designator = "L2" ("L2"); Footprint = "SRR1280-100M"; UniqueID = "\BWAXFCHH" ("\BWAXFCHH")
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "4.4A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DCR"; Value = "30.4mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "490-10846-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "10uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "1274AS-H-100M=P3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Saturation Current"; Value = "6.2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L4" ("L4"); Footprint = "SRR1280-100M"; UniqueID = "\EEWPXUSD" ("\EEWPXUSD")
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "4.4A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DCR"; Value = "30.4mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "490-10846-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "10uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "1274AS-H-100M=P3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Saturation Current"; Value = "6.2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L5" ("L5"); Footprint = "SRR1280-100M"; UniqueID = "\XNXRCPKH" ("\XNXRCPKH")
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "4.4A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DCR"; Value = "30.4mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "490-10846-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "10uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "1274AS-H-100M=P3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Saturation Current"; Value = "6.2A"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=5V_Supply Member=Component C74 CL21B104KACNNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C83 CL21B104KACNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component R24 RMCF0805FT14K0
+Added Member To Class: ClassName=3V3_Supply Member=Component R25 RMCF0805FT14K0
+Added Member To Class: ClassName=3V3_Supply Member=Component R26 RMCF0805FT18K0
+Added Member To Class: ClassName=3V3_Supply Member=Component R27 RMCF0805FT18K0
+Added Member To Class: ClassName=5V5_Supply Member=Component R28 RMCF0603FT59K0
+Added Member To Class: ClassName=5V5_Supply Member=Component R29 RC0603FR-0710KL
+Added Member To Class: ClassName=5V5_Supply Member=Component R30 RMCF0805FT10K0
+Added Member To Class: ClassName=5V5_Supply Member=Component R31 RMCF0603FT470K
+Added Member To Class: ClassName=5V5_Supply Member=Component R32 RMCF0805FT34K8
+Added Member To Class: ClassName=12V_Supply Member=Component R38 RMCF0805FT332K
+Added Member To Class: ClassName=12V_Supply Member=Component R39 RMCF0603FT47K0
+Added Member To Class: ClassName=12V_Supply Member=Component R40 RMCF0805FT332K
+Added Member To Class: ClassName=12V_Supply Member=Component R41 RMCF0603FT47K0
+Added Member To Class: ClassName=12V_Supply Member=Component R42 RMCF0805FT53K6
+Added Member To Class: ClassName=12V_Supply Member=Component R43 RMCF0805FT332K
+Added Member To Class: ClassName=12V_Supply Member=Component R44 RMCF0603FT47K0
+Added Member To Class: ClassName=12V_Supply Member=Component R45 RMCF0603FT140K
+Added Member To Class: ClassName=12V_Supply Member=Component R46 RC0603FR-0710KL
+Added Member To Class: ClassName=12V_Supply Member=Component R47 RMCF0805FG100K
+Added Member To Class: ClassName=12V_Supply Member=Component R48 RMCF0805FT12K4
+Added Member To Class: ClassName=12V_Supply Member=Component R49 RMCF0805FG100K
+Added Member To Class: ClassName=12V_Supply Member=Component R50 RMCF0805FT12K4
+Added Member To Class: ClassName=12V_Supply Member=Component R51 RMCF0805FT19K6
+Added Member To Class: ClassName=12V_Supply Member=Component R52 RMCF0805FT6K19
+Added Member To Class: ClassName=12V_Supply Member=Component R53 RMCF0805FT20K0
+Added Member To Class: ClassName=12V_Supply Member=Component R54 RMCF0805FT9K10

@@ -1,0 +1,242 @@
+Removed Pin From Net: NetName=3V3_VMON Pin=U6-1
+Removed Pin From Net: NetName=3V3_VMON Pin=U6-4
+Added Component: Designator=C1(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1099-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B104KACNNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1099-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B104KACNNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C95(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C96(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C97(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C98(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C99(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT174KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0603FT174K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "174K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT332KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT332K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "332K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT174KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0603FT174K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "174K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT332KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT332K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "332K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=U1(SOT23-5 IC)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "497-18084-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth Product"; Value = "3MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TSZ181ILT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "4.7V/us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Supply (Max)"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Supply (Min)"; Value = "2.2V"; VariantName = "[No Variations]"
+Added Component: Designator=U26(SOT23-5 IC)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "497-18084-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth Product"; Value = "3MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TSZ181ILT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "4.7V/us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Supply (Max)"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Supply (Min)"; Value = "2.2V"; VariantName = "[No Variations]"
+Added Component: Designator=U27(SOT23-5 IC)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "MCP9700T-H/LT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resolution"; Value = "10mV/°C"; VariantName = "[No Variations]"
+Added Component: Designator=U28(SOT23-5 IC)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "MCP9700T-H/LT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resolution"; Value = "10mV/°C"; VariantName = "[No Variations]"
+Added Component: Designator=U29(SOT23-5 IC)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "MCP9700T-H/LT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resolution"; Value = "10mV/°C"; VariantName = "[No Variations]"
+Added Component: Designator=U30(SOT23-5 IC)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP970X-Family-Data-Sheet-DS20001942.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "MCP9700T-H/LT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resolution"; Value = "10mV/°C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+3V3 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=+3V3 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C95-1
+Added Pin To Net: NetName=GND Pin=C96-1
+Added Pin To Net: NetName=+3V3 Pin=C96-2
+Added Pin To Net: NetName=GND Pin=C97-1
+Added Pin To Net: NetName=GND Pin=C98-1
+Added Pin To Net: NetName=+3V3 Pin=C98-2
+Added Pin To Net: NetName=GND Pin=C99-1
+Added Pin To Net: NetName=+5V5 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=+5V5_RADIO Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=+2V5_REF Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U26-2
+Added Pin To Net: NetName=+2V5_REF Pin=U26-5
+Added Pin To Net: NetName=GND Pin=U27-2
+Added Pin To Net: NetName=+3V3 Pin=U27-4
+Added Pin To Net: NetName=GND Pin=U28-2
+Added Pin To Net: NetName=+3V3 Pin=U28-4
+Added Pin To Net: NetName=GND Pin=U29-2
+Added Pin To Net: NetName=+3V3 Pin=U29-4
+Added Pin To Net: NetName=GND Pin=U30-2
+Added Pin To Net: NetName=+3V3 Pin=U30-4
+Change Net Name : Old Net Name=3V3_VMON New Net Name=12V_VMON
+Added Pin To Net: NetName=3V3_VMON Pin=U6-1
+Added Pin To Net: NetName=3V3_VMON Pin=U6-4
+Added Net: Name=3V3_VMON
+Added Pin To Net: NetName=5V5_VMON Pin=U1-1
+Added Pin To Net: NetName=5V5_VMON Pin=U1-4
+Added Net: Name=5V5_VMON
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R1-1
+Added Pin To Net: NetName=NetC1_2 Pin=R2-2
+Added Pin To Net: NetName=NetC1_2 Pin=U1-3
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=R3-1
+Added Pin To Net: NetName=NetC2_2 Pin=R4-2
+Added Pin To Net: NetName=NetC2_2 Pin=U26-3
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=U27-3
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC95_2 Pin=C95-2
+Added Pin To Net: NetName=NetC95_2 Pin=U28-3
+Added Net: Name=NetC95_2
+Added Pin To Net: NetName=NetC97_2 Pin=C97-2
+Added Pin To Net: NetName=NetC97_2 Pin=U29-3
+Added Net: Name=NetC97_2
+Added Pin To Net: NetName=NetC99_2 Pin=C99-2
+Added Pin To Net: NetName=NetC99_2 Pin=U30-3
+Added Net: Name=NetC99_2
+Added Pin To Net: NetName=RADIO_VMON Pin=U26-1
+Added Pin To Net: NetName=RADIO_VMON Pin=U26-4
+Added Net: Name=RADIO_VMON
+Added Member To Class: ClassName=5V5_Supply Member=Component C1 CL21B104KACNNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C2 CL21B104KACNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C3 CL05B104KB5NNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C4 CL05B104KB5NNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C5 CL05B104KB5NNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C95 CL05B104KB5NNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C96 CL05B104KB5NNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C97 CL05B104KB5NNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C98 CL05B104KB5NNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C99 CL05B104KB5NNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component R1 RMCF0603FT174K
+Added Member To Class: ClassName=5V5_Supply Member=Component R2 RMCF0805FT332K
+Added Member To Class: ClassName=5V5_Supply Member=Component R3 RMCF0603FT174K
+Added Member To Class: ClassName=5V5_Supply Member=Component R4 RMCF0805FT332K
+Added Member To Class: ClassName=5V5_Supply Member=Component U1 TSZ181ILT
+Added Member To Class: ClassName=5V5_Supply Member=Component U26 TSZ181ILT
+Added Member To Class: ClassName=3V3_Supply Member=Component U27 MCP9700T-H/LT
+Added Member To Class: ClassName=5V5_Supply Member=Component U28 MCP9700T-H/LT
+Added Member To Class: ClassName=12V_Supply Member=Component U29 MCP9700T-H/LT
+Added Member To Class: ClassName=5V_Supply Member=Component U30 MCP9700T-H/LT

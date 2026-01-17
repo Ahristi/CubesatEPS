@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=BMS_SCL Pin=J4-11
+Removed Pin From Net: NetName=BMS_SDA Pin=J4-12
+Removed Pin From Net: NetName=GND Pin=J4-18
+Removed Pin From Net: NetName=GND Pin=J4-20
+Removed Pin From Net: NetName=BMS_SDA Pin=R17-1
+Removed Pin From Net: NetName=BMS_SCL Pin=R40-1
+Removed Pin From Net: NetName=BMS_SCL Pin=U27-2
+Removed Pin From Net: NetName=BMS_SDA Pin=U27-7
+Added Pin To Net: NetName=BMS_SDA Pin=R13-1
+Added Pin To Net: NetName=BMS_SCL Pin=R14-1
+Added Pin To Net: NetName=BMS_SCL Pin=U3-92
+Added Pin To Net: NetName=BMS_SDA Pin=U3-93
+Added Pin To Net: NetName=BMS_SCL Pin=U27-3
+Added Pin To Net: NetName=BMS_SDA Pin=U27-6
+Added Pin To Net: NetName=BMS_SCL_BUFF Pin=J4-11
+Added Net: Name=BMS_SCL_BUFF
+Add Net: Net with name "BMS_SCL" already exists
+Added Pin To Net: NetName=BMS_SDA_BUFF Pin=J4-12
+Added Net: Name=BMS_SDA_BUFF
+Add Net: Net with name "BMS_SDA" already exists
+Added Pin To Net: NetName=NetJ4_18 Pin=J4-18
+Added Pin To Net: NetName=NetJ4_18 Pin=J4-20
+Added Net: Name=NetJ4_18

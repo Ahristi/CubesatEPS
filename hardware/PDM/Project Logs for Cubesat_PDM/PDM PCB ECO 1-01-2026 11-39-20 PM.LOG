@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=R43 Old Footprint=RESC0603 New Footprint=RESC0805
+Change Component Comment : Designator=R43 Old Comment=RMCF0603FT47K0 New Comment=RMCF0805FT47K0
+Change component parameters: Designator = "R43" ("R43"); Footprint = "RESC0603"; UniqueID = "\CWRZJORY\XOMVDUYM" ("\CWRZJORY\XOMVDUYM")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT47K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0805FT47K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "47K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ADCS_12V_nFLT Pin=U3-42
+Removed Pin From Net: NetName=ADCS_12V_EN Pin=U3-43
+Removed Pin From Net: NetName=RADIO_PG Pin=U3-88
+Added Pin To Net: NetName=RADIO_PG Pin=U3-42

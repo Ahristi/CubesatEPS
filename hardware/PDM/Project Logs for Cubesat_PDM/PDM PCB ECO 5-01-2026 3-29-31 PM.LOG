@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BMS_nSTAT Pin=U3-60
+Removed Pin From Net: NetName=BMS_nQON Pin=U3-61
+Added Pin To Net: NetName=BMS_nQON Pin=U3-60
+Added Pin To Net: NetName=BMS_nSTAT Pin=U3-61

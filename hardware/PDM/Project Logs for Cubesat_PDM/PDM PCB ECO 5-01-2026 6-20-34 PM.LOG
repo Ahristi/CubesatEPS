@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=RADIO_EN Pin=U3-87
+Added Pin To Net: NetName=RADIO_EN Pin=U3-43

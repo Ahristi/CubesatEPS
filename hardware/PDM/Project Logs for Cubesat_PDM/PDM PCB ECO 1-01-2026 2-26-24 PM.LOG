@@ -1,0 +1,79 @@
+Removed Pin From Net: NetName=PANEL Pin=C93A-2
+Removed Pin From Net: NetName=PANEL Pin=C93C-2
+Removed Pin From Net: NetName=PANEL Pin=C93D-2
+Removed Pin From Net: NetName=PANEL Pin=R76A-2
+Removed Pin From Net: NetName=PANEL Pin=R76C-2
+Removed Pin From Net: NetName=PANEL Pin=R76D-2
+Removed Pin From Net: NetName=3V3_CONV_EN Pin=U3-63
+Removed Pin From Net: NetName=5V5_CONV_EN Pin=U3-64
+Removed Pin From Net: NetName=OBC_EN Pin=U3-81
+Removed Pin From Net: NetName=AUX_EN Pin=U3-82
+Removed Pin From Net: NetName=5V_CONV_EN Pin=U3-83
+Removed Pin From Net: NetName=ADCS_5V_EN Pin=U3-84
+Removed Pin From Net: NetName=AUX_5V_EN Pin=U3-85
+Removed Pin From Net: NetName=PAYLOAD_EN Pin=U3-87
+Removed Pin From Net: NetName=12V_CONV_EN Pin=U3-88
+Removed Pin From Net: NetName=PANEL Pin=U25A-5
+Removed Pin From Net: NetName=PANEL Pin=U25C-5
+Removed Pin From Net: NetName=PANEL Pin=U25D-5
+Added Component: Designator=J10(0532610471)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "WM7622CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Per Contact"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0532610471"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PANEL0 Pin=C93A-2
+Added Pin To Net: NetName=PANEL2 Pin=C93C-2
+Added Pin To Net: NetName=PANEL3 Pin=C93D-2
+Added Pin To Net: NetName=PANEL Pin=J7-3
+Added Pin To Net: NetName=PANEL Pin=J7-4
+Added Pin To Net: NetName=+3V3 Pin=J10-1
+Added Pin To Net: NetName=DEBUG_TX Pin=J10-2
+Added Pin To Net: NetName=DEBUG_RX Pin=J10-3
+Added Pin To Net: NetName=GND Pin=J10-4
+Added Pin To Net: NetName=PANEL_PG0 Pin=R75A-1
+Added Pin To Net: NetName=PANEL_PG1 Pin=R75B-1
+Added Pin To Net: NetName=PANEL_PG2 Pin=R75C-1
+Added Pin To Net: NetName=PANEL_PG3 Pin=R75D-1
+Added Pin To Net: NetName=PANEL0 Pin=R76A-2
+Added Pin To Net: NetName=PANEL2 Pin=R76C-2
+Added Pin To Net: NetName=PANEL3 Pin=R76D-2
+Added Pin To Net: NetName=OBC_nFLT Pin=U3-18
+Added Pin To Net: NetName=AUX_nFLT Pin=U3-33
+Added Pin To Net: NetName=3V3_CONV_EN Pin=U3-34
+Added Pin To Net: NetName=5V_CONV_EN Pin=U3-40
+Added Pin To Net: NetName=ADCS_5V_EN Pin=U3-41
+Added Pin To Net: NetName=AUX_5V_EN Pin=U3-42
+Added Pin To Net: NetName=AUX_5V_nFLT Pin=U3-43
+Added Pin To Net: NetName=ADCS_5V_nFLT Pin=U3-44
+Added Pin To Net: NetName=OBC_EN Pin=U3-63
+Added Pin To Net: NetName=AUX_EN Pin=U3-64
+Added Pin To Net: NetName=ADCS_12V_EN Pin=U3-81
+Added Pin To Net: NetName=PAYLOAD_EN Pin=U3-82
+Added Pin To Net: NetName=12V_CONV_EN Pin=U3-83
+Added Pin To Net: NetName=PAYLOAD_nFLT Pin=U3-84
+Added Pin To Net: NetName=ADCS_12V_nFLT Pin=U3-85
+Added Pin To Net: NetName=5V5_CONV_EN Pin=U3-87
+Added Pin To Net: NetName=RADIO_PG Pin=U3-88
+Added Pin To Net: NetName=LED0 Pin=U3-97
+Added Pin To Net: NetName=LED1 Pin=U3-98
+Added Pin To Net: NetName=PANEL_EN0 Pin=U25A-1
+Added Pin To Net: NetName=PANEL_PG0 Pin=U25A-3
+Added Pin To Net: NetName=PANEL0 Pin=U25A-5
+Added Pin To Net: NetName=PANEL_EN1 Pin=U25B-1
+Added Pin To Net: NetName=PANEL_PG1 Pin=U25B-3
+Added Pin To Net: NetName=PANEL_EN2 Pin=U25C-1
+Added Pin To Net: NetName=PANEL_PG2 Pin=U25C-3
+Added Pin To Net: NetName=PANEL2 Pin=U25C-5
+Added Pin To Net: NetName=PANEL_EN3 Pin=U25D-1
+Added Pin To Net: NetName=PANEL_PG3 Pin=U25D-3
+Added Pin To Net: NetName=PANEL3 Pin=U25D-5
+Change Net Name : Old Net Name=PANEL New Net Name=PANEL1
+Added Member To Class: ClassName=Controller Member=Component J10 0532610471
+Added Member To Class: ClassName=PANEL_EN[0..3] Member=Element[0]: PANEL_EN
+Added Member To Class: ClassName=PANEL_EN[0..3] Member=Element[1]: PANEL_EN
+Added Member To Class: ClassName=PANEL_EN[0..3] Member=Element[2]: PANEL_EN
+Added Member To Class: ClassName=PANEL_PG[0..3] Member=Element[1]: PANEL_PG
+Added Member To Class: ClassName=PANEL_PG[0..3] Member=Element[2]: PANEL_PG
+Added Member To Class: ClassName=PANEL_PG[0..3] Member=Element[3]: PANEL_PG

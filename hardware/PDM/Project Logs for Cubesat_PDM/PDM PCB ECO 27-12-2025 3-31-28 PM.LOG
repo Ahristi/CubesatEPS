@@ -1,0 +1,406 @@
+Removed Pin From Net: NetName=+5V5 Pin=C89-2
+Removed Pin From Net: NetName=GND Pin=C?-1
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=+5V5 Pin=U24-1
+Removed Pin From Net: NetName=+5V5 Pin=U24-2
+Removed Pin From Net: NetName=+5V5_RADIO Pin=U24-10
+Removed Pin From Net: NetName=GND Pin=U24-11
+Removed Member From Class: ClassName=5V5_Supply Member=C7
+Removed Member From Class: ClassName=12V_Supply Member=C7
+Removed Member From Class: ClassName=12V_Supply Member=C25
+Removed Member From Class: ClassName=5V_Supply Member=C33
+Removed Member From Class: ClassName=Controller Member=C35
+Removed Member From Class: ClassName=5V5_Supply Member=C42
+Removed Member From Class: ClassName=12V_Supply Member=C42
+Removed Member From Class: ClassName=5V5_Supply Member=C57
+Removed Member From Class: ClassName=5V5_Supply Member=C67
+Removed Member From Class: ClassName=5V5_Supply Member=C73
+Removed Member From Class: ClassName=5V5_Supply Member=C75
+Removed Member From Class: ClassName=5V5_Supply Member=C76
+Removed Member From Class: ClassName=5V5_Supply Member=C77
+Removed Member From Class: ClassName=5V5_Supply Member=C78
+Removed Member From Class: ClassName=3V3_Supply Member=C80
+Removed Member From Class: ClassName=12V_Supply Member=C80
+Removed Member From Class: ClassName=3V3_Supply Member=C81
+Removed Member From Class: ClassName=12V_Supply Member=C81
+Removed Member From Class: ClassName=5V5_Supply Member=C84
+Removed Member From Class: ClassName=12V_Supply Member=C84
+Removed Member From Class: ClassName=3V3_Supply Member=C85
+Removed Member From Class: ClassName=12V_Supply Member=C85
+Removed Member From Class: ClassName=3V3_Supply Member=C86
+Removed Member From Class: ClassName=12V_Supply Member=C86
+Removed Member From Class: ClassName=12V_Supply Member=C87
+Removed Member From Class: ClassName=3V3_Supply Member=C88
+Removed Member From Class: ClassName=12V_Supply Member=C88
+Removed Member From Class: ClassName=5V5_Supply Member=C89
+Removed Member From Class: ClassName=12V_Supply Member=L5
+Removed Member From Class: ClassName=5V5_Supply Member=R12
+Removed Member From Class: ClassName=12V_Supply Member=R12
+Removed Member From Class: ClassName=12V_Supply Member=R14
+Removed Member From Class: ClassName=12V_Supply Member=R17
+Removed Member From Class: ClassName=5V5_Supply Member=R23
+Removed Member From Class: ClassName=3V3_Supply Member=R37
+Removed Member From Class: ClassName=3V3_Supply Member=R48
+Removed Member From Class: ClassName=12V_Supply Member=R48
+Removed Member From Class: ClassName=12V_Supply Member=U7
+Removed Member From Class: ClassName=5V_Supply Member=U8
+Removed Member From Class: ClassName=Controller Member=U10
+Removed Member From Class: ClassName=3V3_Supply Member=U14
+Removed Member From Class: ClassName=12V_Supply Member=U22
+Removed Member From Class: ClassName=5V5_Supply Member=U23
+Removed Member From Class: ClassName=5V5_Supply Member=U24
+Change Component Designator: OldDesignator=C32 NewDesignator=C31
+Change Component Designator: OldDesignator=C33 NewDesignator=C32
+Change Component Designator: OldDesignator=C34 NewDesignator=C33
+Change Component Designator: OldDesignator=C35 NewDesignator=C34
+Change Component Designator: OldDesignator=C36 NewDesignator=C35
+Change Component Designator: OldDesignator=C37 NewDesignator=C36
+Change Component Designator: OldDesignator=C38 NewDesignator=C37
+Change Component Designator: OldDesignator=C39 NewDesignator=C38
+Change Component Designator: OldDesignator=C40 NewDesignator=C39
+Change Component Designator: OldDesignator=C41 NewDesignator=C40
+Change Component Designator: OldDesignator=C42 NewDesignator=C41
+Change Component Designator: OldDesignator=C43 NewDesignator=C42
+Change Component Designator: OldDesignator=C44 NewDesignator=C43
+Change Component Designator: OldDesignator=C45 NewDesignator=C44
+Change Component Designator: OldDesignator=C46 NewDesignator=C45
+Change Component Designator: OldDesignator=C47 NewDesignator=C46
+Change Component Designator: OldDesignator=C48 NewDesignator=C47
+Change Component Designator: OldDesignator=C50 NewDesignator=C48
+Change Component Designator: OldDesignator=C51 NewDesignator=C49
+Change Component Designator: OldDesignator=C52 NewDesignator=C50
+Change Component Designator: OldDesignator=C53 NewDesignator=C51
+Change Component Designator: OldDesignator=C55 NewDesignator=C56
+Change Component Designator: OldDesignator=C56 NewDesignator=C57
+Change Component Designator: OldDesignator=C57 NewDesignator=C54
+Change Component Designator: OldDesignator=C58 NewDesignator=C55
+Change Component Designator: OldDesignator=C59 NewDesignator=C58
+Change Component Designator: OldDesignator=C60 NewDesignator=C59
+Change Component Designator: OldDesignator=C61 NewDesignator=C60
+Change Component Designator: OldDesignator=C62 NewDesignator=C61
+Change Component Designator: OldDesignator=C65 NewDesignator=C62
+Change Component Designator: OldDesignator=C66 NewDesignator=C65
+Change Component Designator: OldDesignator=C67 NewDesignator=C66
+Change Component Designator: OldDesignator=C68 NewDesignator=C67
+Change Component Designator: OldDesignator=C69 NewDesignator=C68
+Change Component Designator: OldDesignator=C70 NewDesignator=C69
+Change Component Designator: OldDesignator=C71 NewDesignator=C70
+Change Component Designator: OldDesignator=C72 NewDesignator=C71
+Change Component Designator: OldDesignator=C73 NewDesignator=C72
+Change Component Designator: OldDesignator=C74 NewDesignator=C73
+Change Component Designator: OldDesignator=C75 NewDesignator=C74
+Change Component Designator: OldDesignator=C76 NewDesignator=C75
+Change Component Designator: OldDesignator=C77 NewDesignator=C76
+Change Component Designator: OldDesignator=C78 NewDesignator=C77
+Change Component Designator: OldDesignator=C79 NewDesignator=C78
+Change Component Designator: OldDesignator=C80 NewDesignator=C79
+Change Component Designator: OldDesignator=C81 NewDesignator=C80
+Change Component Designator: OldDesignator=C82 NewDesignator=C81
+Change Component Designator: OldDesignator=C83 NewDesignator=C82
+Change Component Designator: OldDesignator=C84 NewDesignator=C83
+Change Component Designator: OldDesignator=C85 NewDesignator=C84
+Change Component Designator: OldDesignator=C86 NewDesignator=C85
+Change Component Designator: OldDesignator=C87 NewDesignator=C86
+Change Component Designator: OldDesignator=C88 NewDesignator=C87
+Change Component Designator: OldDesignator=C? NewDesignator=C88
+Change Component Designator: OldDesignator=C? NewDesignator=C89
+Change Component Designator: OldDesignator=L6 NewDesignator=L3
+Change Component Designator: OldDesignator=R25 NewDesignator=R24
+Change Component Designator: OldDesignator=R26 NewDesignator=R25
+Change Component Designator: OldDesignator=R27 NewDesignator=R33
+Change Component Designator: OldDesignator=R28 NewDesignator=R34
+Change Component Designator: OldDesignator=R29 NewDesignator=R35
+Change Component Designator: OldDesignator=R30 NewDesignator=R36
+Change Component Designator: OldDesignator=R31 NewDesignator=R37
+Change Component Designator: OldDesignator=R32 NewDesignator=R38
+Change Component Designator: OldDesignator=R33 NewDesignator=R39
+Change Component Designator: OldDesignator=R34 NewDesignator=R40
+Change Component Designator: OldDesignator=R35 NewDesignator=R41
+Change Component Designator: OldDesignator=R36 NewDesignator=R42
+Change Component Designator: OldDesignator=R37 NewDesignator=R43
+Change Component Designator: OldDesignator=R38 NewDesignator=R44
+Change Component Designator: OldDesignator=R39 NewDesignator=R45
+Change Component Designator: OldDesignator=R40 NewDesignator=R46
+Change Component Designator: OldDesignator=R41 NewDesignator=R47
+Change Component Designator: OldDesignator=R42 NewDesignator=R48
+Change Component Designator: OldDesignator=R43 NewDesignator=R49
+Change Component Designator: OldDesignator=R44 NewDesignator=R50
+Change Component Designator: OldDesignator=R45 NewDesignator=R51
+Change Component Designator: OldDesignator=R46 NewDesignator=R52
+Change Component Designator: OldDesignator=R47 NewDesignator=R53
+Change Component Designator: OldDesignator=R48 NewDesignator=R54
+Change Component Designator: OldDesignator=U12 NewDesignator=U13
+Change Component Designator: OldDesignator=U13 NewDesignator=U14
+Change Component Designator: OldDesignator=U14 NewDesignator=U15
+Change Component Designator: OldDesignator=U15 NewDesignator=U16
+Change Component Designator: OldDesignator=U16 NewDesignator=U17
+Change Component Designator: OldDesignator=U17 NewDesignator=U18
+Change Component Designator: OldDesignator=U18 NewDesignator=U19
+Change Component Designator: OldDesignator=U19 NewDesignator=U20
+Change Component Designator: OldDesignator=U20 NewDesignator=U21
+Change Component Designator: OldDesignator=U21 NewDesignator=U22
+Change Component Designator: OldDesignator=U22 NewDesignator=U23
+Change Component Designator: OldDesignator=U23 NewDesignator=U24
+Added Component: Designator=C52(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "4.7nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1155-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B472KBANNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C53(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "2.7nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "490-1630-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM2165C1H272JA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=R26(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT470KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0603FT470K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R27(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT34K8CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT34K8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "34K8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R28(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT115KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT115K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "115K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R29(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FG100KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FG100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R30(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT1K21CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT1K21"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1K21"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R31(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FG100KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FG100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R32(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT29K4CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT29K4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "29K4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=U12(VFQFN-10)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-TPS259474LRPWRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "5.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TPS259474LRPWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Input"; Value = "2.7V~23V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C52-1
+Added Pin To Net: NetName=GND Pin=C53-1
+Added Pin To Net: NetName=+5V5 Pin=R26-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=+3V3 Pin=R29-2
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=+5V5_RADIO Pin=R31-2
+Added Pin To Net: NetName=GND Pin=R32-1
+Added Pin To Net: NetName=+5V5 Pin=U12-5
+Added Pin To Net: NetName=+5V5_RADIO Pin=U12-6
+Added Pin To Net: NetName=GND Pin=U12-8
+Change Net Name : Old Net Name=NetC33_2 New Net Name=NetC32_2
+Change Net Name : Old Net Name=NetC37_1 New Net Name=NetC36_1
+Change Net Name : Old Net Name=NetC38_1 New Net Name=NetC37_1
+Change Net Name : Old Net Name=NetC39_2 New Net Name=NetC38_2
+Change Net Name : Old Net Name=NetC40_1 New Net Name=NetC39_1
+Change Net Name : Old Net Name=NetC41_2 New Net Name=NetC40_2
+Change Net Name : Old Net Name=NetC42_2 New Net Name=NetC41_2
+Change Net Name : Old Net Name=NetC43_2 New Net Name=NetC42_2
+Change Net Name : Old Net Name=NetC47_2 New Net Name=NetC46_2
+Change Net Name : Old Net Name=NetC48_1 New Net Name=NetC47_1
+Change Net Name : Old Net Name=NetC48_2 New Net Name=NetC47_2
+Change Net Name : Old Net Name=NetC53_1 New Net Name=NetC51_1
+Change Net Name : Old Net Name=NetC57_2 New Net Name=NetC54_2
+Change Net Name : Old Net Name=NetC58_2 New Net Name=NetC55_2
+Change Net Name : Old Net Name=NetC60_2 New Net Name=NetC59_2
+Change Net Name : Old Net Name=NetC61_1 New Net Name=NetC60_1
+Change Net Name : Old Net Name=NetC61_2 New Net Name=NetC60_2
+Change Net Name : Old Net Name=NetC65_2 New Net Name=NetC62_2
+Change Net Name : Old Net Name=NetC67_1 New Net Name=NetC66_1
+Change Net Name : Old Net Name=NetC68_1 New Net Name=NetC67_1
+Change Net Name : Old Net Name=NetC69_1 New Net Name=NetC68_1
+Change Net Name : Old Net Name=NetC70_2 New Net Name=NetC69_2
+Change Net Name : Old Net Name=NetC71_2 New Net Name=NetC70_2
+Change Net Name : Old Net Name=NetC72_2 New Net Name=NetC71_2
+Change Net Name : Old Net Name=NetC73_2 New Net Name=NetC72_2
+Change Net Name : Old Net Name=NetC74_2 New Net Name=NetC73_2
+Change Net Name : Old Net Name=NetC75_2 New Net Name=NetC74_2
+Change Net Name : Old Net Name=NetC79_2 New Net Name=NetC78_2
+Change Net Name : Old Net Name=NetC80_1 New Net Name=NetC79_1
+Change Net Name : Old Net Name=NetC80_2 New Net Name=NetC79_2
+Change Net Name : Old Net Name=NetC83_2 New Net Name=NetC82_2
+Change Net Name : Old Net Name=NetC86_1 New Net Name=NetC85_1
+Change Net Name : Old Net Name=NetC87_1 New Net Name=NetC86_1
+Change Net Name : Old Net Name=NetC88_1 New Net Name=NetC87_1
+Change Net Name : Old Net Name=NetR31_2 New Net Name=NetR37_2
+Change Net Name : Old Net Name=NetR36_2 New Net Name=NetR42_2
+Change Net Name : Old Net Name=NetR37_2 New Net Name=NetR43_2
+Change Net Name : Old Net Name=NetR38_2 New Net Name=NetR44_2
+Change Net Name : Old Net Name=NetR39_2 New Net Name=NetR45_2
+Change Net Name : Old Net Name=NetR44_2 New Net Name=NetR50_2
+Change Net Name : Old Net Name=NetU12_2 New Net Name=NetU13_2
+Change Net Name : Old Net Name=NetU16_4 New Net Name=NetU17_4
+Change Net Name : Old Net Name=NetU16_5 New Net Name=NetU17_5
+Change Net Name : Old Net Name=NetU17_4 New Net Name=NetU18_4
+Change Net Name : Old Net Name=NetU17_5 New Net Name=NetU18_5
+Change Net Name : Old Net Name=NetU18_2 New Net Name=NetU19_2
+Change Net Name : Old Net Name=NetU22_4 New Net Name=NetU23_4
+Change Net Name : Old Net Name=NetU22_5 New Net Name=NetU23_5
+Change Net Name : Old Net Name=NetU23_4 New Net Name=NetU24_4
+Change Net Name : Old Net Name=NetU23_5 New Net Name=NetU24_5
+Added Pin To Net: NetName=NetC52_2 Pin=C52-2
+Added Pin To Net: NetName=NetC52_2 Pin=U12-7
+Added Net: Name=NetC52_2
+Added Pin To Net: NetName=NetC53_2 Pin=C53-2
+Added Pin To Net: NetName=NetC53_2 Pin=U12-9
+Added Net: Name=NetC53_2
+Added Pin To Net: NetName=NetC88_2 Pin=C88-2
+Added Pin To Net: NetName=NetC88_2 Pin=U23-7
+Added Net: Name=NetC88_2
+Added Pin To Net: NetName=NetC89_2 Pin=C89-2
+Added Pin To Net: NetName=NetC89_2 Pin=U24-7
+Added Net: Name=NetC89_2
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=R27-2
+Added Pin To Net: NetName=NetR26_1 Pin=U12-1
+Added Net: Name=NetR26_1
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetR27_1 Pin=R28-2
+Added Pin To Net: NetName=NetR27_1 Pin=U12-2
+Added Net: Name=NetR27_1
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=NetR30_2 Pin=U12-10
+Added Net: Name=NetR30_2
+Added Pin To Net: NetName=NetR31_1 Pin=R31-1
+Added Pin To Net: NetName=NetR31_1 Pin=R32-2
+Added Pin To Net: NetName=NetR31_1 Pin=U12-4
+Added Net: Name=NetR31_1
+Added Pin To Net: NetName=RADIO_PG Pin=R29-1
+Added Pin To Net: NetName=RADIO_PG Pin=U12-3
+Added Net: Name=RADIO_PG
+Added Member To Class: ClassName=Controller Member=Component C6 CL21B105KAFNNNE
+Added Member To Class: ClassName=Controller Member=Component C7 CL21B105KAFNNNE
+Added Member To Class: ClassName=Controller Member=Component C8 CL10B105KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C9 CL10B103KO8WPNC
+Added Member To Class: ClassName=Controller Member=Component C10 CAPC0805
+Added Member To Class: ClassName=Controller Member=Component C11 CL10B104KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C12 CL10B104KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C14 KGM05ACG1H180FH
+Added Member To Class: ClassName=Controller Member=Component C15 GJM1555C1H140FB01D
+Added Member To Class: ClassName=Controller Member=Component C16 CL10B104KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C17 CL10B104KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C18 CL10B104KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C19 CL10B104KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C20 GJM1555C1H140FB01D
+Added Member To Class: ClassName=Controller Member=Component C21 CL10B104KO8NNNC
+Added Member To Class: ClassName=Controller Member=Component C22 CAPC0805
+Added Member To Class: ClassName=Controller Member=Component C23 CL10B104KO8NNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C24 CL21B104KACNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C25 CL21B104KACNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C26 CL32B106KBJNNNE
+Added Member To Class: ClassName=3V3_Supply Member=Component C27 CL32B106KBJNNNE
+Added Member To Class: ClassName=3V3_Supply Member=Component C28 CL05B104KB5NNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C29 CL21B103KBANNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C30 C0603C104K5RACTU
+Added Member To Class: ClassName=3V3_Supply Member=Component C31 TPSC107K010R0100
+Added Member To Class: ClassName=3V3_Supply Member=Component C32 CL21B104KACNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C33 CL21A226MAYNNNE
+Added Member To Class: ClassName=3V3_Supply Member=Component C35 C0603C104K5RACTU
+Added Member To Class: ClassName=3V3_Supply Member=Component C37 C0603C104K5RACTU
+Added Member To Class: ClassName=3V3_Supply Member=Component C38 CL21B473KBCNNNC
+Added Member To Class: ClassName=3V3_Supply Member=Component C39 C0603C104K5RACTU
+Added Member To Class: ClassName=3V3_Supply Member=Component C40 CL21B473KBCNNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C43 CL32B106KBJNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C44 CL32B106KBJNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C45 CL05B104KB5NNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C46 CL21B103KBANNNC
+Added Member To Class: ClassName=5V5_Supply Member=Component C47 C0603C104K5RACTU
+Added Member To Class: ClassName=5V5_Supply Member=Component C48 CL21A226MAYNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C49 CL21A226MAYNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C50 C0603C104K5RACTU
+Added Member To Class: ClassName=5V5_Supply Member=Component C51 C0603C104K5RACTU
+Added Member To Class: ClassName=5V5_Supply Member=Component C52 CL21B105KAFNNNE
+Added Member To Class: ClassName=5V5_Supply Member=Component C53 GRM2165C1H272JA01D
+Added Member To Class: ClassName=12V_Supply Member=Component C55 CL21B104KACNNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C56 CL32B106KBJNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C57 CL32B106KBJNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C58 CL05B104KB5NNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C59 CL21B103KBANNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C60 C0603C104K5RACTU
+Added Member To Class: ClassName=12V_Supply Member=Component C61 TPSC107K010R0100
+Added Member To Class: ClassName=12V_Supply Member=Component C63 CL21A226MAYNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C64 CL21A226MAYNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C65 C0603C104K5RACTU
+Added Member To Class: ClassName=12V_Supply Member=Component C67 C0603C104K5RACTU
+Added Member To Class: ClassName=12V_Supply Member=Component C68 C0603C104K5RACTU
+Added Member To Class: ClassName=12V_Supply Member=Component C69 CL21B473KBCNNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C70 CL21B473KBCNNNC
+Added Member To Class: ClassName=12V_Supply Member=Component C71 CL21B103KBANNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C73 CL21B104KACNNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C88 CL21B473KBCNNNC
+Added Member To Class: ClassName=5V_Supply Member=Component C89 CL21B473KBCNNNC
+Added Member To Class: ClassName=12V_Supply Member=Component L4 SRR1280-100M
+Added Member To Class: ClassName=Ideal_Diode Member=Component R1 RMCF0805FT63K4
+Added Member To Class: ClassName=Controller Member=Component R9
+Added Member To Class: ClassName=3V3_Supply Member=Component R11 RMCF0603FT93K1
+Added Member To Class: ClassName=3V3_Supply Member=Component R13 RMCF0603FT93K1
+Added Member To Class: ClassName=3V3_Supply Member=Component R16 RMCF0603FT93K1
+Added Member To Class: ClassName=3V3_Supply Member=Component R18 RMCF0603FT31K6
+Added Member To Class: ClassName=3V3_Supply Member=Component R19 RC0603FR-0710KL
+Added Member To Class: ClassName=3V3_Supply Member=Component R20 RC0603FR-0710KL
+Added Member To Class: ClassName=3V3_Supply Member=Component R22 RMCF0603FT23K7
+Added Member To Class: ClassName=5V5_Supply Member=Component R24 RMCF0603FT59K0
+Added Member To Class: ClassName=5V5_Supply Member=Component R25 RC0603FR-0710KL
+Added Member To Class: ClassName=5V5_Supply Member=Component R26 RMCF0603FT470K
+Added Member To Class: ClassName=5V5_Supply Member=Component R27 RMCF0805FT34K8
+Added Member To Class: ClassName=5V5_Supply Member=Component R28 RMCF0805FT115K
+Added Member To Class: ClassName=5V5_Supply Member=Component R29 RMCF0805FG100K
+Added Member To Class: ClassName=5V5_Supply Member=Component R30 RMCF0805FT1K21
+Added Member To Class: ClassName=5V5_Supply Member=Component R31 RMCF0805FG100K
+Added Member To Class: ClassName=5V5_Supply Member=Component R32 RMCF0805FT29K4
+Added Member To Class: ClassName=12V_Supply Member=Component R36 RMCF0603FT47K0
+Added Member To Class: ClassName=12V_Supply Member=Component R38 RMCF0805FT332K
+Added Member To Class: ClassName=12V_Supply Member=Component R40 RMCF0603FT140K
+Added Member To Class: ClassName=12V_Supply Member=Component R41 RC0603FR-0710KL
+Added Member To Class: ClassName=12V_Supply Member=Component R42 RMCF0603FT12K1
+Added Member To Class: ClassName=12V_Supply Member=Component R43 RMCF0603FT8K20
+Added Member To Class: ClassName=12V_Supply Member=Component R44 RMCF0603FT31K6
+Added Member To Class: ClassName=12V_Supply Member=Component R45 RC0603FR-0710KL
+Added Member To Class: ClassName=Controller Member=Component U2 ADP160AUJZ-2.5-R7
+Added Member To Class: ClassName=Controller Member=Component U3 STM32F446RET7
+Added Member To Class: ClassName=3V3_Supply Member=Component U5 TPS62933DRLR
+Added Member To Class: ClassName=3V3_Supply Member=Component U6 TSZ181ILT
+Added Member To Class: ClassName=3V3_Supply Member=Component U9 TPS16410DRCR
+Added Member To Class: ClassName=5V5_Supply Member=Component U11 TPS62933DRLR
+Added Member To Class: ClassName=5V5_Supply Member=Component U12 TPS259474LRPWR
+Added Member To Class: ClassName=12V_Supply Member=Component U15 TSZ181ILT
+Added Member To Class: ClassName=12V_Supply Member=Component U16 TSZ181ILT
+Added Member To Class: ClassName=12V_Supply Member=Component U17 TPS16410DRCR
+Added Member To Class: ClassName=12V_Supply Member=Component U18 TPS16410DRCR
+Added Member To Class: ClassName=5V_Supply Member=Component U24 TPS16410DRCR

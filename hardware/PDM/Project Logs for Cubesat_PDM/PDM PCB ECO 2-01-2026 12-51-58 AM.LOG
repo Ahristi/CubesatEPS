@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=+3V3_OBC Pin=C102-2
+Removed Pin From Net: NetName=+3V3_AUX Pin=C103-2
+Change Component Footprint: Designator=C102 Old Footprint=CAPC1210X090 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C103 Old Footprint=CAPC1210X090 New Footprint=CAPC0603X040
+Change Component Comment : Designator=C102 Old Comment=CL32B226MOJNNNE New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=C103 Old Comment=CL32B226MOJNNNE New Comment=C0603C104K5RACTU
+Change component parameters: Designator = "C102" ("C102"); Footprint = "CAPC1210X090"; UniqueID = "\VYQWRKVG\YTPUVUIH" ("\VYQWRKVG\YTPUVUIH")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C103" ("C103"); Footprint = "CAPC1210X090"; UniqueID = "\VYQWRKVG\SXCVQCTS" ("\VYQWRKVG\SXCVQCTS")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C124(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1066-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B105KAFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C125(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1066-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B105KAFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3_AUX Pin=C102-2
+Added Pin To Net: NetName=+3V3_OBC Pin=C103-2
+Added Pin To Net: NetName=GND Pin=C124-1
+Added Pin To Net: NetName=+3V3_AUX Pin=C124-2
+Added Pin To Net: NetName=GND Pin=C125-1
+Added Pin To Net: NetName=+3V3_OBC Pin=C125-2
+Added Member To Class: ClassName=3V3_Supply Member=Component C124 CL21B105KAFNNNE
+Added Member To Class: ClassName=3V3_Supply Member=Component C125 CL21B105KAFNNNE

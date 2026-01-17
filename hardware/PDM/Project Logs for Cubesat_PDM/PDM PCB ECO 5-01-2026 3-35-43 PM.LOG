@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PANEL_EN2 Pin=U3-57
+Removed Pin From Net: NetName=PANEL_EN3 Pin=U3-58
+Added Pin To Net: NetName=PANEL_EN3 Pin=U3-34
+Added Pin To Net: NetName=PANEL_EN2 Pin=U3-37

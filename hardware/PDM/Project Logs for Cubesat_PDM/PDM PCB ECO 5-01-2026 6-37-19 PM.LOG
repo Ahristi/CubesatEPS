@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=PANEL_PG1 Pin=U3-83
+Added Pin To Net: NetName=PANEL_EN1 Pin=U3-84
+Added Pin To Net: NetName=PANEL_PG0 Pin=U3-85
+Added Pin To Net: NetName=PANEL_EN0 Pin=U3-86

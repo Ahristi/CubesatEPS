@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=LED1 Pin=D2-K
+Added Component: Designator=D4(LEDG_0805)
+Add component (AddParameter): Name = "Colour"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "160-1179-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LTST-C170GKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouse Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "120R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D2-K
+Added Pin To Net: NetName=GND Pin=D4-K
+Added Pin To Net: NetName=+3V3 Pin=R?-2
+Added Pin To Net: NetName=NetD4_A Pin=D4-A
+Added Pin To Net: NetName=NetD4_A Pin=R?-1
+Added Net: Name=NetD4_A
+Added Member To Class: ClassName=Controller Member=Component D4 LTST-C170GKT
+Added Member To Class: ClassName=Controller Member=Component R? RESC0805

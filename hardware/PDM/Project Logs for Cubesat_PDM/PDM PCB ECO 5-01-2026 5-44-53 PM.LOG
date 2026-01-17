@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=5V5_VMON Pin=U3-31
+Removed Pin From Net: NetName=3V3_AUX_IMON Pin=U3-32
+Added Pin To Net: NetName=3V3_AUX_IMON Pin=U3-31
+Added Pin To Net: NetName=5V5_VMON Pin=U3-32

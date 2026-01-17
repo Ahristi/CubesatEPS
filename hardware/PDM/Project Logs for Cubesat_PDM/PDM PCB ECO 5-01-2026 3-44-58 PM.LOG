@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=HEATER1_IMON Pin=U3-16
+Removed Pin From Net: NetName=HEATER2_IMON Pin=U3-17
+Added Pin To Net: NetName=HEATER2_IMON Pin=U3-16
+Added Pin To Net: NetName=HEATER1_IMON Pin=U3-17

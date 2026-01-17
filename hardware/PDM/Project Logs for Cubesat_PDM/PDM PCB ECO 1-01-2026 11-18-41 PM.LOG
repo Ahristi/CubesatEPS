@@ -1,0 +1,42 @@
+Change Component Footprint: Designator=C105 Old Footprint=CAPC1210X090 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C106 Old Footprint=CAPC1210X090 New Footprint=CAPC0603X040
+Change Component Comment : Designator=C105 Old Comment=CL32B226MOJNNNE New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=C106 Old Comment=CL32B226MOJNNNE New Comment=C0603C104K5RACTU
+Change component parameters: Designator = "C105" ("C105"); Footprint = "CAPC1210X090"; UniqueID = "\CWRZJORY\UNOBYVLD" ("\CWRZJORY\UNOBYVLD")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C106" ("C106"); Footprint = "CAPC1210X090"; UniqueID = "\CWRZJORY\EYUZYSCQ" ("\CWRZJORY\EYUZYSCQ")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C109(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1066-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B105KAFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C110(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1066-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B105KAFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C109-1
+Added Pin To Net: NetName=+12V_PAYLOAD Pin=C109-2
+Added Pin To Net: NetName=GND Pin=C110-1
+Added Pin To Net: NetName=+12V_ACDS Pin=C110-2
+Added Member To Class: ClassName=12V_Supply Member=Component C109 CL21B105KAFNNNE
+Added Member To Class: ClassName=12V_Supply Member=Component C110 CL21B105KAFNNNE

@@ -1,0 +1,139 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=Q1-S
+Removed Pin From Net: NetName=GND Pin=R2-1
+Removed Pin From Net: NetName=GND Pin=U1-6
+Removed Member From Class: ClassName=Ideal_Diode Member=C1
+Removed Member From Class: ClassName=Ideal_Diode Member=C2
+Removed Member From Class: ClassName=Ideal_Diode Member=C3
+Removed Member From Class: ClassName=Ideal_Diode Member=C4
+Removed Member From Class: ClassName=Ideal_Diode Member=C5
+Removed Member From Class: ClassName=Ideal_Diode Member=Q1
+Removed Member From Class: ClassName=Ideal_Diode Member=Q2
+Removed Member From Class: ClassName=Ideal_Diode Member=Q3
+Removed Member From Class: ClassName=Ideal_Diode Member=R1
+Removed Member From Class: ClassName=Ideal_Diode Member=R2
+Removed Member From Class: ClassName=Ideal_Diode Member=R3
+Removed Member From Class: ClassName=Ideal_Diode Member=R4
+Removed Member From Class: ClassName=Ideal_Diode Member=U1
+Added Component: Designator=C92(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1015-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B103KBANNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C93(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1066-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B105KAFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C94(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1099-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B104KACNNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=R72(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R73(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT47K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT47K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "47K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R74(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT71K5CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT71K5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "71K5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R75(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT47K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT47K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "47K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R76(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FG100KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FG100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R77(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT14K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT14K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "14K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=U25(VFQFN-10)
+Add component (AddParameter): Name = "Current Output"; Value = "5.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-LM73100RPWRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C (TJ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LM73100RPWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Supply"; Value = "2.7V ~ 23V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C92-1
+Added Pin To Net: NetName=GND Pin=C93-1
+Added Pin To Net: NetName=GND Pin=R72-1
+Added Pin To Net: NetName=GND Pin=R74-1
+Added Pin To Net: NetName=+3V3 Pin=R75-2
+Added Pin To Net: NetName=GND Pin=R77-1
+Added Pin To Net: NetName=GND Pin=U25-8
+Added Pin To Net: NetName=NetC92_2 Pin=C92-2
+Added Pin To Net: NetName=NetC92_2 Pin=U25-7
+Added Net: Name=NetC92_2
+Added Pin To Net: NetName=NetC93_2 Pin=C93-2
+Added Pin To Net: NetName=NetC93_2 Pin=R76-2
+Added Pin To Net: NetName=NetC93_2 Pin=U25-5
+Added Net: Name=NetC93_2
+Added Pin To Net: NetName=NetC94_1 Pin=C94-1
+Added Pin To Net: NetName=NetC94_1 Pin=R73-1
+Added Pin To Net: NetName=NetC94_1 Pin=R74-2
+Added Pin To Net: NetName=NetC94_1 Pin=U25-4
+Added Net: Name=NetC94_1
+Added Pin To Net: NetName=NetC94_2 Pin=C94-2
+Added Pin To Net: NetName=NetC94_2 Pin=R73-2
+Added Pin To Net: NetName=NetC94_2 Pin=U25-6
+Added Net: Name=NetC94_2
+Added Pin To Net: NetName=NetR72_2 Pin=R72-2
+Added Pin To Net: NetName=NetR72_2 Pin=U25-9
+Added Net: Name=NetR72_2
+Added Pin To Net: NetName=NetR75_1 Pin=R75-1
+Added Pin To Net: NetName=NetR75_1 Pin=U25-3
+Added Net: Name=NetR75_1
+Added Pin To Net: NetName=NetR76_1 Pin=R76-1
+Added Pin To Net: NetName=NetR76_1 Pin=R77-2
+Added Pin To Net: NetName=NetR76_1 Pin=U25-2
+Added Net: Name=NetR76_1
+Added Pin To Net: NetName=NetU25_1 Pin=U25-1
+Added Net: Name=NetU25_1
+Added Member To Class: ClassName=Ideal_Diode Member=Component C92 CL21B103KBANNNC
+Added Member To Class: ClassName=Ideal_Diode Member=Component C93 CL21B105KAFNNNE
+Added Member To Class: ClassName=Ideal_Diode Member=Component C94 CL21B104KACNNNC
+Added Member To Class: ClassName=Ideal_Diode Member=Component R72 RMCF0805FT10K0
+Added Member To Class: ClassName=Ideal_Diode Member=Component R73 RMCF0805FT47K0
+Added Member To Class: ClassName=Ideal_Diode Member=Component R74 RMCF0805FT71K5
+Added Member To Class: ClassName=Ideal_Diode Member=Component R75 RMCF0805FT47K0
+Added Member To Class: ClassName=Ideal_Diode Member=Component R76 RMCF0805FG100K
+Added Member To Class: ClassName=Ideal_Diode Member=Component R77 RMCF0805FT14K0
+Added Member To Class: ClassName=Ideal_Diode Member=Component U25 LM73100RPWR

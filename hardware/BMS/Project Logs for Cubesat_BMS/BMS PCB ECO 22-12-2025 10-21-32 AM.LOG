@@ -1,0 +1,9 @@
+Added Component: Designator=D1(SOD-523)
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "BZT52C12T-7DICT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-65°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "BZT52C12T-7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power - Max"; Value = "300mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Zener"; Value = "12V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC6_2 Pin=D1-A
+Added Pin To Net: NetName=NetC6_1 Pin=D1-K
+Added Member To Class: ClassName=Power_Path Member=Component D1 BZT52C12T-7

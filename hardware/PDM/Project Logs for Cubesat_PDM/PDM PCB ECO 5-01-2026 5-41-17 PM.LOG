@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=3V3_VMON Pin=U3-23
+Removed Pin From Net: NetName=PAYLOAD_IMON Pin=U3-36
+Added Pin To Net: NetName=PAYLOAD_IMON Pin=U3-23
+Added Pin To Net: NetName=3V3_VMON Pin=U3-36

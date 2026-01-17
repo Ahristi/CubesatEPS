@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+5V5_RADIO Pin=PC1-A49
+Removed Pin From Net: NetName=+5V5_RADIO Pin=PC1-A50
+Added Pin To Net: NetName=+5V5_RADIO Pin=PC1-B49
+Added Pin To Net: NetName=+5V5_RADIO Pin=PC1-B50

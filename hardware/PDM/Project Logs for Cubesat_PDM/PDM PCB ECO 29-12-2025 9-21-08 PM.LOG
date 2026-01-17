@@ -1,0 +1,22 @@
+Added Component: Designator=J2(SSQ-126-21-G-D)
+Add component (AddParameter): Name = "Current Rating"; Value = "6.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "SSQ-126-21-G-D-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SSQ-126-21-G-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "465V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "655V"; VariantName = "[No Variations]"
+Added Component: Designator=J3(SSQ-126-21-G-D)
+Add component (AddParameter): Name = "Current Rating"; Value = "6.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "SSQ-126-21-G-D-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SSQ-126-21-G-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "465V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "655V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC24_2 Pin=R12-2
+Added Class: Name=Top_Level

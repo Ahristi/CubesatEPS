@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=GND Pin=J4-18
+Added Pin To Net: NetName=GND Pin=J4-20
+Added Pin To Net: NetName=BMS_SDA_BUFF Pin=R17-1
+Added Pin To Net: NetName=BMS_SCL_BUFF Pin=R40-1
+Added Pin To Net: NetName=BMS_SCL_BUFF Pin=U27-2
+Added Pin To Net: NetName=BMS_SDA_BUFF Pin=U27-7

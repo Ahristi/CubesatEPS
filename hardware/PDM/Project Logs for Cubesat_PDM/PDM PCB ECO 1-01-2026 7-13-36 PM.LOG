@@ -1,0 +1,22 @@
+Removed Member From Class: ClassName=5V_Supply Member=R88
+Added Component: Designator=R92(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R93(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R92-1
+Added Pin To Net: NetName=OBC_EN Pin=R92-2
+Added Pin To Net: NetName=GND Pin=R93-1
+Added Pin To Net: NetName=AUX_EN Pin=R93-2
+Added Member To Class: ClassName=5V_Supply Member=Component R91 RMCF0805FT10K0
+Added Member To Class: ClassName=3V3_Supply Member=Component R92 RMCF0805FT10K0
+Added Member To Class: ClassName=3V3_Supply Member=Component R93 RMCF0805FT10K0

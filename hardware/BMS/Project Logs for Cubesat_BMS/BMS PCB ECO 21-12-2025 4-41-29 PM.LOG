@@ -1,0 +1,60 @@
+Add Component: Footprint Not Found SOD-523
+Added Component: Designator=Q4(CSD18511Q5A)
+Add component (AddParameter): Name = "Continuous Drain Current @ 25C"; Value = "159A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-48119-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Id"; Value = "27A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CSD18511Q5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation (Max)"; Value = "104W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Qg"; Value = "63nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Qgd"; Value = "11.2nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vds (Max)"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vgs (Max)"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vth"; Value = "1.8"; VariantName = "[No Variations]"
+Added Component: Designator=Q?(CSD18511Q5A)
+Add component (AddParameter): Name = "Continuous Drain Current @ 25C"; Value = "159A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-48119-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Id"; Value = "27A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CSD18511Q5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation (Max)"; Value = "104W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Qg"; Value = "63nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Qgd"; Value = "11.2nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vds (Max)"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vgs (Max)"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vth"; Value = "1.8"; VariantName = "[No Variations]"
+Added Component: Designator=Q?(CSD18511Q5A)
+Add component (AddParameter): Name = "Continuous Drain Current @ 25C"; Value = "159A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-48119-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Id"; Value = "27A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CSD18511Q5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation (Max)"; Value = "104W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Qg"; Value = "63nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Qgd"; Value = "11.2nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vds (Max)"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vgs (Max)"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vth"; Value = "1.8"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D1-A
+Add Pin To Net: Unknown Pin: Pin D1-K
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Added Pin To Net: NetName=NetC6_1 Pin=Q4-1
+Added Pin To Net: NetName=NetQ4_2 Pin=Q4-2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q4-2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q4-2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q4-2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q4-2
+Added Pin To Net: NetName=NetC6_2 Pin=Q4-3
+Added Pin To Net: NetName=NetC6_2 Pin=Q4-3
+Added Pin To Net: NetName=NetC6_2 Pin=Q4-3
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Added Pin To Net: NetName=GND Pin=U2-17
+Add Class Member: Failed to add class member : Component D1 BZT52C12T-7
+Add Class Member: Failed to add class member : Component L1 SPM7054VT-2R2M-D
+Added Member To Class: ClassName=Power_Path Member=Component Q4 CSD18511Q5A
+Added Member To Class: ClassName=Power_Path Member=Component Q? CSD18511Q5A
+Added Member To Class: ClassName=Power_Path Member=Component Q? CSD18511Q5A
+Add Class Member: Failed to add class member : Component R10 TT6-100KC3L-5-AUR
+Added Room: Name=Power_Path

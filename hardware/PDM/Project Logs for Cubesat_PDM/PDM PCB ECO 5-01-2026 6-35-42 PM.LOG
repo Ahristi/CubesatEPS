@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=12V_CONV_EN Pin=U3-81
+Added Pin To Net: NetName=PANEL_PG2 Pin=U3-81

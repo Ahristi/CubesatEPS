@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=BMS_nQON Pin=U3-47
+Removed Pin From Net: NetName=BMS_nINT Pin=U3-48
+Removed Pin From Net: NetName=PANEL_PG0 Pin=U3-59
+Removed Pin From Net: NetName=PANEL_PG1 Pin=U3-60
+Removed Pin From Net: NetName=PANEL_PG2 Pin=U3-61
+Removed Pin From Net: NetName=PANEL_PG3 Pin=U3-62
+Removed Pin From Net: NetName=BMS_nCE Pin=U3-95
+Removed Pin From Net: NetName=BMS_nSTAT Pin=U3-96
+Added Pin To Net: NetName=PANEL_PG2 Pin=U3-47
+Added Pin To Net: NetName=PANEL_PG3 Pin=U3-48
+Added Pin To Net: NetName=BMS_nCE Pin=U3-59
+Added Pin To Net: NetName=BMS_nSTAT Pin=U3-60
+Added Pin To Net: NetName=BMS_nQON Pin=U3-61
+Added Pin To Net: NetName=BMS_nINT Pin=U3-62
+Added Pin To Net: NetName=PANEL_PG0 Pin=U3-95
+Added Pin To Net: NetName=PANEL_PG1 Pin=U3-96

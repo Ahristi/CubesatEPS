@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=CAN_SHDN Pin=U3-67
+Removed Pin From Net: NetName=CAN_STB Pin=U3-68
+Added Pin To Net: NetName=CAN_SHDN Pin=U3-59
+Added Pin To Net: NetName=CAN_STB Pin=U3-60

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=LED0 Pin=U3-33
+Removed Pin From Net: NetName=PANEL_EN3 Pin=U3-34
+Removed Pin From Net: NetName=AUX_5V_nFLT Pin=U3-97
+Removed Pin From Net: NetName=AUX_5V_EN Pin=U3-98
+Added Pin To Net: NetName=AUX_5V_nFLT Pin=U3-33
+Added Pin To Net: NetName=AUX_5V_EN Pin=U3-34

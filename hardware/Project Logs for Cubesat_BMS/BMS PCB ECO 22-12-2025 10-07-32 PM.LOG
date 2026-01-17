@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=J1-17
-Removed Pin From Net: NetName=VPANEL Pin=J1-20
-Added Pin To Net: NetName=VPANEL Pin=J1-17
-Added Pin To Net: NetName=GND Pin=J1-20

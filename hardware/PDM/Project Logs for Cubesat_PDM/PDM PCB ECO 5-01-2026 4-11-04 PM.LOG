@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=PAYLOAD_EN Pin=U3-81
+Removed Pin From Net: NetName=ADCS_12V_EN Pin=U3-82
+Removed Pin From Net: NetName=12V_CONV_EN Pin=U3-83
+Added Pin To Net: NetName=12V_CONV_EN Pin=U3-81
+Added Pin To Net: NetName=PAYLOAD_EN Pin=U3-82
+Added Pin To Net: NetName=ADCS_12V_EN Pin=U3-83

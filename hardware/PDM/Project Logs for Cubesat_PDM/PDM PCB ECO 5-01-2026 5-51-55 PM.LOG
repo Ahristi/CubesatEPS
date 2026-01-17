@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ADCS_12V_IMON Pin=U3-15
+Removed Pin From Net: NetName=5V5_VMON Pin=U3-24
+Added Pin To Net: NetName=5V5_VMON Pin=U3-15
+Added Pin To Net: NetName=ADCS_12V_IMON Pin=U3-24

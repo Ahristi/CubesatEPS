@@ -1,0 +1,53 @@
+Added Component: Designator=J6(0532610471)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "WM7622CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Per Contact"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0532610471"; VariantName = "[No Variations]"
+Added Component: Designator=J7(0532610471)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "WM7622CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Per Contact"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0532610471"; VariantName = "[No Variations]"
+Added Component: Designator=J8(0532610471)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "WM7622CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Per Contact"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0532610471"; VariantName = "[No Variations]"
+Added Component: Designator=J9(0532610471)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "WM7622CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Per Contact"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0532610471"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=GND Pin=J7-1
+Added Pin To Net: NetName=GND Pin=J7-2
+Added Pin To Net: NetName=GND Pin=J8-1
+Added Pin To Net: NetName=GND Pin=J8-2
+Added Pin To Net: NetName=GND Pin=J9-1
+Added Pin To Net: NetName=GND Pin=J9-2
+Change Net Name : Old Net Name=NetC93A_2 New Net Name=PANEL[0..3]
+Added Pin To Net: NetName=PANEL0 Pin=J6-3
+Added Pin To Net: NetName=PANEL0 Pin=J6-4
+Added Net: Name=PANEL0
+Added Pin To Net: NetName=PANEL1 Pin=J7-3
+Added Pin To Net: NetName=PANEL1 Pin=J7-4
+Added Net: Name=PANEL1
+Added Pin To Net: NetName=PANEL2 Pin=J8-3
+Added Pin To Net: NetName=PANEL2 Pin=J8-4
+Added Net: Name=PANEL2
+Added Pin To Net: NetName=PANEL3 Pin=J9-3
+Added Pin To Net: NetName=PANEL3 Pin=J9-4
+Added Net: Name=PANEL3
+Added Member To Class: ClassName=Top_Level Member=Component J6 0532610471
+Added Member To Class: ClassName=Top_Level Member=Component J7 0532610471
+Added Member To Class: ClassName=Top_Level Member=Component J8 0532610471
+Added Member To Class: ClassName=Top_Level Member=Component J9 0532610471

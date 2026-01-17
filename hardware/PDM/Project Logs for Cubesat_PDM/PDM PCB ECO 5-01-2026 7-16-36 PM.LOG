@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+3V3_OBC Pin=PC1-A45
+Removed Pin From Net: NetName=+3V3_OBC Pin=PC1-A46
+Removed Pin From Net: NetName=+3V3_AUX Pin=PC1-B35
+Removed Pin From Net: NetName=+3V3_AUX Pin=PC1-B36
+Added Pin To Net: NetName=+3V3_OBC Pin=PC1-B11
+Added Pin To Net: NetName=+3V3_OBC Pin=PC1-B12
+Added Pin To Net: NetName=+3V3_AUX Pin=PC1-B19
+Added Pin To Net: NetName=+3V3_AUX Pin=PC1-B20

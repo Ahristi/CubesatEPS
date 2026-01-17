@@ -1,3 +1,0 @@
-Record=TopLevelDocument|FileName=Top_Level.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=Top_Level.SchDoc|Designator=Cubesat BMS|SchDesignator=Cubesat BMS|FileName=Power_Path.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Power_Path.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Power_Path.SchDoc|Designator=Seperation_Switches|SchDesignator=Seperation_Switches|FileName=Seperation_Switches.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Seperation_Switches.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=HEATER1_PWM Pin=U3-77
+Removed Pin From Net: NetName=HEATER2_PWM Pin=U3-89
+Added Pin To Net: NetName=HEATER1_PWM Pin=U3-4
+Added Pin To Net: NetName=HEATER2_PWM Pin=U3-5

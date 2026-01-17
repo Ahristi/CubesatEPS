@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=+5V Pin=J4-4
+Removed Pin From Net: NetName=+5V Pin=J4-5
+Removed Pin From Net: NetName=+5V Pin=J4-6
+Removed Member From Class: ClassName=Heater_Driver Member=J4
+Added Pin To Net: NetName=NetR80_1 Pin=R80-1
+Added Net: Name=NetR80_1
+Added Room: Name=Heater_Driver

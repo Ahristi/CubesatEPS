@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=ADCS_12V_nFLT Pin=U3-37
+Removed Pin From Net: NetName=ADCS_12V_EN Pin=U3-40
+Removed Pin From Net: NetName=PANEL_EN0 Pin=U3-41
+Added Pin To Net: NetName=ADCS_12V_nFLT Pin=U3-40
+Added Pin To Net: NetName=ADCS_12V_EN Pin=U3-41

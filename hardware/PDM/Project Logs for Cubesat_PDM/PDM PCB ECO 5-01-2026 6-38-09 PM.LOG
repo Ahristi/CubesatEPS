@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PANEL_PG0 Pin=U3-85
+Removed Pin From Net: NetName=PANEL_EN0 Pin=U3-86
+Added Pin To Net: NetName=PANEL_EN0 Pin=U3-85
+Added Pin To Net: NetName=PANEL_PG0 Pin=U3-86

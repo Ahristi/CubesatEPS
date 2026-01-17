@@ -1,0 +1,17 @@
+Add Component: Footprint Not Found SOD-523
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Add Pin To Net: Unknown Pin: Pin D1-A
+Add Pin To Net: Unknown Pin: Pin D1-K
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Class Member: Failed to add class member : Component D1 BZT52C12T-7
+Add Class Member: Failed to add class member : Component L1 SPM7054VT-2R2M-D
+Add Class Member: Failed to add class member : Component R10 TT6-100KC3L-5-AUR
+Added Room: Name=Power_Path

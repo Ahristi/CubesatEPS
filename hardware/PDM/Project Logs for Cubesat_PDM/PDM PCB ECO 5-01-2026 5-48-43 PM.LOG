@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=RADIO_IMON Pin=U3-26
+Removed Pin From Net: NetName=ADCS_5V_IMON Pin=U3-29
+Added Pin To Net: NetName=ADCS_5V_IMON Pin=U3-26
+Added Pin To Net: NetName=RADIO_IMON Pin=U3-29

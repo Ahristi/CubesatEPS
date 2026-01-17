@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=OBC_nFLT Pin=U3-1
+Added Pin To Net: NetName=OBC_nFLT Pin=U3-44
+Added Pin To Net: NetName=OBC_EN Pin=U3-45

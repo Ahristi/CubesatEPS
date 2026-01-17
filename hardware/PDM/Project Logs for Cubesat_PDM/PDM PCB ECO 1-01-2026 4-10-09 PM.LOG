@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=SYS Pin=PC104-B45
+Added Pin To Net: NetName=SYS Pin=PC104-B46
+Added Pin To Net: NetName=NetPC104_B5 Pin=PC104-B5
+Added Pin To Net: NetName=NetPC104_B5 Pin=U3-39
+Added Net: Name=NetPC104_B5
+Added Pin To Net: NetName=NetPC104_B7 Pin=PC104-B7
+Added Pin To Net: NetName=NetPC104_B7 Pin=U3-38
+Added Net: Name=NetPC104_B7

@@ -1,0 +1,30 @@
+Add Component: Footprint Not Found SOD-523
+Added Component: Designator=J1(LS2-110-01-L-D)
+Add component (AddParameter): Name = "Contact Rating"; Value = "3.2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "SAM9665-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55C ~ 125C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LS2-110-01-L-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "475VAC"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D1-A
+Add Pin To Net: Unknown Pin: Pin D1-K
+Added Pin To Net: NetName=NetC7_2 Pin=J1-1
+Added Pin To Net: NetName=NetC7_2 Pin=J1-2
+Added Pin To Net: NetName=NetC7_2 Pin=J1-3
+Added Pin To Net: NetName=NetC7_2 Pin=J1-4
+Added Pin To Net: NetName=nCE Pin=J1-11
+Added Pin To Net: NetName=nINT Pin=J1-12
+Added Pin To Net: NetName=SDA Pin=J1-13
+Added Pin To Net: NetName=nQON Pin=J1-14
+Added Pin To Net: NetName=SCL Pin=J1-15
+Added Pin To Net: NetName=nSTAT Pin=J1-16
+Added Pin To Net: NetName=GND Pin=J1-17
+Added Pin To Net: NetName=GND Pin=J1-18
+Added Pin To Net: NetName=GND Pin=J1-19
+Added Pin To Net: NetName=GND Pin=J1-20
+Change Net Name : Old Net Name=NetC7_2 New Net Name=VPANEL
+Add Class Member: Failed to add class member : Component D1 BZT52C12T-7
+Added Member To Class: ClassName=Power_Path Member=Component J1 LS2-110-01-L-D
+Added Room: Name=Power_Path

@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=12V_Supply Member=R?
+Change Component Designator: OldDesignator=R? NewDesignator=R88
+Change Component Designator: OldDesignator=R? NewDesignator=R89
+Change Component Designator: OldDesignator=R? NewDesignator=R90
+Change Component Designator: OldDesignator=R? NewDesignator=R91
+Added Member To Class: ClassName=12V_Supply Member=Component R88 RMCF0805FT10K0
+Added Member To Class: ClassName=12V_Supply Member=Component R89 RMCF0805FT10K0
+Added Member To Class: ClassName=5V_Supply Member=Component R90 RMCF0805FT10K0

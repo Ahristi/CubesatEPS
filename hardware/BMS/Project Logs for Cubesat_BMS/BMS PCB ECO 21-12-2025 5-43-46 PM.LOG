@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=VPANEL Pin=J1-3
+Removed Pin From Net: NetName=VPANEL Pin=J1-4
+Removed Pin From Net: NetName=nCE Pin=J1-11
+Removed Pin From Net: NetName=nINT Pin=J1-12
+Removed Pin From Net: NetName=SDA Pin=J1-13
+Removed Pin From Net: NetName=nQON Pin=J1-14
+Removed Pin From Net: NetName=SCL Pin=J1-15
+Removed Pin From Net: NetName=nSTAT Pin=J1-16
+Removed Pin From Net: NetName=GND Pin=J1-17
+Removed Pin From Net: NetName=GND Pin=J1-18
+Removed Pin From Net: NetName=GND Pin=J1-19
+Removed Pin From Net: NetName=GND Pin=J1-20
+Add Component: Footprint Not Found SOD-523
+Add Pin To Net: Unknown Pin: Pin D1-A
+Add Pin To Net: Unknown Pin: Pin D1-K
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=nCE Pin=J1-7
+Added Pin To Net: NetName=nINT Pin=J1-8
+Added Pin To Net: NetName=SDA Pin=J1-9
+Added Pin To Net: NetName=nQON Pin=J1-10
+Added Pin To Net: NetName=SCL Pin=J1-11
+Added Pin To Net: NetName=nSTAT Pin=J1-12
+Added Pin To Net: NetName=GND Pin=J1-13
+Added Pin To Net: NetName=GND Pin=J1-14
+Added Pin To Net: NetName=GND Pin=J1-15
+Added Pin To Net: NetName=GND Pin=J1-16
+Added Pin To Net: NetName=VBUS Pin=J1-17
+Added Pin To Net: NetName=VBUS Pin=J1-18
+Added Pin To Net: NetName=VBUS Pin=J1-19
+Added Pin To Net: NetName=VBUS Pin=J1-20
+Added Net: Name=VBUS
+Add Class Member: Failed to add class member : Component D1 BZT52C12T-7
+Added Room: Name=Power_Path

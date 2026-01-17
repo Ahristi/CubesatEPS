@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=OBC_IMON Pin=U3-35
+Removed Pin From Net: NetName=3V3_VMON Pin=U3-36
+Removed Pin From Net: NetName=PANEL_PG0 Pin=U3-55
+Removed Pin From Net: NetName=PANEL_PG1 Pin=U3-56
+Added Pin To Net: NetName=OBC_IMON Pin=U3-55
+Added Pin To Net: NetName=3V3_VMON Pin=U3-56
