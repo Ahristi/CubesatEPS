@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=SWCLK Pin=J2-2
+Removed Pin From Net: NetName=SWDIO Pin=J2-4
+Removed Pin From Net: NetName=GND Pin=J2-6
+Removed Pin From Net: NetName=+3V3 Pin=J2-7
+Removed Pin From Net: NetName=+3V3 Pin=J2-8
+Removed Pin From Net: NetName=nRST Pin=R7-2
+Removed Member From Class: ClassName=Controller Member=R7
+Change Component Footprint: Designator=J2 Old Footprint=FTSH-105-01-F-DV-K-P-TR New Footprint=TC2050-IDC
+Change Component Comment : Designator=J2 Old Comment=FTSH-105-01-F-DV-K-P New Comment=TC2050-IDC
+Change component parameters: Designator = "J2" ("J2"); Footprint = "FTSH-105-01-F-DV-K-P-TR"; UniqueID = "\AEVAOYAC\SZDZGDHO" ("\AEVAOYAC\SZDZGDHO")
+Change component parameters (AddParameter): Name = "Programmer Part Number"; Value = "TC2050-IDC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=J2-1
+Added Pin To Net: NetName=SWDIO Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=SWCLK Pin=J2-4
+Added Pin To Net: NetName=nRST Pin=J2-10

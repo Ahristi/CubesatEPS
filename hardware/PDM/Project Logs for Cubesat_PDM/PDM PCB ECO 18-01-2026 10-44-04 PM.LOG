@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=PC1-A29
+Removed Pin From Net: NetName=GND Pin=PC1-A30
+Removed Pin From Net: NetName=GND Pin=PC1-A31
+Removed Pin From Net: NetName=GND Pin=PC1-A32
+Removed Pin From Net: NetName=GND Pin=PC1-B29
+Removed Pin From Net: NetName=GND Pin=PC1-B30
+Removed Pin From Net: NetName=GND Pin=PC1-B31
+Removed Pin From Net: NetName=GND Pin=PC1-B32
+Add Net: Net with name "GND" already exists
