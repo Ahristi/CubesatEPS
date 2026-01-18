@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=nSTAT Pin=J1-9
+Removed Pin From Net: NetName=nINT Pin=J1-10
+Added Pin To Net: NetName=nINT Pin=J1-9
+Added Pin To Net: NetName=nSTAT Pin=J1-10

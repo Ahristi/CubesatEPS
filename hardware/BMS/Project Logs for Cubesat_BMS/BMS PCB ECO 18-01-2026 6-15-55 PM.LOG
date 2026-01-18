@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=nQON Pin=J1-9
+Removed Pin From Net: NetName=nSTAT Pin=J1-16
+Added Pin To Net: NetName=nSTAT Pin=J1-9
+Added Pin To Net: NetName=nQON Pin=J1-16
+Added Member To Class: ClassName=Cubesat BMS Member=Component J1 LS2-110-01-L-D
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7
+Added Rule: Name=Schematic Supply Nets_8
+Added Rule: Name=Schematic Supply Nets_9
+Added Rule: Name=Schematic Supply Nets_10
+Added Rule: Name=Schematic Supply Nets_11
