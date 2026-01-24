@@ -1,0 +1,12 @@
+Added Component: Designator=J3(0532610571)
+Add component (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "WM7623CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0532610571"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "125V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BAT+ Pin=J3-1
+Added Pin To Net: NetName=BAT+ Pin=J3-2
+Added Pin To Net: NetName=BAT- Pin=J3-4
+Added Pin To Net: NetName=BAT- Pin=J3-5
+Added Member To Class: ClassName=Cubesat BMS Member=Component J3 0532610571

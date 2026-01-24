@@ -1,0 +1,7 @@
+Added Component: Designator=J?(436500401)
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "436500401"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Pin Current"; Value = "8.5 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40C to 125C"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Top_Level Member=Component J? 436500401

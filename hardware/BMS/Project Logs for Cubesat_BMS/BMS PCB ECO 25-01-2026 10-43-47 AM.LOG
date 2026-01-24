@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetJ2_2 Pin=R36-2
+Change Component Comment : Designator=R36 Old Comment=RMCF0603FT100K New Comment=RMCF0603FT1M00
+Change component parameters: Designator = "R36" ("R36"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\MVQDTYQJ" ("\HKTNPMJO\MVQDTYQJ")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT1M00CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT1M00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ2_2 Pin=R34-1
+Added Pin To Net: NetName=NetJ2_2 Pin=R35-2
+Added Pin To Net: NetName=BAT- Pin=R36-1
+Added Pin To Net: NetName=PRES Pin=R36-2

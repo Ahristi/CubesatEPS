@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=NetB1_3 Pin=B1-3
+Added Pin To Net: NetName=NetB1_3 Pin=B1-3
+Added Pin To Net: NetName=NetB1_4 Pin=B1-4
+Added Pin To Net: NetName=NetB1_4 Pin=B1-4
+Added Pin To Net: NetName=BAT+ Pin=B1-5
+Added Member To Class: ClassName=Cubesat BMS Member=Component U1 BQ25792RQMR
+Added Member To Class: ClassName=Output_eFuse Member=Component U2 TPS259474LRPWR
