@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=BMS_nQON Pin=U3-2
+Removed Pin From Net: NetName=BMS_nCE Pin=U3-3
+Added Pin To Net: NetName=BMS_nCE Pin=U3-2
+Added Pin To Net: NetName=BMS_nQON Pin=U3-3
+Added Member To Class: ClassName=PDM Member=Component J8 LS2-110-01-L-D
+Added Room: Name=3V3_Supply
+Added Room: Name=5V5_Supply
+Added Room: Name=5V_Supply
+Added Room: Name=12V_Supply
+Added Room: Name=Heater_1
+Added Room: Name=Heater_2
+Added Room: Name=I2C_Buffer
+Added Room: Name=Ideal_DiodeA
+Added Room: Name=Ideal_DiodeB
+Added Room: Name=Ideal_DiodeC
+Added Room: Name=Ideal_DiodeD

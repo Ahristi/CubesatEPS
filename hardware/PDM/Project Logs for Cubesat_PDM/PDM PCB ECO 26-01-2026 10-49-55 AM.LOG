@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=ADCS_12V_IMON Pin=U3-24
+Removed Pin From Net: NetName=12V_VMON Pin=U3-25
+Added Pin To Net: NetName=12V_VMON Pin=U3-24
+Added Pin To Net: NetName=ADCS_12V_IMON Pin=U3-25
+Added Room: Name=3V3_Supply
+Added Room: Name=5V5_Supply
+Added Room: Name=5V_Supply
+Added Room: Name=12V_Supply
+Added Room: Name=Heater_1
+Added Room: Name=Heater_2
+Added Room: Name=I2C_Buffer
+Added Room: Name=Ideal_DiodeA
+Added Room: Name=Ideal_DiodeB
+Added Room: Name=Ideal_DiodeC
+Added Room: Name=Ideal_DiodeD

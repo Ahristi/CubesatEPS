@@ -1,0 +1,19 @@
+Added Component: Designator=D4(LEDR_0805)
+Add component (AddParameter): Name = "Colour"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R37(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT2K26CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0603FT2K26"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "2K26"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D4-K
+Added Pin To Net: NetName=SYS Pin=R37-2
+Added Pin To Net: NetName=NetD4_A Pin=D4-A
+Added Pin To Net: NetName=NetD4_A Pin=R37-1
+Added Net: Name=NetD4_A
+Added Member To Class: ClassName=Cubesat BMS Member=Component D4 LEDR0805
+Added Member To Class: ClassName=Cubesat BMS Member=Component R37 RMCF0603FT2K26

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=LED0 Pin=U3-65
+Added Pin To Net: NetName=LED0 Pin=U3-1
+Added Room: Name=3V3_Supply
+Added Room: Name=5V5_Supply
+Added Room: Name=I2C_Buffer
+Added Room: Name=Ideal_DiodeA
+Added Room: Name=Ideal_DiodeB
+Added Room: Name=Ideal_DiodeC
+Added Room: Name=Ideal_DiodeD
