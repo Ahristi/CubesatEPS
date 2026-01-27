@@ -1,0 +1,11 @@
+Added Component: Designator=R31(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "C23216"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0603WAF6043T5E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "604K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BAT- Pin=R31-1
+Added Pin To Net: NetName=NetR31_2 Pin=R31-2
+Added Member To Class: ClassName=Battery Member=Component R31 0603WAF6043T5E

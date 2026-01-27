@@ -1,0 +1,319 @@
+Removed Pin From Net: NetName=NetC3_1 Pin=C3-1
+Removed Pin From Net: NetName=NetC3_2 Pin=C3-2
+Removed Pin From Net: NetName=BAT- Pin=C30-2
+Removed Pin From Net: NetName=AVDD Pin=C31-1
+Removed Pin From Net: NetName=BAT- Pin=C31-2
+Removed Pin From Net: NetName=NetC6_1 Pin=Q4-1
+Removed Pin From Net: NetName=VUMB Pin=Q4-2
+Removed Pin From Net: NetName=VUMB Pin=Q4-2
+Removed Pin From Net: NetName=VUMB Pin=Q4-2
+Removed Pin From Net: NetName=VUMB Pin=Q4-2
+Removed Pin From Net: NetName=VUMB Pin=Q4-2
+Removed Pin From Net: NetName=NetC6_2 Pin=Q4-3
+Removed Pin From Net: NetName=NetC6_2 Pin=Q4-3
+Removed Pin From Net: NetName=NetC6_2 Pin=Q4-3
+Removed Pin From Net: NetName=GND Pin=R26-1
+Change Component Footprint: Designator=C3 Old Footprint=CAPC0603X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C4 Old Footprint=CAPC0603X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C5 Old Footprint=CAPC0603X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C28 Old Footprint=CAPC0603X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C29 Old Footprint=CAPC0603X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C30 Old Footprint=CAPC0603X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C31 Old Footprint=CAPC0603X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=Q4 Old Footprint=CSD18511Q5A New Footprint=PG-TDSON-8-5
+Change Component Footprint: Designator=R31 Old Footprint=RESC0603 New Footprint=RESC0805
+Change Component Footprint: Designator=R35 Old Footprint=RESC0603 New Footprint=RESC0805
+Change Component Comment : Designator=C32 Old Comment=C0603C104K5RACTU New Comment=CC0603KRX7R9BB104
+Change Component Comment : Designator=C33 Old Comment=C0603C104K5RACTU New Comment=CC0603KRX7R9BB104
+Change Component Comment : Designator=C34 Old Comment=C0603C104K5RACTU New Comment=CC0603KRX7R9BB104
+Change Component Comment : Designator=C3 Old Comment=CL10B105KO8NNNC New Comment=CL10A105KB8NNNC
+Change Component Comment : Designator=C4 Old Comment=CL10B105KO8NNNC New Comment=CL10A105KB8NNNC
+Change Component Comment : Designator=C5 Old Comment=CL10B105KO8NNNC New Comment=CL10A105KB8NNNC
+Change Component Comment : Designator=C28 Old Comment=CL10B105KO8NNNC New Comment=CL10A105KB8NNNC
+Change Component Comment : Designator=C29 Old Comment=CL10B105KO8NNNC New Comment=CL10A105KB8NNNC
+Change Component Comment : Designator=C30 Old Comment=CL10B105KO8NNNC New Comment=CL10A105KB8NNNC
+Change Component Comment : Designator=C31 Old Comment=CL10B105KO8NNNC New Comment=CL10A105KB8NNNC
+Change Component Comment : Designator=Q4 Old Comment=CSD18511Q5A New Comment=BSC026N08NS5
+Change Component Comment : Designator=R24 Old Comment=RMCF0603FT1K00 New Comment=0603WAF1001T5E
+Change Component Comment : Designator=R22 Old Comment=RMCF0603FT1M00 New Comment=0603WAF1004T5E
+Change Component Comment : Designator=R25 Old Comment=RMCF0603FT1M00 New Comment=0603WAF1004T5E
+Change Component Comment : Designator=R26 Old Comment=RMCF0603FT1M00 New Comment=0603WAF1004T5E
+Change Component Comment : Designator=R2 Old Comment=RMCF0603FT56R0 New Comment=0603WAF560JT5E
+Change Component Comment : Designator=R15 Old Comment=RMCF0603FT56R0 New Comment=0603WAF560JT5E
+Change Component Comment : Designator=R16 Old Comment=RMCF0603FT56R0 New Comment=0603WAF560JT5E
+Change Component Comment : Designator=R17 Old Comment=RMCF0603FT56R0 New Comment=0603WAF560JT5E
+Change Component Comment : Designator=R18 Old Comment=RMCF0603FT56R0 New Comment=0603WAF560JT5E
+Change Component Comment : Designator=R35 Old Comment=RMCF0603FT100K New Comment=0805W8F1003T5E
+Change Component Comment : Designator=R19 Old Comment=RMCF0603FT100R New Comment=0603WAF1000T5E
+Change Component Comment : Designator=R21 Old Comment=RMCF0603FT100R New Comment=0603WAF1000T5E
+Change Component Comment : Designator=R29 Old Comment=RMCF0603FT470K New Comment=0603WAF4703T5E
+Change Component Comment : Designator=R31 Old Comment=RMCF0603FT604K New Comment=0603WAF6043T5E
+Change component parameters: Designator = "D3" ("D3"); Footprint = "SOD-523"; UniqueID = "\HKTNPMJO\NQFMJMPW\CEMRHBVL" ("\HKTNPMJO\NQFMJMPW\CEMRHBVL")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C507911"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-65°C ~ 150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "BZT52C12T-7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power - Max"; Value = "300mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Zener"; Value = "12V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J2" ("J2"); Footprint = "0532610471"; UniqueID = "\HKTNPMJO\XKAGQPPZ" ("\HKTNPMJO\XKAGQPPZ")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C225113"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Current Per Contact"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0532610471"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J3" ("J3"); Footprint = "0532610571"; UniqueID = "\HKTNPMJO\NOWKHTQG" ("\HKTNPMJO\NOWKHTQG")
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C225114"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0532610571"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "125V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J4" ("J4"); Footprint = "0532610671"; UniqueID = "\HKTNPMJO\GDAKAWIT" ("\HKTNPMJO\GDAKAWIT")
+Change component parameters (AddParameter): Name = "Contact Current (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C225115"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0532610671"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2" ("D2"); Footprint = "SOD-323"; UniqueID = "\HKTNPMJO\NQFMJMPW\MQPLSWUB" ("\HKTNPMJO\NQFMJMPW\MQPLSWUB")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C151448"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ifsm"; Value = "3@100us"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ir (Max)"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 to 150C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "BAV20WS-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vr (Max)"; Value = "200"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\LWRITVTF" ("\HKTNPMJO\NQFMJMPW\LWRITVTF")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C25196"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF560JT5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "56R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R15" ("R15"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\QIUBIUTE" ("\HKTNPMJO\NQFMJMPW\QIUBIUTE")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C25196"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF560JT5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "56R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16" ("R16"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\VFDIZKBM" ("\HKTNPMJO\NQFMJMPW\VFDIZKBM")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C25196"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF560JT5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "56R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17" ("R17"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\RYAOAPPL" ("\HKTNPMJO\NQFMJMPW\RYAOAPPL")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C25196"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF560JT5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "56R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18" ("R18"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\EKQVIPTF" ("\HKTNPMJO\NQFMJMPW\EKQVIPTF")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C25196"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF560JT5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "56R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\VOHHYKNS" ("\HKTNPMJO\NQFMJMPW\VOHHYKNS")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C22775"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF1000T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21" ("R21"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\OYFHPGKL" ("\HKTNPMJO\NQFMJMPW\OYFHPGKL")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C22775"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF1000T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22" ("R22"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\BXLPPCYI" ("\HKTNPMJO\NQFMJMPW\BXLPPCYI")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C22935"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF1004T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24" ("R24"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\FVILJOFM" ("\HKTNPMJO\NQFMJMPW\FVILJOFM")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C21190"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF1001T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25" ("R25"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\QXYLSUOZ" ("\HKTNPMJO\NQFMJMPW\QXYLSUOZ")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C22935"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF1004T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26" ("R26"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\TXQBRMDF" ("\HKTNPMJO\NQFMJMPW\TXQBRMDF")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C22935"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF1004T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29" ("R29"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\JWGGOSWN" ("\HKTNPMJO\NQFMJMPW\JWGGOSWN")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C23178"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF4703T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "470K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C32" ("C32"); Footprint = "CAPC0603X040"; UniqueID = "\HKTNPMJO\NQFMJMPW\IMTWAGZT" ("\HKTNPMJO\NQFMJMPW\IMTWAGZT")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C14663"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CC0603KRX7R9BB104"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C33" ("C33"); Footprint = "CAPC0603X040"; UniqueID = "\HKTNPMJO\NQFMJMPW\UYAGBAID" ("\HKTNPMJO\NQFMJMPW\UYAGBAID")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C14663"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CC0603KRX7R9BB104"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C34" ("C34"); Footprint = "CAPC0603X040"; UniqueID = "\HKTNPMJO\NQFMJMPW\KTOZGPKH" ("\HKTNPMJO\NQFMJMPW\KTOZGPKH")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C14663"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CC0603KRX7R9BB104"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R31" ("R31"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\NQFMJMPW\PHWRJFTZ" ("\HKTNPMJO\NQFMJMPW\PHWRJFTZ")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C23216"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0603WAF6043T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "604K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R35" ("R35"); Footprint = "RESC0603"; UniqueID = "\HKTNPMJO\JHRDJGZX" ("\HKTNPMJO\JHRDJGZX")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "C149504"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "0805W8F1003T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "CAPC0603X060"; UniqueID = "\HKTNPMJO\NQFMJMPW\ZZAFUFMB" ("\HKTNPMJO\NQFMJMPW\ZZAFUFMB")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CAPC0603X060"; UniqueID = "\HKTNPMJO\NQFMJMPW\MDAOYYWB" ("\HKTNPMJO\NQFMJMPW\MDAOYYWB")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "CAPC0603X060"; UniqueID = "\HKTNPMJO\NQFMJMPW\AUKOITSO" ("\HKTNPMJO\NQFMJMPW\AUKOITSO")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C28" ("C28"); Footprint = "CAPC0603X060"; UniqueID = "\HKTNPMJO\NQFMJMPW\RDUVMODS" ("\HKTNPMJO\NQFMJMPW\RDUVMODS")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C29" ("C29"); Footprint = "CAPC0603X060"; UniqueID = "\HKTNPMJO\NQFMJMPW\YOSYIGBF" ("\HKTNPMJO\NQFMJMPW\YOSYIGBF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C30" ("C30"); Footprint = "CAPC0603X060"; UniqueID = "\HKTNPMJO\NQFMJMPW\LGOKDAKT" ("\HKTNPMJO\NQFMJMPW\LGOKDAKT")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C31" ("C31"); Footprint = "CAPC0603X060"; UniqueID = "\HKTNPMJO\NQFMJMPW\QJXWBESH" ("\HKTNPMJO\NQFMJMPW\QJXWBESH")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q4" ("Q4"); Footprint = "CSD18511Q5A"; UniqueID = "\HKTNPMJO\MOVOTUHY" ("\HKTNPMJO\MOVOTUHY")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "BSC026N08NS5ATMA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Drive Voltage"; Value = "6V~10V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Id"; Value = "23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "BSC026N08NS5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 150°C (TJ)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Dissipation"; Value = "3.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Dissipation (Max)"; Value = "2.5W (Ta), 156W (Tc)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Qg"; Value = "92nC@10V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rds On (Max) @ Id, Vgs"; Value = "2.6mOhm @ 50A, 10V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vds (Max)"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vgs (Max)"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vth"; Value = "3.8V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC3_2 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=C3-2
+Added Pin To Net: NetName=BAT- Pin=C30-1
+Added Pin To Net: NetName=BAT- Pin=C31-1
+Added Pin To Net: NetName=AVDD Pin=C31-2
+Added Pin To Net: NetName=VUMB Pin=Q4-D
+Added Pin To Net: NetName=NetC6_1 Pin=Q4-G
+Added Pin To Net: NetName=NetC6_2 Pin=Q4-S
+Added Pin To Net: NetName=NetC6_2 Pin=Q4-S
+Added Pin To Net: NetName=NetC6_2 Pin=Q4-S
+Change Net Name : Old Net Name=NetC3_1 New Net Name=NetC3_2
+Change Net Name : Old Net Name=NetC3_2 New Net Name=NetC3_1
+Added Pin To Net: NetName=NetC30_2 Pin=C30-2
+Added Pin To Net: NetName=NetC30_2 Pin=R1-2
+Added Pin To Net: NetName=NetC30_2 Pin=U3-1
+Added Net: Name=NetC30_2
