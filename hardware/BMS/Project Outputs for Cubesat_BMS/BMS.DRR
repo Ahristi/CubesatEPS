@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BMS.PcbDoc   28/01/2026  12:43:04 AM
+NCDrill File Report For: BMS.PcbDoc   28/01/2026  9:23:48 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,12 +8,12 @@ ASCII SlotHoles File : BMS-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             275       PTH        932.82mm (36.73inch)
+T1      0.3mm (12mil)                                             Round             282       PTH        930.83mm (36.65inch)
 T2      0.5mm (20mil)                                             Slot              8         PTH        509.20mm (20.05inch)
 T3      0.7mm (28mil)                                             Round             4         PTH        11.25mm (0.44inch)
 T4      0.8mm (31mil)                                             Round             20        PTH        42.00mm (1.65inch)
 T5      3.2mm (126mil)                                            Round             10        PTH        310.94mm (12.24inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              317
+Totals                                                                              324
 
 Total Processing Time (hh:mm:ss) : 00:00:00
