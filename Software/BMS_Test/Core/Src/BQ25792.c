@@ -10,7 +10,8 @@
  */
 
 #include "bq25792.h"
-#include "stm32xxxx_hal.h"   /* <-- change to your STM32 family header */
+#include "stm32f4xx_hal.h"   
+
 
 #ifndef BQ25792_I2C_TIMEOUT_MS
 #define BQ25792_I2C_TIMEOUT_MS   50u
@@ -20,20 +21,29 @@
 #define BQ25792_WORD_LITTLE_ENDIAN  1u
 #endif
 
-/* If you prefer not to pass hi2c everywhere, you can wrap these in a handle struct.
- * For quick test code, simple functions are often fastest.
- */
+BQ25792_HandleTypeDef hbms;
+
+
 
 static inline uint16_t bq25792_addr8_to_hal(uint8_t addr7)
 {
     return (uint16_t)(addr7 << 1); /* HAL expects 8-bit address */
 }
 
-HAL_StatusTypeDef bq25792_read_u8(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t *val)
+
+
+void bq25792_Init()
 {
-    if (!hi2c || !val) return HAL_ERROR;
+	hbms.ce_pin= GPIO_PIN_12;
+	hbms.hi2c= &hi2c1;
+	hbms.ce_port = GPIOF;
+}
+
+HAL_StatusTypeDef bq25792_read_u8(BQ25792_HandleTypeDef *hbms, uint8_t reg, uint8_t *val)
+{
+    if (!hbms->hi2c || !val) return HAL_ERROR;
     return HAL_I2C_Mem_Read(
-        hi2c,
+        hbms->hi2c,
         bq25792_addr8_to_hal(BQ25792_I2C_ADDR_7BIT),
         reg,
         I2C_MEMADD_SIZE_8BIT,
@@ -43,11 +53,11 @@ HAL_StatusTypeDef bq25792_read_u8(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t 
     );
 }
 
-HAL_StatusTypeDef bq25792_write_u8(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t val)
+HAL_StatusTypeDef bq25792_write_u8(BQ25792_HandleTypeDef *hbms, uint8_t reg, uint8_t val)
 {
-    if (!hi2c) return HAL_ERROR;
+    if (!hbms->hi2c) return HAL_ERROR;
     return HAL_I2C_Mem_Write(
-        hi2c,
+        hbms->hi2c,
         bq25792_addr8_to_hal(BQ25792_I2C_ADDR_7BIT),
         reg,
         I2C_MEMADD_SIZE_8BIT,
@@ -57,13 +67,13 @@ HAL_StatusTypeDef bq25792_write_u8(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t
     );
 }
 
-HAL_StatusTypeDef bq25792_read_u16(I2C_HandleTypeDef *hi2c, uint8_t reg, uint16_t *val)
+HAL_StatusTypeDef bq25792_read_u16(BQ25792_HandleTypeDef *hbms, uint8_t reg, uint16_t *val)
 {
-    if (!hi2c || !val) return HAL_ERROR;
+    if (!hbms->hi2c || !val) return HAL_ERROR;
 
     uint8_t b[2] = {0, 0};
     HAL_StatusTypeDef st = HAL_I2C_Mem_Read(
-        hi2c,
+        hbms->hi2c,
         bq25792_addr8_to_hal(BQ25792_I2C_ADDR_7BIT),
         reg,
         I2C_MEMADD_SIZE_8BIT,
@@ -81,9 +91,9 @@ HAL_StatusTypeDef bq25792_read_u16(I2C_HandleTypeDef *hi2c, uint8_t reg, uint16_
     return HAL_OK;
 }
 
-HAL_StatusTypeDef bq25792_write_u16(I2C_HandleTypeDef *hi2c, uint8_t reg, uint16_t val)
+HAL_StatusTypeDef bq25792_write_u16(BQ25792_HandleTypeDef *hbms, uint8_t reg, uint16_t val)
 {
-    if (!hi2c) return HAL_ERROR;
+    if (!hbms->hi2c) return HAL_ERROR;
 
     uint8_t b[2];
 #if BQ25792_WORD_LITTLE_ENDIAN
@@ -95,7 +105,7 @@ HAL_StatusTypeDef bq25792_write_u16(I2C_HandleTypeDef *hi2c, uint8_t reg, uint16
 #endif
 
     return HAL_I2C_Mem_Write(
-        hi2c,
+        hbms->hi2c,
         bq25792_addr8_to_hal(BQ25792_I2C_ADDR_7BIT),
         reg,
         I2C_MEMADD_SIZE_8BIT,
@@ -106,77 +116,78 @@ HAL_StatusTypeDef bq25792_write_u16(I2C_HandleTypeDef *hi2c, uint8_t reg, uint16
 }
 
 /* Read-modify-write for 8-bit registers */
-HAL_StatusTypeDef bq25792_update_bits_u8(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t mask, uint8_t value)
+HAL_StatusTypeDef bq25792_update_bits_u8(BQ25792_HandleTypeDef *bms, uint8_t reg, uint8_t mask, uint8_t value)
 {
     uint8_t r = 0;
-    HAL_StatusTypeDef st = bq25792_read_u8(hi2c, reg, &r);
+    HAL_StatusTypeDef st = bq25792_read_u8(bms, reg, &r);
     if (st != HAL_OK) return st;
-
     r = (uint8_t)((r & ~mask) | (value & mask));
-    return bq25792_write_u8(hi2c, reg, r);
+    return bq25792_write_u8(bms, reg, r);
 }
 
-/* Optional: a quick "is device alive" probe using HAL_I2C_IsDeviceReady */
-HAL_StatusTypeDef bq25792_probe(I2C_HandleTypeDef *hi2c)
+HAL_StatusTypeDef bq25792_probe(BQ25792_HandleTypeDef *bms)
 {
-    if (!hi2c) return HAL_ERROR;
+    if (!bms->hi2c) return HAL_ERROR;
 
     return HAL_I2C_IsDeviceReady(
-        hi2c,
+        bms->hi2c,
         bq25792_addr8_to_hal(BQ25792_I2C_ADDR_7BIT),
         2,                      /* trials */
         BQ25792_I2C_TIMEOUT_MS
     );
 }
 
-/* Optional: example helper to enable charging (REG0F bit5 EN_CHG) */
-HAL_StatusTypeDef bq25792_set_charge_enable(I2C_HandleTypeDef *hi2c, uint8_t enable)
+
+/**
+  * @brief  Sets or resets charge enable on the BMS
+  *
+  * @param  hbms Pointer to GPS handler struct
+  * @param  enable 
+  * @retval HAL status
+  */
+HAL_StatusTypeDef bq25792_set_charge_enable(BQ25792_HandleTypeDef *hbms, BQ25792_CHARGE_STATE enable)
 {
-    return bq25792_update_bits_u8(
-        hi2c,
+    HAL_GPIO_WritePin(hbms->ce_port, hbms->ce_pin,  enable == CHARGE_ENABLE ? GPIO_PIN_RESET: GPIO_PIN_SET);
+    return(bq25792_update_bits_u8(
+        hbms,
         BQ25792_REG0F_CHG_CTRL0,
         BQ25792_REG0F_EN_CHG,
-        enable ? BQ25792_REG0F_EN_CHG : 0u
-    );
+        enable == CHARGE_ENABLE ? BQ25792_REG0F_EN_CHG : 0u
+    ));
 }
 
-/* Optional: example helper to configure core limits quickly */
-HAL_StatusTypeDef bq25792_quick_config(
-    I2C_HandleTypeDef *hi2c,
-    uint16_t vsysmin_mv,
-    uint16_t vreg_mv,
-    uint16_t ichg_ma,
-    uint16_t vindpm_mv,
-    uint16_t iindpm_ma
-)
+
+/**
+  * @brief  Checks if specified register is 16 bit or 8 bit.
+  *
+  * @param  reg Register to check
+  *
+  * @retval True if register is a 16-bit register. False if 8-bit.
+  */
+bool bq25792_reg_is_16bit(uint8_t reg)
 {
-    HAL_StatusTypeDef st;
+    switch (reg)
+    {
+        /* All the 16-bit registers */
+        case BQ25792_REG01_VREG:
+        case BQ25792_REG03_ICHG:
+        case BQ25792_REG06_IINDPM:
+        case BQ25792_REG0B_VOTG:
+        case BQ25792_REG19_ICO_ILIM:
+        case BQ25792_REG31_IBUS_ADC:
+        case BQ25792_REG33_IBAT_ADC:
+        case BQ25792_REG35_VBUS_ADC:
+        case BQ25792_REG37_VAC1_ADC:
+        case BQ25792_REG39_VAC2_ADC:
+        case BQ25792_REG3B_VBAT_ADC:
+        case BQ25792_REG3D_VSYS_ADC:
+        case BQ25792_REG3F_TS_ADC:
+        case BQ25792_REG41_TDIE_ADC:
+        case BQ25792_REG43_DP_ADC:
+        case BQ25792_REG45_DM_ADC:
 
-    st = bq25792_write_u8(hi2c,  BQ25792_REG00_VSYSMIN, bq25792_encode_vsysmin_mv(vsysmin_mv));
-    if (st != HAL_OK) return st;
-
-    st = bq25792_write_u16(hi2c, BQ25792_REG01_VREG,    bq25792_encode_vreg_mv(vreg_mv));
-    if (st != HAL_OK) return st;
-
-    st = bq25792_write_u16(hi2c, BQ25792_REG03_ICHG,    bq25792_encode_ichg_ma(ichg_ma));
-    if (st != HAL_OK) return st;
-
-    st = bq25792_write_u8(hi2c,  BQ25792_REG05_VINDPM,  bq25792_encode_vindpm_mv(vindpm_mv));
-    if (st != HAL_OK) return st;
-
-    st = bq25792_write_u16(hi2c, BQ25792_REG06_IINDPM,  bq25792_encode_iindpm_ma(iindpm_ma));
-    if (st != HAL_OK) return st;
-
-    return HAL_OK;
+            return true;
+        default: //Rest of the registers are false
+            return false;
+    }
 }
-
-/* --------- Minimal example usage (drop into your bring-up code) ----------
- *
- *  if (bq25792_probe(&hi2c1) == HAL_OK) {
- *      bq25792_quick_config(&hi2c1, 9000, 8400, 1000, 12000, 2000);
- *      bq25792_set_charge_enable(&hi2c1, 1);
- *
- *      uint16_t vbat_adc;
- *      bq25792_read_u16(&hi2c1, BQ25792_REG3B_VBAT_ADC, &vbat_adc);
- *  }
- */

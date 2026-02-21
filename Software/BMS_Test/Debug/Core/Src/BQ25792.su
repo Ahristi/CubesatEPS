@@ -1,0 +1,10 @@
+../Core/Src/BQ25792.c:28:24:bq25792_addr8_to_hal	16	static
+../Core/Src/BQ25792.c:35:6:bq25792_Init	4	static
+../Core/Src/BQ25792.c:42:19:bq25792_read_u8	48	static
+../Core/Src/BQ25792.c:56:19:bq25792_write_u8	40	static
+../Core/Src/BQ25792.c:70:19:bq25792_read_u16	56	static
+../Core/Src/BQ25792.c:94:19:bq25792_write_u16	48	static
+../Core/Src/BQ25792.c:119:19:bq25792_update_bits_u8	24	static
+../Core/Src/BQ25792.c:128:19:bq25792_probe	24	static
+../Core/Src/BQ25792.c:148:19:bq25792_set_charge_enable	16	static
+../Core/Src/BQ25792.c:167:6:bq25792_reg_is_16bit	16	static
