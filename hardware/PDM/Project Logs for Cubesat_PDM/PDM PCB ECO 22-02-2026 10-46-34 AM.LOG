@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=+3V3 Pin=C31-1
+Removed Pin From Net: NetName=GND Pin=C31-2
+Removed Pin From Net: NetName=+12V Pin=C60-1
+Removed Pin From Net: NetName=GND Pin=C60-2
+Change Component Footprint: Designator=C31 Old Footprint=2312 Tantalum New Footprint=CAPC1210X090
+Change Component Footprint: Designator=C60 Old Footprint=2312 Tantalum New Footprint=CAPC1210X090
+Change Component Footprint: Designator=C61 Old Footprint=CAPC0805X060 New Footprint=CAPC1210X090
+Change Component Comment : Designator=C62 Old Comment=CL21A226MAYNNNE New Comment=CL21B105KBFNNNE
+Change Component Comment : Designator=C61 Old Comment=CL21A226MAYNNNE New Comment=CL32B226KAJNNNE
+Change Component Comment : Designator=C31 Old Comment=TPSC107K010R0100 New Comment=CL32B106KBJNNNE
+Change Component Comment : Designator=C60 Old Comment=TPSC107K010R0100 New Comment=CL32B226KAJNNNE
+Change component parameters: Designator = "R72A" ("R72"); Footprint = "LVK12R050CER-2"; UniqueID = "\HTDLOBSB\MXTVUSBR\EFXRKTKY" ("\HTDLOBSB\MXTVUSBR\EFXRKTKY")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "273-LVK12R050CERCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LVK12R050CER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "50mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "±50ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.25%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R72B" ("R72"); Footprint = "LVK12R050CER-2"; UniqueID = "\HTDLOBSB\ZQVUCRYE\EFXRKTKY" ("\HTDLOBSB\ZQVUCRYE\EFXRKTKY")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "273-LVK12R050CERCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LVK12R050CER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "50mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "±50ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.25%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C61" ("C61"); Footprint = "CAPC0805X060"; UniqueID = "\HTDLOBSB\CWRZJORY\YNJEPXFU" ("\HTDLOBSB\CWRZJORY\YNJEPXFU")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-3392-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL32B226KAJNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C62" ("C62"); Footprint = "CAPC0805X060"; UniqueID = "\HTDLOBSB\CWRZJORY\TBSVVCGR" ("\HTDLOBSB\CWRZJORY\TBSVVCGR")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-1029-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL21B105KBFNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C60" ("C60"); Footprint = "2312 Tantalum"; UniqueID = "\HTDLOBSB\CWRZJORY\WDCZWAJS" ("\HTDLOBSB\CWRZJORY\WDCZWAJS")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-3392-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL32B226KAJNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C31" ("C31"); Footprint = "2312 Tantalum"; UniqueID = "\HTDLOBSB\VYQWRKVG\LSENKLEN" ("\HTDLOBSB\VYQWRKVG\LSENKLEN")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-3387-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CL32B106KBJNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=+3V3 Pin=C31-2
+Added Pin To Net: NetName=GND Pin=C60-1
+Added Pin To Net: NetName=+12V Pin=C60-2

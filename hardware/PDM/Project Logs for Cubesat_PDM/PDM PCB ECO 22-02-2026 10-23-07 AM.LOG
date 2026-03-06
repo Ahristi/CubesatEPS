@@ -1,0 +1,241 @@
+Change Component DesignItemId : Designator=C16 Old DesignItemId=CAPC0603 New DesignItemId=C0603C104K5RACTU
+Change Component DesignItemId : Designator=C20 Old DesignItemId=CAPC0603 New DesignItemId=C0603C104K5RACTU
+Change Component DesignItemId : Designator=C88A Old DesignItemId=CAPC0603 New DesignItemId=C0603C104K5RACTU
+Change Component DesignItemId : Designator=C88B Old DesignItemId=CAPC0603 New DesignItemId=C0603C104K5RACTU
+Change Component DesignItemId : Designator=C89A Old DesignItemId=CAPC0603 New DesignItemId=C0603C104K5RACTU
+Change Component DesignItemId : Designator=C89B Old DesignItemId=CAPC0603 New DesignItemId=C0603C104K5RACTU
+Change Component DesignItemId : Designator=C90 Old DesignItemId=CAPC0603 New DesignItemId=C0603C104K5RACTU
+Change Component DesignItemId : Designator=C19 Old DesignItemId=CAPC0805 New DesignItemId=CL21B475KOFNFNE
+Change Component DesignItemId : Designator=R19 Old DesignItemId=RC0603FR-0710KL New DesignItemId=RMCF0603FT10K0
+Change Component DesignItemId : Designator=R32 Old DesignItemId=RC0603FR-0710KL New DesignItemId=RMCF0603FT10K0
+Change Component DesignItemId : Designator=R46 Old DesignItemId=RC0603FR-0710KL New DesignItemId=RMCF0603FT10K0
+Change Component DesignItemId : Designator=R60 Old DesignItemId=RC0603FR-0710KL New DesignItemId=RMCF0603FT10K0
+Change Component DesignItemId : Designator=R83 Old DesignItemId=RC0603FR-0710KL New DesignItemId=RMCF0603FT10K0
+Change Component DesignItemId : Designator=R8 Old DesignItemId=RESC0805 New DesignItemId=RMCF0805FT10K0
+Change Component DesignItemId : Designator=R9 Old DesignItemId=RESC0805 New DesignItemId=RMCF0805FT10K0
+Change Component DesignItemId : Designator=R70A Old DesignItemId=RESC0805 New DesignItemId=RMCF0805FT10K0
+Change Component DesignItemId : Designator=R70B Old DesignItemId=RESC0805 New DesignItemId=RMCF0805FT10K0
+Change Component DesignItemId : Designator=R73A Old DesignItemId=RESC0805 New DesignItemId=RMCF0805FT10K0
+Change Component DesignItemId : Designator=R73B Old DesignItemId=RESC0805 New DesignItemId=RMCF0805FT10K0
+Change Component Comment : Designator=C19 Old Comment=CAPC0805 New Comment=CL21B475KOFNFNE
+Change Component Comment : Designator=C16 Old Comment=CL10B104KO8NNNC New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=C20 Old Comment=CL10B104KO8NNNC New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=C88A Old Comment=CL10B104KO8NNNC New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=C88B Old Comment=CL10B104KO8NNNC New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=C89A Old Comment=CL10B104KO8NNNC New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=C89B Old Comment=CL10B104KO8NNNC New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=C90 Old Comment=CL10B104KO8NNNC New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=R8 Old Comment=CRCW080510K0FKEA New Comment=RMCF0805FT10K0
+Change Component Comment : Designator=R9 Old Comment=CRCW080510K0FKEA New Comment=RMCF0805FT10K0
+Change Component Comment : Designator=R70A Old Comment=CRCW080510K0FKEA New Comment=RMCF0805FT10K0
+Change Component Comment : Designator=R70B Old Comment=CRCW080510K0FKEA New Comment=RMCF0805FT10K0
+Change Component Comment : Designator=R73A Old Comment=CRCW080510K0FKEA New Comment=RMCF0805FT10K0
+Change Component Comment : Designator=R73B Old Comment=CRCW080510K0FKEA New Comment=RMCF0805FT10K0
+Change Component Comment : Designator=R19 Old Comment=RC0603FR-0710KL New Comment=RMCF0603FT10K0
+Change Component Comment : Designator=R32 Old Comment=RC0603FR-0710KL New Comment=RMCF0603FT10K0
+Change Component Comment : Designator=R46 Old Comment=RC0603FR-0710KL New Comment=RMCF0603FT10K0
+Change Component Comment : Designator=R60 Old Comment=RC0603FR-0710KL New Comment=RMCF0603FT10K0
+Change Component Comment : Designator=R83 Old Comment=RC0603FR-0710KL New Comment=RMCF0603FT10K0
+Change Component Description : Designator=C4 Old Description= New Description=1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=C6 Old Description= New Description=1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=C16 Old Description=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=C20 Old Description=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=C88A Old Description=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=C88B Old Description=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=C89A Old Description=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=C89B Old Description=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=C90 Old Description=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New Description=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Description : Designator=R19 Old Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film New Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R32 Old Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film New Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R46 Old Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film New Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R60 Old Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film New Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R83 Old Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film New Description=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R8 Old Description=10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New Description=10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R9 Old Description=10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New Description=10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R70A Old Description=10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New Description=10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R70B Old Description=10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New Description=10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R73A Old Description=10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New Description=10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R73B Old Description=10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New Description=10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R48 Old Description=18 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New Description=12.4 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Component Description : Designator=R50 Old Description=18 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New Description=12.4 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change component parameters: Designator = "C19" ("C19"); Footprint = "CAPC0805X060"; UniqueID = "\HTDLOBSB\AEVAOYAC\EZYNQIPD" ("\HTDLOBSB\AEVAOYAC\EZYNQIPD")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-2970-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL21B475KOFNFNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "RESC0603"; UniqueID = "\HTDLOBSB\VYQWRKVG\ZFVNDBCL" ("\HTDLOBSB\VYQWRKVG\ZFVNDBCL")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R32" ("R32"); Footprint = "RESC0603"; UniqueID = "\HTDLOBSB\QIDVEOCH\FGYCDTIJ" ("\HTDLOBSB\QIDVEOCH\FGYCDTIJ")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R46" ("R46"); Footprint = "RESC0603"; UniqueID = "\HTDLOBSB\CWRZJORY\EOZIVRGB" ("\HTDLOBSB\CWRZJORY\EOZIVRGB")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R60" ("R60"); Footprint = "RESC0603"; UniqueID = "\HTDLOBSB\VEIWRKVN\AMJIMZBD" ("\HTDLOBSB\VEIWRKVN\AMJIMZBD")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R83" ("R83"); Footprint = "RESC0603"; UniqueID = "\HTDLOBSB\VYQWRKVG\GOUCSQXZ" ("\HTDLOBSB\VYQWRKVG\GOUCSQXZ")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C16" ("C16"); Footprint = "CAPC0603X040"; UniqueID = "\HTDLOBSB\AEVAOYAC\DVPGEAWN" ("\HTDLOBSB\AEVAOYAC\DVPGEAWN")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20" ("C20"); Footprint = "CAPC0603X040"; UniqueID = "\HTDLOBSB\AEVAOYAC\XTIIQAPX" ("\HTDLOBSB\AEVAOYAC\XTIIQAPX")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C88A" ("C88"); Footprint = "CAPC0603X040"; UniqueID = "\HTDLOBSB\MXTVUSBR\GWWUMLVU" ("\HTDLOBSB\MXTVUSBR\GWWUMLVU")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C88B" ("C88"); Footprint = "CAPC0603X040"; UniqueID = "\HTDLOBSB\ZQVUCRYE\GWWUMLVU" ("\HTDLOBSB\ZQVUCRYE\GWWUMLVU")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C89A" ("C89"); Footprint = "CAPC0603X040"; UniqueID = "\HTDLOBSB\MXTVUSBR\KXTWRAQJ" ("\HTDLOBSB\MXTVUSBR\KXTWRAQJ")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C89B" ("C89"); Footprint = "CAPC0603X040"; UniqueID = "\HTDLOBSB\ZQVUCRYE\KXTWRAQJ" ("\HTDLOBSB\ZQVUCRYE\KXTWRAQJ")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C90" ("C90"); Footprint = "CAPC0603X040"; UniqueID = "\HTDLOBSB\AEVAOYAC\JVFFLXVG\TMBQBNDI" ("\HTDLOBSB\AEVAOYAC\JVFFLXVG\TMBQBNDI")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "RESC0805"; UniqueID = "\HTDLOBSB\AEVAOYAC\YNRKHUVA" ("\HTDLOBSB\AEVAOYAC\YNRKHUVA")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9" ("R9"); Footprint = "RESC0805"; UniqueID = "\HTDLOBSB\AEVAOYAC\BUXJKYWU" ("\HTDLOBSB\AEVAOYAC\BUXJKYWU")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R70A" ("R70"); Footprint = "RESC0805"; UniqueID = "\HTDLOBSB\MXTVUSBR\XUZWMPMA" ("\HTDLOBSB\MXTVUSBR\XUZWMPMA")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R70B" ("R70"); Footprint = "RESC0805"; UniqueID = "\HTDLOBSB\ZQVUCRYE\XUZWMPMA" ("\HTDLOBSB\ZQVUCRYE\XUZWMPMA")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R73A" ("R73"); Footprint = "RESC0805"; UniqueID = "\HTDLOBSB\MXTVUSBR\CDFWPCBG" ("\HTDLOBSB\MXTVUSBR\CDFWPCBG")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R73B" ("R73"); Footprint = "RESC0805"; UniqueID = "\HTDLOBSB\ZQVUCRYE\CDFWPCBG" ("\HTDLOBSB\ZQVUCRYE\CDFWPCBG")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R100A(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FG100KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FG100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R100B(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FG100KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FG100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R100C(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FG100KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FG100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R100D(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FG100KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FG100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R100A-1
+Added Pin To Net: NetName=PANEL_EN0 Pin=R100A-2
+Added Pin To Net: NetName=GND Pin=R100B-1
+Added Pin To Net: NetName=PANEL_EN1 Pin=R100B-2
+Added Pin To Net: NetName=GND Pin=R100C-1
+Added Pin To Net: NetName=PANEL_EN2 Pin=R100C-2
+Added Pin To Net: NetName=GND Pin=R100D-1
+Added Pin To Net: NetName=PANEL_EN3 Pin=R100D-2
+Added Member To Class: ClassName=Ideal_DiodeA Member=Component R100A (R100) RMCF0805FG100K
+Added Member To Class: ClassName=Ideal_DiodeB Member=Component R100B (R100) RMCF0805FG100K
+Added Member To Class: ClassName=Ideal_DiodeC Member=Component R100C (R100) RMCF0805FG100K
+Added Member To Class: ClassName=Ideal_DiodeD Member=Component R100D (R100) RMCF0805FG100K

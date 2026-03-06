@@ -1,0 +1,14 @@
+Removed Parameter Manufacturer Part Number:CRCW080510K0FKEA from Part R8
+Removed Parameter Manufacturer Part Number:CRCW080510K0FKEA from Part R9
+Change Component Parameter Comment in R8 Old= New=RMCF0805FT10K0
+Change Component Parameter Comment in R9 Old= New=RMCF0805FT10K0
+Change Component Parameter Description in R8 Old=10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New=10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Component Parameter Description in R9 Old=10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film New=10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+Change Value of Parameter Distributor Part Number in Part R8 Old=541-10.0KCCT-ND New=RMCF0805FT10K0CT-ND
+Change Value of Parameter Distributor Part Number in Part R9 Old=541-10.0KCCT-ND New=RMCF0805FT10K0CT-ND
+Change Component Parameter Library Reference in R8 Old=RESC0805 New=RMCF0805FT10K0
+Change Component Parameter Library Reference in R9 Old=RESC0805 New=RMCF0805FT10K0
+Change Value of Parameter Resistance in Part R9 Old=10k New=10K
+Change Value of Parameter Resistance in Part R8 Old=10k New=10K
+Replace Part R8 RMCF0805FT10K0 in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\Controller.SchDoc with RMCF0805FT10K0 from Ahristi_Library.IntLib
+Replace Part R9 RMCF0805FT10K0 in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\Controller.SchDoc with RMCF0805FT10K0 from Ahristi_Library.IntLib

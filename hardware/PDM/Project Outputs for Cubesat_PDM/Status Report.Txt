@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Cubesat_PDM.PrjPcb]
+   Generated File[PDM.TXT]
+   Generated File[PDM.LDP]
+   Generated File[PDM.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:37:33 AM On 22/02/2026

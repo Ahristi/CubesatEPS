@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\PDM.PcbDoc
-Date     : 11/02/2026
-Time     : 6:04:06 PM
+Date     : 24/02/2026
+Time     : 7:30:25 PM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
 Rule Violations :0
@@ -66,4 +66,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

@@ -1,0 +1,4 @@
+Removed Parameter Manufacturer Part Number:CL21B475KOFNFNE from Part C19
+Change Component Parameter Comment in C19 Old= New=CL21B475KOFNFNE
+Change Component Parameter Library Reference in C19 Old=CAPC0805 New=CL21B475KOFNFNE
+Replace Part C19 CL21B475KOFNFNE in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\Controller.SchDoc with CL21B475KOFNFNE from Ahristi_Library.IntLib

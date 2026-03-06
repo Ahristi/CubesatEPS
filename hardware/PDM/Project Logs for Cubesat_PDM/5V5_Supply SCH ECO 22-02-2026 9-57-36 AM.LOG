@@ -1,0 +1,6 @@
+Removed Parameter Manufacturer Part Number:RC0603FR-0710KL from Part R32
+Change Component Parameter Comment in R32 Old= New=RMCF0603FT10K0
+Change Component Parameter Description in R32 Old=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film New=10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Value of Parameter Distributor Part Number in Part R32 Old=311-10.0KHRCT-ND New=RMCF0603FT10K0CT-ND
+Change Component Parameter Library Reference in R32 Old=RC0603FR-0710KL New=RMCF0603FT10K0
+Replace Part R32 RMCF0603FT10K0 in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\5V5_Supply.SchDoc with RMCF0603FT10K0 from Ahristi_Library.IntLib

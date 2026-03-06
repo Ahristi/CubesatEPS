@@ -1,0 +1,14 @@
+Change Component Parameter Comment in C32 Old= New=GRM21BZ71A226ME15L
+Change Component Parameter Comment in C33 Old= New=GRM21BZ71A226ME15L
+Change Component Parameter Description in C32 Old=22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric) New=22 µF ±20% 10V Ceramic Capacitor X7R 0805 (2012 Metric)
+Change Component Parameter Description in C33 Old=22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric) New=22 µF ±20% 10V Ceramic Capacitor X7R 0805 (2012 Metric)
+Change Value of Parameter Distributor Part Number in Part C32 Old=1276-CL21A226MAYNNNECT-ND New=490-GRM21BZ71A226ME15LCT-ND
+Change Value of Parameter Distributor Part Number in Part C33 Old=1276-CL21A226MAYNNNECT-ND New=490-GRM21BZ71A226ME15LCT-ND
+Change Component Parameter Library Reference in C32 Old=CL21A226MAYNNNE New=GRM21BZ71A226ME15L
+Change Component Parameter Library Reference in C33 Old=CL21A226MAYNNNE New=GRM21BZ71A226ME15L
+Change Value of Parameter Part Number in Part C32 Old=CL21A226MAYNNNE New=GRM21BZ71A226ME15L
+Change Value of Parameter Part Number in Part C33 Old=CL21A226MAYNNNE New=GRM21BZ71A226ME15L
+Change Value of Parameter Voltage Rating in Part C32 Old=25V New=10V
+Change Value of Parameter Voltage Rating in Part C33 Old=25V New=10V
+Replace Part C32 GRM21BZ71A226ME15L in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\3V3_Supply.SchDoc with GRM21BZ71A226ME15L from Ahristi_Library.IntLib
+Replace Part C33 GRM21BZ71A226ME15L in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\3V3_Supply.SchDoc with GRM21BZ71A226ME15L from Ahristi_Library.IntLib

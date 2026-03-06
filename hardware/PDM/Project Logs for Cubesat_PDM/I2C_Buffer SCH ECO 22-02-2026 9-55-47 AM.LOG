@@ -1,0 +1,9 @@
+Removed Parameter Manufacturer Part Number:CL10B104KO8NNNC from Part C90
+Change Component Parameter Comment in C90 Old= New=CC0603KRX7R9BB104
+Change Component Parameter Description in C90 Old=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New=100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Change Value of Parameter Distributor Part number in Part C90 Old=1276-1005-1-ND New=C14663
+Change Value of Parameter Distributor in Part C90 Old=Digikey New=JLCPCB
+Change Component Parameter Library Reference in C90 Old=CAPC0603 New=CC0603KRX7R9BB104
+Change Value of Parameter Voltage Rating in Part C90 Old=16V New=50V
+Added Parameter Dielectric=X7R to Part C90
+Replace Part C90 CC0603KRX7R9BB104 in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\I2C_Buffer.SchDoc with CC0603KRX7R9BB104 from Ahristi_Library.IntLib

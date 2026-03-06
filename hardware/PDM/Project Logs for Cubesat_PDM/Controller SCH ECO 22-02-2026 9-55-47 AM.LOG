@@ -1,0 +1,18 @@
+Removed Parameter Manufacturer Part Number:CL10B104KO8NNNC from Part C16
+Removed Parameter Manufacturer Part Number:CL10B104KO8NNNC from Part C20
+Change Component Parameter Comment in C16 Old= New=CC0603KRX7R9BB104
+Change Component Parameter Comment in C20 Old= New=CC0603KRX7R9BB104
+Change Component Parameter Description in C20 Old=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New=100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Change Component Parameter Description in C16 Old=0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric) New=100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+Change Value of Parameter Distributor Part number in Part C20 Old=1276-1005-1-ND New=C14663
+Change Value of Parameter Distributor Part number in Part C16 Old=1276-1005-1-ND New=C14663
+Change Value of Parameter Distributor in Part C20 Old=Digikey New=JLCPCB
+Change Value of Parameter Distributor in Part C16 Old=Digikey New=JLCPCB
+Change Component Parameter Library Reference in C20 Old=CAPC0603 New=CC0603KRX7R9BB104
+Change Component Parameter Library Reference in C16 Old=CAPC0603 New=CC0603KRX7R9BB104
+Change Value of Parameter Voltage Rating in Part C20 Old=16V New=50V
+Change Value of Parameter Voltage Rating in Part C16 Old=16V New=50V
+Added Parameter Dielectric=X7R to Part C16
+Added Parameter Dielectric=X7R to Part C20
+Replace Part C16 CC0603KRX7R9BB104 in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\Controller.SchDoc with CC0603KRX7R9BB104 from Ahristi_Library.IntLib
+Replace Part C20 CC0603KRX7R9BB104 in C:\Users\Tom\Documents\CubesatEPS\hardware\PDM\Controller.SchDoc with CC0603KRX7R9BB104 from Ahristi_Library.IntLib

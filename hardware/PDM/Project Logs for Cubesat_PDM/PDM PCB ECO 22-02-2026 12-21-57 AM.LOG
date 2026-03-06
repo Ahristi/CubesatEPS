@@ -1,0 +1,30 @@
+Change Component Comment : Designator=R10 Old Comment= New Comment=RMCF0603FT1K20
+Change Component Comment : Designator=R11 Old Comment= New Comment=RMCF0603FT1K20
+Change component parameters: Designator = "FB1" ("FB1"); Footprint = "74279220321"; UniqueID = "\HTDLOBSB\AEVAOYAC\TNNUHASY" ("\HTDLOBSB\AEVAOYAC\TNNUHASY")
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "2.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DCR"; Value = "50mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "732-6125-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance"; Value = "320 Ohms @ 100 MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "74279220321"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U29" ("U29"); Footprint = "VSSOP-8"; UniqueID = "\HTDLOBSB\AEVAOYAC\JVFFLXVG\GIWHUFCM" ("\HTDLOBSB\AEVAOYAC\JVFFLXVG\GIWHUFCM")
+Change component parameters (AddParameter): Name = "Delay Time"; Value = "70ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "296-TCA9511ADGKRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "TCA9511ADGKR"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "RESC0603"; UniqueID = "\HTDLOBSB\AEVAOYAC\XSKBSBKC" ("\HTDLOBSB\AEVAOYAC\XSKBSBKC")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT1K20CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT1K20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "1K2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11" ("R11"); Footprint = "RESC0603"; UniqueID = "\HTDLOBSB\AEVAOYAC\RIBCUXIM" ("\HTDLOBSB\AEVAOYAC\RIBCUXIM")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT1K20CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT1K20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "1K2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"

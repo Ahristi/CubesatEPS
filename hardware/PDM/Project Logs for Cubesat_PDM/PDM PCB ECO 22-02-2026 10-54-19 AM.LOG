@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=+3V3 Pin=C31-2
+Change Component Footprint: Designator=C31 Old Footprint=CAPC1210X090 New Footprint=2312 Tantalum
+Change Component Comment : Designator=C31 Old Comment=CL32B106KBJNNNE New Comment=TPSC107K010R0100
+Change component parameters: Designator = "C31" ("C31"); Footprint = "CAPC1210X090"; UniqueID = "\HTDLOBSB\VYQWRKVG\CCCPNQJD" ("\HTDLOBSB\VYQWRKVG\CCCPNQJD")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "478-1765-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR"; Value = "100mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "TPSC107K010R0100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C31-2

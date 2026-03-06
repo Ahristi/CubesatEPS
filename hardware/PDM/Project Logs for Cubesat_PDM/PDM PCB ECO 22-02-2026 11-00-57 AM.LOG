@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=C48 Old Footprint=CAPC0805X060 New Footprint=CAPC1210X090
+Change Component Footprint: Designator=C49 Old Footprint=CAPC0805X060 New Footprint=CAPC1210X090
+Change Component Comment : Designator=C48 Old Comment=CL21A226MAYNNNE New Comment=CL32B226KAJNNNE
+Change Component Comment : Designator=C49 Old Comment=CL21A226MAYNNNE New Comment=CL32B226KAJNNNE
+Change component parameters: Designator = "C48" ("C48"); Footprint = "CAPC0805X060"; UniqueID = "\HTDLOBSB\QIDVEOCH\IWNFUWID" ("\HTDLOBSB\QIDVEOCH\IWNFUWID")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-3392-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL32B226KAJNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C49" ("C49"); Footprint = "CAPC0805X060"; UniqueID = "\HTDLOBSB\QIDVEOCH\ZUJWHKGA" ("\HTDLOBSB\QIDVEOCH\ZUJWHKGA")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-3392-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL32B226KAJNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
