@@ -1,0 +1,7 @@
+../Core/Src/freertos.c:115:6:MX_FREERTOS_Init	1
+../Core/Src/freertos.c:172:6:StartDefaultTask	1
+../Core/Src/freertos.c:190:6:DistributionTask	7
+../Core/Src/freertos.c:250:6:telemetry	1
+../Core/Src/freertos.c:268:6:heaterControl	1
+../Core/Src/freertos.c:286:6:BMScontrol	1
+../Core/Src/freertos.c:305:6:commandTaskHandler	3
