@@ -1,0 +1,10 @@
+14:21:39 **** Incremental Build of configuration Debug for project PDM ****
+make -j8 all 
+arm-none-eabi-size  PDM.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5928	     12	   1572	   7512	   1d58	PDM.elf
+Finished building: default.size.stdout
+ 
+
+14:21:39 Build Finished. 0 errors, 0 warnings. (took 204ms)
+
