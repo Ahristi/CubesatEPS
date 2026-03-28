@@ -1,0 +1,4 @@
+../Core/Src/analog.c:14:6:ANALOG_Init	144	static
+../Core/Src/analog.c:27:6:ANALOG_startScan	8	static
+../Core/Src/analog.c:34:6:ANALOG_process	16	static
+../Core/Src/analog.c:46:7:ANALOG_convertTemp	32	static

@@ -49,7 +49,7 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOD_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOE, BMS_nCE_Pin|BMS_nQON_Pin|_12V_CH2_EN_Pin|_6V_CH1_EN_Pin
@@ -65,12 +65,12 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOD, _3V3_CH2_EN_Pin|_3V3_CH1_EN_Pin|CAN_SHDN_Pin|CAN_STB_Pin
                           |_5V_CONV_EN_Pin|PANEL_EN2_Pin|PANEL_EN1_Pin|PANEL_EN0_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : LED2_Pin */
-  GPIO_InitStruct.Pin = LED2_Pin;
+  /*Configure GPIO pin : LED0_Pin */
+  GPIO_InitStruct.Pin = LED0_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LED2_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(LED0_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : BMS_nCE_Pin BMS_nQON_Pin _12V_CH2_EN_Pin _6V_CH1_EN_Pin
                            _5V_CH1_EN_Pin _12V_CH1_EN_Pin */

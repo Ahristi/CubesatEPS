@@ -34,7 +34,9 @@ Core/Src/telemetry.o: ../Core/Src/telemetry.c ../Core/Inc/telemetry.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
- ../Core/Inc/eps_config.h ../Core/Inc/powerDistribution.h \
+ ../Core/Inc/eps_config.h ../Core/Inc/analog.h ../Core/Inc/tim.h \
+ ../Core/Inc/adc.h ../Core/Inc/dma.h ../Core/Inc/can.h \
+ ../Core/Inc/powerDistribution.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
@@ -84,6 +86,11 @@ Core/Src/telemetry.o: ../Core/Src/telemetry.c ../Core/Inc/telemetry.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 ../Core/Inc/eps_config.h:
+../Core/Inc/analog.h:
+../Core/Inc/tim.h:
+../Core/Inc/adc.h:
+../Core/Inc/dma.h:
+../Core/Inc/can.h:
 ../Core/Inc/powerDistribution.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:

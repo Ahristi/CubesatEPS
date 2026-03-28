@@ -17,6 +17,16 @@ uint8_t rx_ready = 0;
 uint8_t rx_msg_len = 0;
 
 
+
+TELEMETRY_handlerTypedef htelem;
+
+void TELEMETRY_Init(CAN_HandleTypeDef*  hcan, UART_HandleTypeDef* huart)
+{
+	return;
+}
+
+
+
 void uartCMDHandler(uint8_t *msg, uint16_t len)
 {
     EPSCommand_t cmdMsg = {0};
@@ -54,6 +64,28 @@ void TELEMETRY_sendStartupMessage(void)
 
     HAL_UART_Transmit(&huart4, (uint8_t*)msg, len, HAL_MAX_DELAY);
 }
+
+
+
+
+
+
+void TELEMETRY_sendCANMessage(uint32_t stdID, const uint8_t *frame_data, uint8_t dlc)
+{
+    CAN_TxHeaderTypeDef txHeader;
+    uint32_t txMailbox;
+    txHeader.StdId = stdID;
+    txHeader.ExtId = 0;
+    txHeader.IDE = CAN_ID_STD;
+    txHeader.RTR = CAN_RTR_DATA;
+    txHeader.DLC = dlc;
+    txHeader.TransmitGlobalTime = DISABLE;
+    HAL_CAN_AddTxMessage(htelem.hcan, &txHeader, (uint8_t *)frame_data, &txMailbox);
+}
+
+
+
+
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {

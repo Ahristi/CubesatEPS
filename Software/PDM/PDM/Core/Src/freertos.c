@@ -28,6 +28,8 @@
 #include "powerDistribution.h"
 #include "usart.h"
 #include "telemetry.h"
+#include "analog.h"
+#include "gpio.h"
 #include <string.h>
 /* USER CODE END Includes */
 
@@ -92,6 +94,13 @@ const osThreadAttr_t commandTask_attributes = {
   .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityHigh2,
 };
+/* Definitions for TASK_ANALOG */
+osThreadId_t TASK_ANALOGHandle;
+const osThreadAttr_t TASK_ANALOG_attributes = {
+  .name = "TASK_ANALOG",
+  .stack_size = 512 * 4,
+  .priority = (osPriority_t) osPriorityLow,
+};
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -104,6 +113,7 @@ void telemetry(void *argument);
 void heaterControl(void *argument);
 void BMScontrol(void *argument);
 void commandTaskHandler(void *argument);
+void analogTask(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -152,6 +162,9 @@ void MX_FREERTOS_Init(void) {
   /* creation of commandTask */
   commandTaskHandle = osThreadNew(commandTaskHandler, NULL, &commandTask_attributes);
 
+  /* creation of TASK_ANALOG */
+  TASK_ANALOGHandle = osThreadNew(analogTask, NULL, &TASK_ANALOG_attributes);
+
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
@@ -175,7 +188,17 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+
+	//LED heartbeat
+    osDelay(1000);
+    HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_RESET);
+    osDelay(100);
+    HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_SET);
+    osDelay(100);
+    HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_RESET);
+    osDelay(100);
+    HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_SET);
+
   }
   /* USER CODE END StartDefaultTask */
 }
@@ -253,7 +276,10 @@ void telemetry(void *argument)
   /* Infinite loop */
   for(;;)
   {
-	  osDelay(100);
+
+
+
+	  osDelay(1000);
   }
   /* USER CODE END telemetry */
 }
@@ -271,6 +297,8 @@ void heaterControl(void *argument)
   /* Infinite loop */
   for(;;)
   {
+
+	  //test
     osDelay(1);
   }
   /* USER CODE END heaterControl */
@@ -325,8 +353,36 @@ void commandTaskHandler(void *argument)
   /* USER CODE END commandTaskHandler */
 }
 
+/* USER CODE BEGIN Header_analogTask */
+/**
+* @brief Function implementing the TASK_ANALOG thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_analogTask */
+void analogTask(void *argument)
+{
+  /* USER CODE BEGIN analogTask */
+  /* Infinite loop */
+  for(;;)
+  {
+	  ANALOG_startScan();
+	  osThreadFlagsWait(0x01, osFlagsWaitAny, osWaitForever);
+	  ANALOG_process();
+	  osDelay(10);
+  }
+  /* USER CODE END analogTask */
+}
+
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
+{
+    if (hadc->Instance == ADC1)
+    {
+    	osThreadFlagsSet(TASK_ANALOGHandle, 0x01);
+    }
+}
 
 /* USER CODE END Application */
 

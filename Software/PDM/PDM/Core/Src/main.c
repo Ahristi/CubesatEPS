@@ -31,6 +31,7 @@
 /* USER CODE BEGIN Includes */
 #include "powerDistribution.h"
 #include "telemetry.h"
+#include "analog.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -104,13 +105,15 @@ int main(void)
   MX_UART4_Init();
   /* USER CODE BEGIN 2 */
   DISTRIBUTION_Init();
+  ANALOG_Init(&htim2, &hadc1);
   HAL_UART_Receive_IT(&huart4, &rx_byte, 1);
+
   /* USER CODE END 2 */
 
   /* Init scheduler */
   osKernelInitialize();  /* Call init function for freertos objects (in cmsis_os2.c) */
   MX_FREERTOS_Init();
-  TELEMETRY_sendStartupMessage();
+
   /* Start scheduler */
   osKernelStart();
 
