@@ -72,6 +72,7 @@ extern uint8_t rx_msg_len;
 
 void TELEMETRY_sendStartupMessage(void);
 void TELEMETRY_Init(CAN_HandleTypeDef*  hcan, UART_HandleTypeDef* huart);
-void TELEMETRY_sendCANMessage(uint32_t stdID, const uint8_t *frame_data, uint8_t dlc);
+void TELEMETRY_sendCANMessage(uint32_t stdID, uint8_t *frame_data, uint8_t dlc);
+void TELEMETRY_testCANLoopback(void);
 void uartCMDHandler(uint8_t *msg, uint16_t len);
 #endif /* INC_TELEMETRY_H_ */

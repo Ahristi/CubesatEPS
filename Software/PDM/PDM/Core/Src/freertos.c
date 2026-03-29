@@ -59,45 +59,45 @@ const osThreadAttr_t defaultTask_attributes = {
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
-/* Definitions for distrTask */
-osThreadId_t distrTaskHandle;
-const osThreadAttr_t distrTask_attributes = {
-  .name = "distrTask",
+/* Definitions for distrHandle */
+osThreadId_t distrHandleHandle;
+const osThreadAttr_t distrHandle_attributes = {
+  .name = "distrHandle",
   .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
-/* Definitions for telemetryTask */
-osThreadId_t telemetryTaskHandle;
-const osThreadAttr_t telemetryTask_attributes = {
-  .name = "telemetryTask",
+/* Definitions for telemetryHandle */
+osThreadId_t telemetryHandleHandle;
+const osThreadAttr_t telemetryHandle_attributes = {
+  .name = "telemetryHandle",
   .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityHigh,
 };
-/* Definitions for heaterControlTa */
-osThreadId_t heaterControlTaHandle;
-const osThreadAttr_t heaterControlTa_attributes = {
-  .name = "heaterControlTa",
+/* Definitions for heaterHandle */
+osThreadId_t heaterHandleHandle;
+const osThreadAttr_t heaterHandle_attributes = {
+  .name = "heaterHandle",
   .stack_size = 256 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
-/* Definitions for BMScontrolTask */
-osThreadId_t BMScontrolTaskHandle;
-const osThreadAttr_t BMScontrolTask_attributes = {
-  .name = "BMScontrolTask",
+/* Definitions for BMSHandle */
+osThreadId_t BMSHandleHandle;
+const osThreadAttr_t BMSHandle_attributes = {
+  .name = "BMSHandle",
   .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityNormal1,
 };
-/* Definitions for commandTask */
-osThreadId_t commandTaskHandle;
-const osThreadAttr_t commandTask_attributes = {
-  .name = "commandTask",
+/* Definitions for commandHandle */
+osThreadId_t commandHandleHandle;
+const osThreadAttr_t commandHandle_attributes = {
+  .name = "commandHandle",
   .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityHigh2,
 };
-/* Definitions for TASK_ANALOG */
-osThreadId_t TASK_ANALOGHandle;
-const osThreadAttr_t TASK_ANALOG_attributes = {
-  .name = "TASK_ANALOG",
+/* Definitions for analogHandle */
+osThreadId_t analogHandleHandle;
+const osThreadAttr_t analogHandle_attributes = {
+  .name = "analogHandle",
   .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
@@ -108,11 +108,11 @@ const osThreadAttr_t TASK_ANALOG_attributes = {
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void *argument);
-void DistributionTask(void *argument);
-void telemetry(void *argument);
-void heaterControl(void *argument);
-void BMScontrol(void *argument);
-void commandTaskHandler(void *argument);
+void distributionTask(void *argument);
+void telemetryTask(void *argument);
+void heaterTask(void *argument);
+void BMSTask(void *argument);
+void commandTask(void *argument);
 void analogTask(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
@@ -147,23 +147,23 @@ void MX_FREERTOS_Init(void) {
   /* creation of defaultTask */
   defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
-  /* creation of distrTask */
-  distrTaskHandle = osThreadNew(DistributionTask, NULL, &distrTask_attributes);
+  /* creation of distrHandle */
+  distrHandleHandle = osThreadNew(distributionTask, NULL, &distrHandle_attributes);
 
-  /* creation of telemetryTask */
-  telemetryTaskHandle = osThreadNew(telemetry, NULL, &telemetryTask_attributes);
+  /* creation of telemetryHandle */
+  telemetryHandleHandle = osThreadNew(telemetryTask, NULL, &telemetryHandle_attributes);
 
-  /* creation of heaterControlTa */
-  heaterControlTaHandle = osThreadNew(heaterControl, NULL, &heaterControlTa_attributes);
+  /* creation of heaterHandle */
+  heaterHandleHandle = osThreadNew(heaterTask, NULL, &heaterHandle_attributes);
 
-  /* creation of BMScontrolTask */
-  BMScontrolTaskHandle = osThreadNew(BMScontrol, NULL, &BMScontrolTask_attributes);
+  /* creation of BMSHandle */
+  BMSHandleHandle = osThreadNew(BMSTask, NULL, &BMSHandle_attributes);
 
-  /* creation of commandTask */
-  commandTaskHandle = osThreadNew(commandTaskHandler, NULL, &commandTask_attributes);
+  /* creation of commandHandle */
+  commandHandleHandle = osThreadNew(commandTask, NULL, &commandHandle_attributes);
 
-  /* creation of TASK_ANALOG */
-  TASK_ANALOGHandle = osThreadNew(analogTask, NULL, &TASK_ANALOG_attributes);
+  /* creation of analogHandle */
+  analogHandleHandle = osThreadNew(analogTask, NULL, &analogHandle_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -203,17 +203,17 @@ void StartDefaultTask(void *argument)
   /* USER CODE END StartDefaultTask */
 }
 
-/* USER CODE BEGIN Header_DistributionTask */
+/* USER CODE BEGIN Header_distributionTask */
 /**
-* @brief Function implementing the distrTask thread.
+* @brief Function implementing the distrHandle thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_DistributionTask */
-void DistributionTask(void *argument)
+/* USER CODE END Header_distributionTask */
+void distributionTask(void *argument)
 {
-  /* USER CODE BEGIN DistributionTask */
-  /* Infinite loop */
+  /* USER CODE BEGIN distributionTask */
+	/* Infinite loop */
 	EPSCommand_t distributionCMD;
 	for(;;)
 	{
@@ -258,99 +258,95 @@ void DistributionTask(void *argument)
 				hdist.state = DISTRIBUTION_STARTUP;
 			}
 		}
-  }
-
-  /* USER CODE END DistributionTask */
+	  }
+  /* USER CODE END distributionTask */
 }
 
-/* USER CODE BEGIN Header_telemetry */
+/* USER CODE BEGIN Header_telemetryTask */
 /**
-* @brief Function implementing the telemetryTask thread.
+* @brief Function implementing the telemetryHandle thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_telemetry */
-void telemetry(void *argument)
+/* USER CODE END Header_telemetryTask */
+void telemetryTask(void *argument)
 {
-  /* USER CODE BEGIN telemetry */
+  /* USER CODE BEGIN telemetryTask */
   /* Infinite loop */
-  for(;;)
-  {
-
-
-
-	  osDelay(1000);
-  }
-  /* USER CODE END telemetry */
+	for(;;)
+	{
+		uint8_t frame_data[CAN_FRAME_LENGTH];
+		//TELEMETRY_sendCANMessage(ID_3V3_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
+		TELEMETRY_testCANLoopback();
+		osDelay(1000);
+	}
+  /* USER CODE END telemetryTask */
 }
 
-/* USER CODE BEGIN Header_heaterControl */
+/* USER CODE BEGIN Header_heaterTask */
 /**
-* @brief Function implementing the heaterControlTa thread.
+* @brief Function implementing the heaterHandle thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_heaterControl */
-void heaterControl(void *argument)
+/* USER CODE END Header_heaterTask */
+void heaterTask(void *argument)
 {
-  /* USER CODE BEGIN heaterControl */
+  /* USER CODE BEGIN heaterTask */
   /* Infinite loop */
   for(;;)
   {
-
-	  //test
     osDelay(1);
   }
-  /* USER CODE END heaterControl */
+  /* USER CODE END heaterTask */
 }
 
-/* USER CODE BEGIN Header_BMScontrol */
+/* USER CODE BEGIN Header_BMSTask */
 /**
-* @brief Function implementing the BMScontrolTask thread.
+* @brief Function implementing the BMSHandle thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_BMScontrol */
-void BMScontrol(void *argument)
+/* USER CODE END Header_BMSTask */
+void BMSTask(void *argument)
 {
-  /* USER CODE BEGIN BMScontrol */
+  /* USER CODE BEGIN BMSTask */
   /* Infinite loop */
   for(;;)
   {
-
     osDelay(1);
   }
-  /* USER CODE END BMScontrol */
+  /* USER CODE END BMSTask */
 }
 
-/* USER CODE BEGIN Header_commandTaskHandler */
+/* USER CODE BEGIN Header_commandTask */
 /**
-* @brief Function implementing the commandTask thread.
+* @brief Function implementing the commandHandle thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_commandTaskHandler */
-void commandTaskHandler(void *argument)
+/* USER CODE END Header_commandTask */
+void commandTask(void *argument)
 {
-  /* USER CODE BEGIN commandTaskHandler */
+  /* USER CODE BEGIN commandTask */
   /* Infinite loop */
 	uint8_t local_rx_line[UART_BUFFER_LENGTH];
-    uint16_t local_len;
-    for (;;)
-    {
-        if (rx_ready)
-        {
-            taskENTER_CRITICAL();
-            memcpy(local_rx_line, rx_line, UART_BUFFER_LENGTH);
-            local_len = rx_msg_len;
-            rx_ready = 0;
-            taskEXIT_CRITICAL();
-            uartCMDHandler(local_rx_line, local_len);
-        }
+	uint16_t local_len;
+	for (;;)
+	{
+		if (rx_ready)
+		{
+			taskENTER_CRITICAL();
+			memcpy(local_rx_line, rx_line, UART_BUFFER_LENGTH);
+			local_len = rx_msg_len;
+			rx_ready = 0;
+			taskEXIT_CRITICAL();
+			uartCMDHandler(local_rx_line, local_len);
+		}
 
-        osDelay(100);
+		osDelay(100);
     }
-  /* USER CODE END commandTaskHandler */
+  /* USER CODE END commandTask */
 }
 
 /* USER CODE BEGIN Header_analogTask */
@@ -380,7 +376,7 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 {
     if (hadc->Instance == ADC1)
     {
-    	osThreadFlagsSet(TASK_ANALOGHandle, 0x01);
+    	osThreadFlagsSet(analogHandleHandle, 0x01);
     }
 }
 

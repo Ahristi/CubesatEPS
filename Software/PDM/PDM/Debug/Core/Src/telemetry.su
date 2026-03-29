@@ -1,5 +1,6 @@
 ../Core/Src/telemetry.c:23:6:TELEMETRY_Init	16	static
-../Core/Src/telemetry.c:30:6:uartCMDHandler	24	static
-../Core/Src/telemetry.c:55:6:TELEMETRY_sendStartupMessage	88	static
-../Core/Src/telemetry.c:73:6:TELEMETRY_sendCANMessage	56	static
-../Core/Src/telemetry.c:90:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/telemetry.c:50:6:uartCMDHandler	24	static
+../Core/Src/telemetry.c:75:6:TELEMETRY_sendStartupMessage	88	static
+../Core/Src/telemetry.c:94:6:TELEMETRY_sendCANMessage	56	static
+../Core/Src/telemetry.c:117:6:TELEMETRY_testCANLoopback	8	static
+../Core/Src/telemetry.c:149:6:HAL_UART_RxCpltCallback	16	static

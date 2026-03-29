@@ -1,9 +1,9 @@
 ../Core/Src/freertos.c:125:6:MX_FREERTOS_Init	1
 ../Core/Src/freertos.c:185:6:StartDefaultTask	1
-../Core/Src/freertos.c:213:6:DistributionTask	7
-../Core/Src/freertos.c:273:6:telemetry	1
-../Core/Src/freertos.c:294:6:heaterControl	1
-../Core/Src/freertos.c:312:6:BMScontrol	1
-../Core/Src/freertos.c:331:6:commandTaskHandler	3
-../Core/Src/freertos.c:361:6:analogTask	1
-../Core/Src/freertos.c:377:6:HAL_ADC_ConvCpltCallback	2
+../Core/Src/freertos.c:213:6:distributionTask	7
+../Core/Src/freertos.c:272:6:telemetryTask	1
+../Core/Src/freertos.c:293:6:heaterTask	1
+../Core/Src/freertos.c:311:6:BMSTask	1
+../Core/Src/freertos.c:329:6:commandTask	3
+../Core/Src/freertos.c:359:6:analogTask	1
+../Core/Src/freertos.c:375:6:HAL_ADC_ConvCpltCallback	2

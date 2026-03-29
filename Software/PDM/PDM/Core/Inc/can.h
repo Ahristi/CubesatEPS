@@ -35,7 +35,10 @@ extern "C" {
 extern CAN_HandleTypeDef hcan2;
 
 /* USER CODE BEGIN Private defines */
-
+extern CAN_RxHeaderTypeDef   RxHeader;  /* Header containing the information of the received frame */
+extern uint8_t               TxData[8];  /* Buffer of the data to send */
+extern uint8_t               RxData[8]; /* Buffer of the received data */
+extern uint32_t              TxMailbox;  /* The number of the mail box that transmitted the Tx message*/
 /* USER CODE END Private defines */
 
 void MX_CAN2_Init(void);
