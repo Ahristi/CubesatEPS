@@ -285,6 +285,7 @@ void telemetryTask(void *argument)
 		TELEMETRY_send5VTelem();
 		TELEMETRY_send6VTelem();
 		TELEMETRY_send12VTelem();
+		TELEMETRY_sendSysTelem();
 		TELEMETRY_printf("Sent CAN telemetry\r\n");
 		osDelay(1000);
 	}

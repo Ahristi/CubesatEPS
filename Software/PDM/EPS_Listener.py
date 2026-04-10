@@ -27,6 +27,17 @@ CONVERTER_BUTTONS = [
     ("6V Converter",  0x02),
     ("12V Converter", 0x04),
 ]
+
+EFUSE_STATUS_BITS = [
+    ("3V3 CH2",  0x01),
+    ("5V CH1",   0x02),
+    ("5V CH2",   0x04),
+    ("6V CH1",   0x08),
+    ("6V CH2",   0x00),  # unused
+    ("12V CH1",  0x10),
+    ("12V CH2",  0x20),
+]
+
 @dataclass
 class RegulatorTelemetry:
     name: str
@@ -40,6 +51,13 @@ class BMSTelemetry:
     name: str
     battery_voltage: float
     battery_temp: float
+
+@dataclass
+class SystemTelemetry:
+    name: str
+    efuse_states_mask: int
+    mcu_temp: float
+    efuse_faults_mask: int
 
 
 def load_config(path: str) -> dict:
@@ -89,7 +107,22 @@ def decode_bms_telem(msg: can.Message, msg_cfg: dict) -> BMSTelemetry:
         battery_voltage=raw_battery_voltage * signals["battery_voltage"]["scale"],
         battery_temp=raw_battery_temp * signals["battery_temp"]["scale"],
     )
+def decode_sys_telem(msg: can.Message, msg_cfg: dict) -> SystemTelemetry:
+    signals = msg_cfg["signals"]
 
+    efuse_states_mask = read_u8(msg.data, signals["efuse_states_mask"]["offset"])
+
+    raw_mcu_temp = read_u8(msg.data, signals["MCU_temp"]["offset"])
+    mcu_temp = raw_mcu_temp * signals["MCU_temp"].get("scale", 1.0)
+
+    efuse_faults_mask = read_u8(msg.data, signals["efuse_faults_mask"]["offset"])
+
+    return SystemTelemetry(
+        name=msg_cfg["name"],
+        efuse_states_mask=efuse_states_mask,
+        mcu_temp=mcu_temp,
+        efuse_faults_mask=efuse_faults_mask,
+    )
 
 def send_efuse_command(bus: can.Bus, enable_mask: int):
     msg = can.Message(
@@ -116,7 +149,7 @@ class TelemetryUI:
         self.converter_send_callback = converter_send_callback
 
         self.root.title("EPS Telemetry Monitor")
-        self.root.geometry("550x450")
+        self.root.geometry("550x800")
 
         self.widgets = {}
         self.status_var = tk.StringVar(value="Status: starting...")
@@ -126,13 +159,16 @@ class TelemetryUI:
         notebook.pack(fill="both", expand=True, padx=10, pady=10)
 
         self.telemetry_tab = ttk.Frame(notebook)
-        self.command_tab = ttk.Frame(notebook)
+        self.command_tab   = ttk.Frame(notebook)
+        self.diagnostics_tab   =  ttk.Frame(notebook)
+
 
         notebook.add(self.telemetry_tab, text="Telemetry")
         notebook.add(self.command_tab, text="eFuse Control")
-
+        notebook.add(self.diagnostics_tab, text="System Diagnostics")
         self._build_telemetry_tab()
         self._build_command_tab()
+        self._build_diagnostics_tab()
 
     def _build_telemetry_tab(self):
         container = ttk.Frame(self.telemetry_tab, padding=10)
@@ -247,6 +283,65 @@ class TelemetryUI:
             row=status_row, column=0, columnspan=3, sticky="w", pady=(15, 0)
         )
 
+    def _build_diagnostics_tab(self):
+        container = ttk.Frame(self.diagnostics_tab, padding=15)
+        container.pack(fill="both", expand=True)
+
+        self.diag_widgets = {}
+
+        title = ttk.Label(container, text="System Diagnostics")
+        title.grid(row=0, column=0, columnspan=3, sticky="w", pady=(0, 12))
+
+        # MCU temperature
+        mcu_temp_var = tk.StringVar(value="--- °C")
+        ttk.Label(container, text="MCU Temperature:").grid(row=1, column=0, sticky="w", pady=(0, 10))
+        ttk.Label(container, textvariable=mcu_temp_var).grid(row=1, column=1, sticky="w", pady=(0, 10))
+
+        # eFuse states
+        ttk.Label(container, text="eFuse States").grid(row=2, column=0, columnspan=3, sticky="w", pady=(10, 5))
+        state_leds = {}
+
+        state_start_row = 3
+        for i, (label, mask) in enumerate(EFUSE_STATUS_BITS):
+            row = state_start_row + i
+
+            led = tk.Canvas(container, width=18, height=18, highlightthickness=0)
+            led.grid(row=row, column=0, sticky="w", padx=(0, 8), pady=2)
+            led_id = led.create_oval(2, 2, 16, 16, fill="red", outline="black")
+
+            ttk.Label(container, text=label).grid(row=row, column=1, sticky="w", pady=2)
+
+            state_leds[mask] = (led, led_id)
+
+        # eFuse faults
+        fault_title_row = state_start_row + len(EFUSE_STATUS_BITS) + 1
+        ttk.Label(container, text="eFuse Faults").grid(
+            row=fault_title_row, column=0, columnspan=3, sticky="w", pady=(14, 5)
+        )
+
+        fault_leds = {}
+        fault_start_row = fault_title_row + 1
+        for i, (label, mask) in enumerate(EFUSE_STATUS_BITS):
+            row = fault_start_row + i
+
+            led = tk.Canvas(container, width=18, height=18, highlightthickness=0)
+            led.grid(row=row, column=0, sticky="w", padx=(0, 8), pady=2)
+            # green = no fault initially
+            led_id = led.create_oval(2, 2, 16, 16, fill="green", outline="black")
+
+            ttk.Label(container, text=label).grid(row=row, column=1, sticky="w", pady=2)
+
+            fault_leds[mask] = (led, led_id)
+
+        self.diag_widgets["sys_telem"] = {
+            "mcu_temp": mcu_temp_var,
+            "state_leds": state_leds,
+            "fault_leds": fault_leds,
+        }
+
+
+
+
     def _send_efuse(self, mask: int, label: str):
         try:
             self.efuse_send_callback(mask)
@@ -284,7 +379,23 @@ class TelemetryUI:
         w["battery_voltage"].set(f"{bms.battery_voltage:.3f} V")
         w["battery_temp"].set(f"{bms.battery_temp:.3f} °C")
 
+    def update_system(self, sys_telem: SystemTelemetry):
+        if "sys_telem" not in self.diag_widgets:
+            return
 
+        w = self.diag_widgets["sys_telem"]
+
+        w["mcu_temp"].set(f"{sys_telem.mcu_temp:.1f} °C")
+
+        # State LEDs: green if enabled, red if disabled
+        for mask, (canvas, led_id) in w["state_leds"].items():
+            is_on = (sys_telem.efuse_states_mask & mask) != 0
+            canvas.itemconfig(led_id, fill="green" if is_on else "red")
+
+        # Fault LEDs: red if fault present, green if no fault
+        for mask, (canvas, led_id) in w["fault_leds"].items():
+            has_fault = (sys_telem.efuse_faults_mask & mask) != 0
+            canvas.itemconfig(led_id, fill="red" if has_fault else "green")
 class App:
     def __init__(self, root, config):
         self.root = root
@@ -367,7 +478,10 @@ class App:
                         elif msg_type == "BMS_telem":
                             bms = decode_bms_telem(msg, msg_cfg)
                             self.ui.update_bms(can_id, bms)
-
+                        elif msg_type == "sys_telem":
+                            sys_telem = decode_sys_telem(msg, msg_cfg)
+                            self.ui.update_system(sys_telem)
+                            
                         self.ui.set_status("Status: receiving")
 
                 elif (now - self.last_rx_time) > STALE_TIMEOUT_S:

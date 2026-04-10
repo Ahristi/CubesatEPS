@@ -224,7 +224,14 @@ void TELEMETRY_sendBattTelem(void)
 	TELEMETRY_sendCANMessage(ID_12V_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
 }
 
-void TELEMETRY_sendSysTelem(void);
+void TELEMETRY_sendSysTelem(void)
+{
+	uint8_t frame_data[8] = {0};
+	frame_data[0] = hdist.eFuseStates;
+	frame_data[1] = hdist.eFuseFaults;
+	frame_data[2] = hanalog.internal_temp;
+	TELEMETRY_sendCANMessage(ID_SYS_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
+}
 
 //-------------INTERRUPTS-------------
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
