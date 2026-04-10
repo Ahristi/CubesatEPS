@@ -31,7 +31,7 @@ typedef struct
     uint16_t dma_buf[NUM_ANALOG_MEASUREMENTS];
     uint16_t raw[NUM_ANALOG_MEASUREMENTS];
     float voltage[NUM_ANALOG_MEASUREMENTS];
-    float internal_temp;
+    uint8_t internal_temp;
     volatile uint8_t busy;
     volatile uint8_t data_ready;
 } ANALOG_handlerTypedef;
@@ -61,7 +61,7 @@ extern ANALOG_handlerTypedef hanalog;
 void ANALOG_Init(TIM_HandleTypeDef* htim, ADC_HandleTypeDef* hadc);
 void ANALOG_startScan();
 void ANALOG_process();
-float ANALOG_convertTemp(uint16_t raw);
+uint8_t ANALOG_convertTemp(uint16_t raw);
 
 
 #endif /* SRC_ANALOG_H_ */

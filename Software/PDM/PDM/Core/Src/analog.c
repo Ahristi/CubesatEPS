@@ -8,6 +8,7 @@
 #include "analog.h"
 #include "freertos.h"
 #include "cmsis_os2.h"
+#include <math.h>
 ANALOG_handlerTypedef hanalog;
 
 
@@ -43,7 +44,8 @@ void ANALOG_process()
 	hanalog.data_ready = 1;
 }
 
-float ANALOG_convertTemp(uint16_t adc_raw)
+
+uint8_t ANALOG_convertTemp(uint16_t adc_raw)
 {
     const uint16_t *TS_CAL1 = (uint16_t*)0x1FFF7A2C;
     const uint16_t *TS_CAL2 = (uint16_t*)0x1FFF7A2E;
@@ -51,5 +53,8 @@ float ANALOG_convertTemp(uint16_t adc_raw)
     float cal1 = (float)(*TS_CAL1);
     float cal2 = (float)(*TS_CAL2);
 
-    return ((adc_raw - cal1) * 80.0f) / (cal2 - cal1) + 30.0f;
+    float temp = ((adc_raw - cal1) * 80.0f) / (cal2 - cal1) + 30.0f;
+    if (temp < 0.0f)   temp = 0.0f;
+    if (temp > 255.0f) temp = 255.0f;
+    return (uint8_t)roundf(temp);
 }

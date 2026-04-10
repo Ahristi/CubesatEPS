@@ -54,13 +54,13 @@ typedef struct{
 	DistributionState state;
 
 	uint16_t eFuseCommands;
-	uint16_t eFuseStates;
-	uint16_t eFuseFaults;
-	uint8_t eFuseCommandReceived;
+	uint8_t eFuseStates;
+	uint8_t eFuseFaults;
+	uint8_t  eFuseCommandReceived;
 
 	uint16_t convStates;
 	uint16_t convCommands;
-	uint8_t convCommandReceived;
+	uint8_t  convCommandReceived;
 
 	uint16_t sysCommands;
 	uint16_t sysFaults;
@@ -77,8 +77,8 @@ extern DISTRIBUTION_HandleTypeDef hdist;
 void DISTRIBUTION_Init();
 void DISTRIBUTION_DisableAlleFuses(void);
 void DISTRIBUTION_DisableConverters(void);
-void DISTRIBUTION_UpdateState(EPSCommand_t cmd);
+void DISTRIBUTION_UpdateState(EPS_CommandTypedef cmd);
 void DISTRIBUTION_ApplyeFuseCommands(uint16_t eFuseCMD);
-
+void DISTRIBUTION_checkEfuseFaults(void);
 
 #endif /* INC_POWERDISTRIBUTION_H_ */

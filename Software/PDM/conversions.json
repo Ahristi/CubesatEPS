@@ -1,0 +1,142 @@
+{
+  "0x320": {
+    "name": "3V3",
+    "type": "regulator_telem",
+    "signals": {
+      "rail_voltage": {
+        "offset": 0,
+        "type": "u16",
+        "scale": 0.001555,
+        "unit": "V"
+      },
+      "current_ch1": {
+        "offset": 2,
+        "type": "u16",
+        "scale": 0.0008954,
+        "unit": "A"
+      },
+      "current_ch2": {
+        "offset": 4,
+        "type": "u16",
+        "scale": 0.0008954,
+        "unit": "A"
+      }
+    }
+  },
+  "0x321": {
+    "name": "5V",
+    "type": "regulator_telem",
+    "signals": {
+      "rail_voltage": {
+        "offset": 0,
+        "type": "u16",
+        "scale": 0.001228,
+        "unit": "V"
+      },
+      "current_ch1": {
+        "offset": 2,
+        "type": "u16",
+        "scale": 0.0012397,
+        "unit": "A"
+      },
+      "current_ch2": {
+        "offset": 4,
+        "type": "u16",
+        "scale": 0.0012397,
+        "unit": "A"
+      }
+    }
+  },
+  "0x322": {
+    "name": "6V",
+    "type": "regulator_telem",
+    "signals": {
+      "rail_voltage": {
+        "offset": 0,
+        "type": "u16",
+        "scale": 0.001228,
+        "unit": "V"
+      },
+      "current_ch1": {
+        "offset": 2,
+        "type": "u16",
+        "scale": 0.003663,
+        "unit": "A"
+      },
+      "current_ch2": {
+        "offset": 4,
+        "type": "u16",
+        "scale": 0.003663,
+        "unit": "A"
+      }
+    }
+  },
+  "0x323": {
+    "name": "12V",
+    "type": "regulator_telem",
+    "signals": {
+      "rail_voltage": {
+        "offset": 0,
+        "type": "u16",
+        "scale": 0.006498,
+        "unit": "V"
+      },
+      "current_ch1": {
+        "offset": 2,
+        "type": "u16",
+        "scale": 0.00080586,
+        "unit": "A"
+      },
+      "current_ch2": {
+        "offset": 4,
+        "type": "u16",
+        "scale": 0.00080586,
+        "unit": "A"
+      }
+    }
+  },
+  "0x324": {
+    "name": "BMS",
+    "type": "BMS_telem",
+    "signals": {
+      "battery_voltage": {
+        "offset": 0,
+        "type": "u16",
+        "scale": 0.006498,
+        "unit": "V"
+      },
+      "battery_current": {
+        "offset": 2,
+        "type": "u8",
+        "scale": 0.00080586,
+        "unit": "°C"
+      },
+      "battery_temp": {
+        "offset": 4,
+        "type": "u8",
+        "scale": 0.00080586,
+        "unit": "°C"
+      }
+    }
+  },
+  "0x325": {
+    "name": "System",
+    "type": "sys_telem",
+    "signals": {
+      "efuse_states_mask": {
+        "offset": 0,
+        "type": "u8"
+      },
+      "MCU_temp": {
+        "offset": 1,
+        "type": "u8",
+        "scale": 1,
+        "unit": "°C"
+      },
+      "efuse_faults_mask": {
+        "offset": 2,
+        "type": "u8"
+      }
+    }
+  }
+}

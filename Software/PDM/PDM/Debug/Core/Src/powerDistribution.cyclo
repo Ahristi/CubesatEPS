@@ -1,5 +1,6 @@
-../Core/Src/powerDistribution.c:25:6:DISTRIBUTION_Init	1
-../Core/Src/powerDistribution.c:31:6:DISTRIBUTION_DisableAlleFuses	1
-../Core/Src/powerDistribution.c:41:6:DISTRIBUTION_DisableConverters	1
-../Core/Src/powerDistribution.c:48:6:DISTRIBUTION_UpdateState	3
-../Core/Src/powerDistribution.c:64:6:DISTRIBUTION_ApplyeFuseCommands	1
+../Core/Src/powerDistribution.c:24:6:DISTRIBUTION_Init	1
+../Core/Src/powerDistribution.c:30:6:DISTRIBUTION_DisableAlleFuses	1
+../Core/Src/powerDistribution.c:40:6:DISTRIBUTION_DisableConverters	1
+../Core/Src/powerDistribution.c:47:6:DISTRIBUTION_UpdateState	4
+../Core/Src/powerDistribution.c:66:6:DISTRIBUTION_ApplyeFuseCommands	1
+../Core/Src/powerDistribution.c:89:6:DISTRIBUTION_checkEfuseFaults	1

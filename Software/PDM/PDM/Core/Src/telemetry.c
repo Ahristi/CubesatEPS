@@ -17,39 +17,44 @@ uint8_t rx_ready = 0;
 uint8_t rx_msg_len = 0;
 
 
-CAN_TxHeaderTypeDef   TxHeader; /* Header containing the information of the transmitted frame */
 TELEMETRY_handlerTypedef htelem;
-
+QueueHandle_t canCommandQueue;
 void TELEMETRY_Init(CAN_HandleTypeDef*  hcan, UART_HandleTypeDef* huart)
 {
+	CAN_FilterTypeDef  sFilterConfig;
+	TELEMETRY_sendStartupMessage();
 	htelem.hcan = hcan;
 	htelem.huart = huart;
-	TELEMETRY_sendStartupMessage();
-
-	/*
-    filter.FilterBank = 0;
-    filter.FilterMode = CAN_FILTERMODE_IDMASK;
-    filter.FilterScale = CAN_FILTERSCALE_32BIT;
-    filter.FilterIdHigh = 0x0000;
-    filter.FilterIdLow = 0x0000;
-    filter.FilterMaskIdHigh = 0x0000;
-    filter.FilterMaskIdLow = 0x0000;
-    filter.FilterFIFOAssignment = CAN_FILTER_FIFO0;
-    filter.FilterActivation = ENABLE;
-    filter.SlaveStartFilterBank = 14;
-
-
-	HAL_CAN_ConfigFilter(hcan, &filter);
-	HAL_CAN_Start(hcan);
-	HAL_CAN_ActivateNotification(hcan, CAN_IT_RX_FIFO0_MSG_PENDING);*/
-
+	sFilterConfig.FilterBank = 14;
+	sFilterConfig.FilterMode = CAN_FILTERMODE_IDMASK;
+	sFilterConfig.FilterScale = CAN_FILTERSCALE_32BIT;
+	sFilterConfig.FilterIdHigh = 0x0000;
+	sFilterConfig.FilterIdLow = 0x0000;
+	sFilterConfig.FilterMaskIdHigh = 0x0000;
+	sFilterConfig.FilterMaskIdLow = 0x0000;
+	sFilterConfig.FilterFIFOAssignment = CAN_RX_FIFO0;
+	sFilterConfig.FilterActivation = ENABLE;
+	sFilterConfig.SlaveStartFilterBank = 14;
+	if (HAL_CAN_ConfigFilter(&hcan2, &sFilterConfig) != HAL_OK)
+	{
+		Error_Handler();
+	}
+	if (HAL_CAN_Start(&hcan2) != HAL_OK)
+	{
+		Error_Handler();
+	}
+	if (HAL_CAN_ActivateNotification(&hcan2, CAN_IT_RX_FIFO0_MSG_PENDING) != HAL_OK)
+	{
+		Error_Handler();
+	}
+	canCommandQueue = xQueueCreate(8, sizeof(CAN_CommandTypedef));
 }
 
 
 
 void uartCMDHandler(uint8_t *msg, uint16_t len)
 {
-    EPSCommand_t cmdMsg = {0};
+	EPS_CommandTypedef cmdMsg = {0};
 
     if (len < 3)
     {
@@ -69,6 +74,36 @@ void uartCMDHandler(uint8_t *msg, uint16_t len)
         xQueueSend(distributionQueue, &cmdMsg, 0);
     }
 }
+
+
+void TELEMETRY_CANCMDHandler(CAN_CommandTypedef* can_msg)
+{
+	/*
+	 *  This is a little retarded because we wait for the CAN queue handler to queue another almost identical message.
+	 * 	Could probably do away with this entirely and queue commands directly from the interrupt, but I feel like this will make it easier to handle
+	 *  commands from multiple peripherals.
+	 */
+	EPS_CommandTypedef cmd_msg = {0};
+    uint32_t StdId = can_msg->header.StdId;
+	if (can_msg->header.IDE != CAN_ID_STD)
+	{
+		return;
+	}
+	if (StdId == CMD_EFUSE)
+	{
+		cmd_msg.type = CMD_EFUSE;
+		cmd_msg.data = (uint16_t)can_msg->data[0];
+		xQueueSend(distributionQueue, &cmd_msg, 0);
+	}
+	if (StdId == CMD_SYS)
+	{
+		cmd_msg.type = CMD_SYS;
+		cmd_msg.data = (uint16_t)can_msg->data[0];
+		xQueueSend(distributionQueue, &cmd_msg, 0);
+	}
+}
+
+
 
 
 
@@ -94,28 +129,21 @@ void TELEMETRY_sendStartupMessage(void)
 void TELEMETRY_sendCANMessage(uint32_t stdID, uint8_t *frame_data, uint8_t dlc)
 {
     CAN_TxHeaderTypeDef txHeader;
-    uint32_t txMailbox;
     txHeader.StdId = stdID;
-    txHeader.ExtId = 0;
-    txHeader.IDE = CAN_ID_STD;
     txHeader.RTR = CAN_RTR_DATA;
-    txHeader.DLC = 2;
-    frame_data[0] = 50;
-    frame_data[1] = 0xAA;
+    txHeader.IDE = CAN_ID_STD;
+    txHeader.DLC = dlc;
     txHeader.TransmitGlobalTime = DISABLE;
-    HAL_StatusTypeDef retval = HAL_CAN_AddTxMessage(htelem.hcan, &txHeader, frame_data, &txMailbox);
-    if (HAL_CAN_IsTxMessagePending(htelem.hcan, txMailbox) == 0)
+	while(HAL_CAN_GetTxMailboxesFreeLevel(htelem.hcan) == 0);
+    if (HAL_CAN_AddTxMessage(htelem.hcan, &txHeader, frame_data, &htelem.CAN_txMailbox) != HAL_OK)
     {
-    	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_3, GPIO_PIN_SET);
-    }
-    else
-    {
-    	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_3, GPIO_PIN_RESET);
+      Error_Handler();
     }
 }
 
 void TELEMETRY_testCANLoopback(void)
 {
+	  CAN_TxHeaderTypeDef   TxHeader;
 	  TxHeader.StdId = 0x123;
 	  TxHeader.RTR = CAN_RTR_DATA;
 	  TxHeader.IDE = CAN_ID_STD;
@@ -123,29 +151,82 @@ void TELEMETRY_testCANLoopback(void)
 	  TxHeader.TransmitGlobalTime = DISABLE;
 	  TxData[0] = 0;
 	  TxData[7] = 0xFF;
-	  TxData[0] ++; /* Increment the first byte */
-	  TxData[7] --; /* Increment the last byte */
+	  TxData[0] ++;
+	  TxData[7] --;
 
-    /* It's mandatory to look for a free Tx mail box */
-	while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan2) == 0); /* Wait till a Tx mailbox is free. Using while loop instead of HAL_Delay() */
+
+	while(HAL_CAN_GetTxMailboxesFreeLevel(&hcan2) == 0);
     if (HAL_CAN_AddTxMessage(&hcan2, &TxHeader, TxData, &TxMailbox) != HAL_OK)
     {
-      /* Transmission request Error */
       Error_Handler();
     }
-    /*
-    if (HAL_CAN_GetRxFifoFillLevel(&hcan2, CAN_RX_FIFO0) > 0)
-    {
-
-        if (HAL_CAN_GetRxMessage(&hcan2, CAN_RX_FIFO0, &RxHeader, RxData) == HAL_OK)
-        {
-            HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_3);
-        }
-    }*/
 }
 
 
 
+
+void TELEMETRY_send3V3Telem(void)
+{
+	uint8_t frame_data[8] = {0};
+	frame_data[0] = hanalog.raw[INDEX_3V3_VMON] >> 8;
+	frame_data[1] = hanalog.raw[INDEX_3V3_VMON] & 0xFF;
+	frame_data[2] = hanalog.raw[INDEX_3V3_CH1_IMON] >> 8;
+	frame_data[3] = hanalog.raw[INDEX_3V3_CH1_IMON] & 0xFF;
+	frame_data[4] = hanalog.raw[INDEX_3V3_CH2_IMON] >> 8;
+	frame_data[5] = hanalog.raw[INDEX_3V3_CH2_IMON] & 0xFF;
+	TELEMETRY_sendCANMessage(ID_3V3_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
+}
+void TELEMETRY_send5VTelem(void)
+{
+	uint8_t frame_data[8] = {0};
+	frame_data[0] = hanalog.raw[INDEX_5V_VMON] >> 8;
+	frame_data[1] = hanalog.raw[INDEX_5V_VMON] & 0xFF;
+	frame_data[2] = hanalog.raw[INDEX_5V_CH1_IMON] >> 8;
+	frame_data[3] = hanalog.raw[INDEX_5V_CH1_IMON] & 0xFF;
+	frame_data[4] = hanalog.raw[INDEX_5V_CH2_IMON] >> 8;
+	frame_data[5] = hanalog.raw[INDEX_5V_CH2_IMON] & 0xFF;
+	TELEMETRY_sendCANMessage(ID_5V_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
+}
+
+
+void TELEMETRY_send6VTelem(void)
+{
+	uint8_t frame_data[8] = {0};
+	frame_data[0] = hanalog.raw[INDEX_6V_VMON] >> 8;
+	frame_data[1] = hanalog.raw[INDEX_6V_VMON] & 0xFF;
+	frame_data[2] = hanalog.raw[INDEX_6V_CH1_IMON] >> 8;
+	frame_data[3] = hanalog.raw[INDEX_6V_CH1_IMON] & 0xFF;
+	frame_data[4] = 0x00;
+	frame_data[5] = 0x00;
+	TELEMETRY_sendCANMessage(ID_6V_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
+}
+
+void TELEMETRY_send12VTelem(void)
+{
+	uint8_t frame_data[8] = {0};
+	frame_data[0] = hanalog.raw[INDEX_12V_VMON] >> 8;
+	frame_data[1] = hanalog.raw[INDEX_12V_VMON] & 0xFF;
+	frame_data[2] = hanalog.raw[INDEX_12V_CH1_IMON] >> 8;
+	frame_data[3] = hanalog.raw[INDEX_12V_CH1_IMON] & 0xFF;
+	frame_data[4] = hanalog.raw[INDEX_12V_CH2_IMON] >> 8;
+	frame_data[5] = hanalog.raw[INDEX_12V_CH2_IMON] & 0xFF;
+	TELEMETRY_sendCANMessage(ID_12V_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
+}
+void TELEMETRY_sendBattTelem(void)
+{
+	uint8_t frame_data[8] = {0};
+	frame_data[0] = 0;
+	frame_data[1] = 0;
+	frame_data[2] = 0;
+	frame_data[3] = 0;
+	frame_data[4] = 0;
+	frame_data[5] = 0;
+	TELEMETRY_sendCANMessage(ID_12V_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
+}
+
+void TELEMETRY_sendSysTelem(void);
+
+//-------------INTERRUPTS-------------
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if (huart->Instance == UART4)
@@ -178,3 +259,44 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     }
 }
 
+
+
+void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
+{
+    CAN_CommandTypedef msg;
+    BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+
+    if (HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &msg.header, msg.data) != HAL_OK)
+    {
+        return;
+    }
+    xQueueSendFromISR(canCommandQueue, &msg, &xHigherPriorityTaskWoken);
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+  /*
+  if (HAL_CAN_GetRxMessage(CanHandle, CAN_RX_FIFO0, &RxHeader, RxData) != HAL_OK)
+  {
+
+    Error_Handler();
+  }
+  */
+}
+void TELEMETRY_printf(const char *fmt, ...)
+{
+    char msg[128];  // increase if needed
+
+    va_list args;
+    va_start(args, fmt);
+
+    int len = vsnprintf(msg, sizeof(msg), fmt, args);
+
+    va_end(args);
+
+    if (len > 0)
+    {
+        // Clamp length to buffer size (vsnprintf can return > sizeof)
+        if (len > sizeof(msg))
+            len = sizeof(msg);
+
+        HAL_UART_Transmit(&huart4, (uint8_t*)msg, len, HAL_MAX_DELAY);
+    }
+}

@@ -214,20 +214,22 @@ void distributionTask(void *argument)
 {
   /* USER CODE BEGIN distributionTask */
 	/* Infinite loop */
-	EPSCommand_t distributionCMD;
+	EPS_CommandTypedef distributionCMD;
 	for(;;)
 	{
 		if (hdist.state == DISTRIBUTION_STARTUP)
 		{
+			TELEMETRY_printf("Enabling all converters\r\n");
 			//Enable the converters
 			HAL_GPIO_WritePin(_5V_CONV_EN_GPIO_Port, _5V_CONV_EN_Pin, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(_6V_CONV_EN_GPIO_Port, _6V_CONV_EN_Pin, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(_12V_CONV_EN_GPIO_Port, _12V_CONV_EN_Pin, GPIO_PIN_SET);
-
+			TELEMETRY_printf("Turning on OBC\r\n");
 			//Turn on the OBC and move to normal operation mode
 			HAL_GPIO_WritePin(_3V3_CH1_EN_GPIO_Port, _3V3_CH1_EN_Pin, GPIO_PIN_SET);
 			hdist.convStates = DEFAULT_CONV_STATE;
 			hdist.state = DISTRIBUTION_NORMAL;
+			TELEMETRY_printf("Begin normal operation\r\n");
 		}
 		if (xQueueReceive(distributionQueue, &distributionCMD, pdMS_TO_TICKS(10)) == pdPASS)
 		{
@@ -247,14 +249,18 @@ void distributionTask(void *argument)
 			}
 			else if (hdist.state == DISTRIBUTION_RESET)
 			{
+				TELEMETRY_printf("Beginning reset procedure\r\n...");
 				//Turn off all converters and then turn off OBC
+				TELEMETRY_printf("Turning off all eFuses\r\n...");
 				DISTRIBUTION_DisableAlleFuses();
 				DISTRIBUTION_DisableConverters();
 
-				//Disable the OBC, weight 1 second then go through normal startup.
+				//Disable the OBC, wait 2 seconds then go through normal startup.
+				TELEMETRY_printf("Power cycling OBC\r\n...");
 				HAL_GPIO_WritePin(_3V3_CH1_EN_GPIO_Port, _3V3_CH1_EN_Pin, GPIO_PIN_RESET);
-				osDelay(1000);
+				osDelay(2000);
 				HAL_GPIO_WritePin(_3V3_CH1_EN_GPIO_Port, _3V3_CH1_EN_Pin, GPIO_PIN_SET);
+				TELEMETRY_printf("OBC powered up, begin startup procedure\r\n");
 				hdist.state = DISTRIBUTION_STARTUP;
 			}
 		}
@@ -275,9 +281,11 @@ void telemetryTask(void *argument)
   /* Infinite loop */
 	for(;;)
 	{
-		uint8_t frame_data[CAN_FRAME_LENGTH];
-		//TELEMETRY_sendCANMessage(ID_3V3_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
-		TELEMETRY_testCANLoopback();
+		TELEMETRY_send3V3Telem();
+		TELEMETRY_send5VTelem();
+		TELEMETRY_send6VTelem();
+		TELEMETRY_send12VTelem();
+		TELEMETRY_printf("Sent CAN telemetry\r\n");
 		osDelay(1000);
 	}
   /* USER CODE END telemetryTask */
@@ -330,10 +338,16 @@ void commandTask(void *argument)
 {
   /* USER CODE BEGIN commandTask */
   /* Infinite loop */
-	uint8_t local_rx_line[UART_BUFFER_LENGTH];
-	uint16_t local_len;
+	//uint8_t local_rx_line[UART_BUFFER_LENGTH];
+	//uint16_t local_len;
+	CAN_CommandTypedef can_msg;
 	for (;;)
 	{
+		if (xQueueReceive(canCommandQueue, &can_msg, pdMS_TO_TICKS(10)) == pdPASS)
+		{
+			TELEMETRY_CANCMDHandler(&can_msg);
+		}
+		/*
 		if (rx_ready)
 		{
 			taskENTER_CRITICAL();
@@ -343,7 +357,7 @@ void commandTask(void *argument)
 			taskEXIT_CRITICAL();
 			uartCMDHandler(local_rx_line, local_len);
 		}
-
+		*/
 		osDelay(100);
     }
   /* USER CODE END commandTask */
