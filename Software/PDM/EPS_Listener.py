@@ -50,7 +50,10 @@ class RegulatorTelemetry:
 class BMSTelemetry:
     name: str
     battery_voltage: float
+    #battery_current: float
+    #sys_voltage: float
     battery_temp: float
+    #die_temp: float
 
 @dataclass
 class SystemTelemetry:

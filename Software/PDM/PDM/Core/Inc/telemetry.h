@@ -15,6 +15,7 @@
 #include "can.h"
 #include "FreeRTOS.h"
 #include "queue.h"
+#include "bms.h"
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdint.h>
@@ -43,7 +44,7 @@ typedef enum
 	ID_5V_MEASUREMENTS   = 0x321,
 	ID_6V_MEASUREMENTS   = 0x322,
 	ID_12V_MEASUREMENTS  = 0x323,
-	ID_BATT_MEASUREMENTS = 0x324,
+	ID_BMS_MEASUREMENTS = 0x324,
 	ID_SYS_MEASUREMENTS  = 0x325,
 } EPSTelemType_t;
 

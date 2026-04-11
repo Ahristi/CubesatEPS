@@ -30,7 +30,7 @@
       "rail_voltage": {
         "offset": 0,
         "type": "u16",
-        "scale": 0.001228,
+        "scale": 0.00161132812,
         "unit": "V"
       },
       "current_ch1": {
@@ -54,7 +54,7 @@
       "rail_voltage": {
         "offset": 0,
         "type": "u16",
-        "scale": 0.001228,
+        "scale": 0.00161132812,
         "unit": "V"
       },
       "current_ch1": {
@@ -96,27 +96,40 @@
     }
   },
   "0x324": {
-    "name": "BMS",
+    "name": "BMS_telem",
     "type": "BMS_telem",
     "signals": {
       "battery_voltage": {
         "offset": 0,
-        "type": "u16",
-        "scale": 0.006498,
+        "type": "s16",
+        "scale": 0.001,
         "unit": "V"
       },
       "battery_current": {
         "offset": 2,
-        "type": "u8",
-        "scale": 0.00080586,
-        "unit": "°C"
+        "type": "s16",
+        "scale": 0.001,
+        "unit": "A"
+      },
+      "sys_voltage": {
+        "offset": 4,
+        "type": "s16",
+        "scale": 0.001,
+        "unit": "A"
       },
       "battery_temp": {
-        "offset": 4,
-        "type": "u8",
-        "scale": 0.00080586,
+        "offset": 6,
+        "type": "s8",
+        "scale": 1,
+        "unit": "°C"
+      },
+      "die_temp": {
+        "offset": 7,
+        "type": "s8",
+        "scale": 1,
         "unit": "°C"
       }
+
     }
   },
   "0x325": {
@@ -139,4 +152,5 @@
       }
     }
   }
+
 }

@@ -46,6 +46,7 @@ Core/Src/telemetry.o: ../Core/Src/telemetry.c ../Core/Inc/telemetry.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ ../Core/Inc/bms.h ../Core/Inc/gpio.h ../Core/Inc/i2c.h \
  ../Core/Inc/powerDistribution.h ../Core/Inc/telemetry.h
 ../Core/Inc/telemetry.h:
 ../Core/Inc/usart.h:
@@ -100,5 +101,8 @@ Core/Src/telemetry.o: ../Core/Src/telemetry.c ../Core/Inc/telemetry.h \
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
+../Core/Inc/bms.h:
+../Core/Inc/gpio.h:
+../Core/Inc/i2c.h:
 ../Core/Inc/powerDistribution.h:
 ../Core/Inc/telemetry.h:

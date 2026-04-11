@@ -26,6 +26,7 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
+#include "bms.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -107,6 +108,8 @@ int main(void)
   DISTRIBUTION_Init();
   TELEMETRY_Init(&hcan2, &huart4);
   ANALOG_Init(&htim2, &hadc1);
+  BMS_init(&hi2c1);
+
   HAL_UART_Receive_IT(&huart4, &rx_byte, 1);
 
 

@@ -9,7 +9,7 @@
 ../Core/Src/telemetry.c:192:6:TELEMETRY_send6VTelem	16	static
 ../Core/Src/telemetry.c:204:6:TELEMETRY_send12VTelem	16	static
 ../Core/Src/telemetry.c:215:6:TELEMETRY_sendBattTelem	16	static
-../Core/Src/telemetry.c:227:6:TELEMETRY_sendSysTelem	16	static
-../Core/Src/telemetry.c:237:6:HAL_UART_RxCpltCallback	16	static
-../Core/Src/telemetry.c:271:6:HAL_CAN_RxFifo0MsgPendingCallback	56	static,ignoring_inline_asm
-../Core/Src/telemetry.c:290:6:TELEMETRY_printf	144	static
+../Core/Src/telemetry.c:229:6:TELEMETRY_sendSysTelem	16	static
+../Core/Src/telemetry.c:239:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/telemetry.c:273:6:HAL_CAN_RxFifo0MsgPendingCallback	56	static,ignoring_inline_asm
+../Core/Src/telemetry.c:292:6:TELEMETRY_printf	144	static

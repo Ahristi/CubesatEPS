@@ -49,9 +49,10 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Core/Inc/main.h ../Core/Inc/telemetry.h ../Core/Inc/usart.h \
  ../Core/Inc/eps_config.h ../Core/Inc/analog.h ../Core/Inc/tim.h \
- ../Core/Inc/adc.h ../Core/Inc/dma.h ../Core/Inc/can.h \
- ../Core/Inc/usart.h ../Core/Inc/telemetry.h ../Core/Inc/analog.h \
- ../Core/Inc/gpio.h
+ ../Core/Inc/adc.h ../Core/Inc/dma.h ../Core/Inc/can.h ../Core/Inc/bms.h \
+ ../Core/Inc/gpio.h ../Core/Inc/i2c.h ../Core/Inc/usart.h \
+ ../Core/Inc/telemetry.h ../Core/Inc/analog.h ../Core/Inc/gpio.h \
+ ../Core/Inc/bms.h
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -110,7 +111,11 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
 ../Core/Inc/adc.h:
 ../Core/Inc/dma.h:
 ../Core/Inc/can.h:
+../Core/Inc/bms.h:
+../Core/Inc/gpio.h:
+../Core/Inc/i2c.h:
 ../Core/Inc/usart.h:
 ../Core/Inc/telemetry.h:
 ../Core/Inc/analog.h:
 ../Core/Inc/gpio.h:
+../Core/Inc/bms.h:

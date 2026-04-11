@@ -30,6 +30,7 @@
 #include "telemetry.h"
 #include "analog.h"
 #include "gpio.h"
+#include "bms.h"
 #include <string.h>
 /* USER CODE END Includes */
 
@@ -286,6 +287,7 @@ void telemetryTask(void *argument)
 		TELEMETRY_send6VTelem();
 		TELEMETRY_send12VTelem();
 		TELEMETRY_sendSysTelem();
+		TELEMETRY_sendBattTelem();
 		TELEMETRY_printf("Sent CAN telemetry\r\n");
 		osDelay(1000);
 	}
@@ -323,7 +325,8 @@ void BMSTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	  BMS_readBMS();
+	  osDelay(1000);
   }
   /* USER CODE END BMSTask */
 }
