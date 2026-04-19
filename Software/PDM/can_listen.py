@@ -1,42 +1,38 @@
 import can
-from datetime import datetime
-
-CAN_INTERFACE = "gs_usb"
-CAN_CHANNEL   = 0
-CAN_BITRATE   = 125000
-
 
 def main():
-    bus = can.Bus(
-        interface=CAN_INTERFACE,
-        channel=CAN_CHANNEL,
-        bitrate=CAN_BITRATE,
-    )
-
-    print(f"Listening on {CAN_INTERFACE}:{CAN_CHANNEL} at {CAN_BITRATE} bit/s")
+    channel = "PCAN_USBBUS1"   
+    bitrate = 125000           
 
     try:
+        bus = can.Bus(interface="pcan", channel=channel, bitrate=bitrate)
+        print(f"Listening on {channel} at {bitrate} bit/s...")
+        print("Press Ctrl+C to stop.\n")
+
         while True:
             msg = bus.recv(timeout=1.0)
             if msg is None:
                 continue
 
-            # format data bytes
             data_str = " ".join(f"{b:02X}" for b in msg.data)
-
-            timestamp = datetime.now().strftime("%H:%M:%S.%f")[:-3]
+            frame_type = "EXT" if msg.is_extended_id else "STD"
 
             print(
-                f"{timestamp} | ID=0x{msg.arbitration_id:03X} | "
-                f"DLC={msg.dlc} | DATA=[{data_str}]"
+                f"ID: 0x{msg.arbitration_id:X} | "
+                f"{frame_type} | "
+                f"DLC: {msg.dlc} | "
+                f"Data: {data_str}"
             )
 
     except KeyboardInterrupt:
-        print("\nStopping CAN listener.")
-
+        print("\nStopped by user.")
+    except can.CanError as e:
+        print(f"CAN error: {e}")
     finally:
-        bus.shutdown()
-
+        try:
+            bus.shutdown()
+        except:
+            pass
 
 if __name__ == "__main__":
     main()
