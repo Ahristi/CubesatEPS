@@ -25,7 +25,7 @@
 #define UART_BUFFER_LENGTH  64
 #define STANDARD_TELEM_PACKETS 5
 #define CAN_FRAME_LENGTH 8
-
+#define OBC_WATCHDOG_COMPARE 200
 
 //----------TYPEDEF AND ENUM----------
 typedef enum
@@ -34,6 +34,7 @@ typedef enum
     CMD_EFUSE    = 0x47,
     CMD_CONV     = 0x65,
 	CMD_SYS      = 0x67,
+	CMD_WATCHDOG = 0x69,
 	CMD_HEATER   = 0x25
 } EPSCmdType_t;
 
@@ -68,6 +69,7 @@ typedef struct{
 	CAN_TxHeaderTypeDef CAN_txHeader;
 	uint8_t CAN_txData[8];
 	uint32_t CAN_txMailbox;
+	uint16_t OBC_watchdog;
 }TELEMETRY_handlerTypedef;
 
 
@@ -95,6 +97,7 @@ void TELEMETRY_send12VTelem(void);
 void TELEMETRY_sendBattTelem(void);
 void TELEMETRY_sendSysTelem(void);
 void TELEMETRY_CANCMDHandler(CAN_CommandTypedef* can_msg);
+void TELEMETRY_updateWatchdog();
 void TELEMETRY_printf(const char *fmt, ...);
 void uartCMDHandler(uint8_t *msg, uint16_t len);
 #endif /* INC_TELEMETRY_H_ */

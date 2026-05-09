@@ -101,6 +101,10 @@ void TELEMETRY_CANCMDHandler(CAN_CommandTypedef* can_msg)
 		cmd_msg.data = (uint16_t)can_msg->data[0];
 		xQueueSend(distributionQueue, &cmd_msg, 0);
 	}
+	if (StdId == CMD_WATCHDOG)
+	{
+		htelem.OBC_watchdog = 0;
+	}
 }
 
 
@@ -308,4 +312,17 @@ void TELEMETRY_printf(const char *fmt, ...)
 
         HAL_UART_Transmit(&huart4, (uint8_t*)msg, len, HAL_MAX_DELAY);
     }
+}
+
+void TELEMETRY_updateWatchdog()
+{
+	EPS_CommandTypedef cmd_msg = {0};
+	htelem.OBC_watchdog++;
+	if (htelem.OBC_watchdog >= OBC_WATCHDOG_COMPARE)
+	{
+		htelem.OBC_watchdog = 0;
+		cmd_msg.type = CMD_SYS;
+		cmd_msg.data = RESET_MASK;
+		xQueueSend(distributionQueue, &cmd_msg, 0);
+	}
 }

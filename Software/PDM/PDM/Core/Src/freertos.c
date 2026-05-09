@@ -264,6 +264,7 @@ void distributionTask(void *argument)
 				TELEMETRY_printf("OBC powered up, begin startup procedure\r\n");
 				hdist.state = DISTRIBUTION_STARTUP;
 			}
+
 		}
 	  }
   /* USER CODE END distributionTask */
@@ -289,7 +290,9 @@ void telemetryTask(void *argument)
 		TELEMETRY_sendSysTelem();
 		TELEMETRY_sendBattTelem();
 		TELEMETRY_printf("Sent CAN telemetry\r\n");
-		osDelay(1000);
+		TELEMETRY_updateWatchdog();
+		osDelay(100);
+
 	}
   /* USER CODE END telemetryTask */
 }

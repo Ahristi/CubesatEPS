@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=+5V_AUX Pin=PC1-A25
+Removed Pin From Net: NetName=+5V_AUX Pin=PC1-A26
+Change Component DesignItemId : Designator=C32 Old DesignItemId=CL21A226MAYNNNE New DesignItemId=GRM21BZ71A226ME15L
+Change Component DesignItemId : Designator=C33 Old DesignItemId=CL21A226MAYNNNE New DesignItemId=GRM21BZ71A226ME15L
+Change Component Comment : Designator=C32 Old Comment=CL21A226MAYNNNE New Comment=GRM21BZ71A226ME15L
+Change Component Comment : Designator=C33 Old Comment=CL21A226MAYNNNE New Comment=GRM21BZ71A226ME15L
+Change Component Description : Designator=C32 Old Description=22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric) New Description=22 µF ±20% 10V Ceramic Capacitor X7R 0805 (2012 Metric)
+Change Component Description : Designator=C33 Old Description=22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric) New Description=22 µF ±20% 10V Ceramic Capacitor X7R 0805 (2012 Metric)
+Change component parameters: Designator = "C32" ("C32"); Footprint = "CAPC0805X060"; UniqueID = "\HTDLOBSB\VYQWRKVG\WZJEXBLB" ("\HTDLOBSB\VYQWRKVG\WZJEXBLB")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "490-GRM21BZ71A226ME15LCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "GRM21BZ71A226ME15L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C33" ("C33"); Footprint = "CAPC0805X060"; UniqueID = "\HTDLOBSB\VYQWRKVG\GPTDPWUB" ("\HTDLOBSB\VYQWRKVG\GPTDPWUB")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "490-GRM21BZ71A226ME15LCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "GRM21BZ71A226ME15L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V_ADCS Pin=PC1-A25
+Added Pin To Net: NetName=+5V_ADCS Pin=PC1-A26
+Change Net Name : Old Net Name=+3V3_AUX New Net Name=+3V3_CH2
+Change Net Name : Old Net Name=+3V3_OBC New Net Name=+3V3_CH1
+Change Net Name : Old Net Name=+5V5_RADIO New Net Name=+6V_CH1
+Change Net Name : Old Net Name=+5V_ADCS New Net Name=+5V_CH1
+Change Net Name : Old Net Name=+5V_AUX New Net Name=+5V_CH2
+Change Net Name : Old Net Name=+12V_ACDS New Net Name=+12V_CH2
+Change Net Name : Old Net Name=+12V_PAYLOAD New Net Name=+12V_CH1
+Change Net Name : Old Net Name=3V3_AUX_IMON New Net Name=3V3_CH2_IMON
+Change Net Name : Old Net Name=5V5_CONV_EN New Net Name=6V_CONV_EN
+Change Net Name : Old Net Name=5V5_VMON New Net Name=6V_VMON
+Change Net Name : Old Net Name=5V_AUX_IMON New Net Name=5V_CH2_IMON
+Change Net Name : Old Net Name=ADCS_5V_EN New Net Name=5V_CH1_EN
+Change Net Name : Old Net Name=ADCS_5V_IMON New Net Name=5V_CH1_IMON
+Change Net Name : Old Net Name=ADCS_5V_nFLT New Net Name=5V_CH1_nFLT
+Change Net Name : Old Net Name=ADCS_12V_EN New Net Name=12V_CH2_EN
+Change Net Name : Old Net Name=ADCS_12V_IMON New Net Name=12V_CH2_IMON
+Change Net Name : Old Net Name=ADCS_12V_nFLT New Net Name=12V_CH2_nFLT
+Change Net Name : Old Net Name=AUX_5V_EN New Net Name=5V_CH2_EN
+Change Net Name : Old Net Name=AUX_5V_nFLT New Net Name=5V_CH2_nFLT
+Change Net Name : Old Net Name=AUX_EN New Net Name=3V3_CH2_EN
+Change Net Name : Old Net Name=AUX_nFLT New Net Name=3V3_CH2_nFLT
+Change Net Name : Old Net Name=OBC_EN New Net Name=3V3_CH1_EN
+Change Net Name : Old Net Name=OBC_IMON New Net Name=3V3_CH1_IMON
+Change Net Name : Old Net Name=OBC_nFLT New Net Name=3V3_CH1_nFLT
+Change Net Name : Old Net Name=PAYLOAD_EN New Net Name=12V_CH1_EN
+Change Net Name : Old Net Name=PAYLOAD_IMON New Net Name=12V_CH1_IMON
+Change Net Name : Old Net Name=PAYLOAD_nFLT New Net Name=12V_CH1_nFLT
+Change Net Name : Old Net Name=RADIO_EN New Net Name=6V_CH1_EN
+Change Net Name : Old Net Name=RADIO_IMON New Net Name=6V_CH1_IMON
+Change Net Name : Old Net Name=RADIO_PG New Net Name=6V_CH1_PG
+Change Net Color : Old Net Color=RGB(152, 0, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(152, 0, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(152, 0, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(152, 0, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(152, 0, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(152, 0, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(152, 0, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(152, 0, 0) New Net Color=Default
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_16
+Added Rule: Name=Schematic Supply Nets_17
+Added Rule: Name=Schematic Supply Nets_18
+Added Rule: Name=Schematic Supply Nets_19
+Added Rule: Name=Schematic Supply Nets_20
+Added Rule: Name=Schematic Supply Nets_21
+Added Rule: Name=Schematic Supply Nets_22
