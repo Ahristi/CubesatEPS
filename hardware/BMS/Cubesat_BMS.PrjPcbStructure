@@ -1,4 +1,8 @@
-Record=TopLevelDocument|FileName=Top_Level.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=Top_Level.SchDoc|Designator=Cubesat BMS|SchDesignator=Cubesat BMS|FileName=Power_Path.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Power_Path.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=Top_Level.SchDoc|SheetNumber=2
+Record=SheetSymbol|SourceDocument=Top_Level.SchDoc|Designator=Cubesat BMS|SchDesignator=Cubesat BMS|FileName=Power_Path.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Power_Path.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=Power_Path.SchDoc|Designator=Battery|SchDesignator=Battery|FileName=Battery_Protection.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Battery_Protection.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Power_Path.SchDoc|Designator=Output_eFuse|SchDesignator=Output_eFuse|FileName=Output_eFuse.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Output_eFuse.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=Top_Level.SchDoc|FileName=Battery_eFuse.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Top_Level.SchDoc|FileName=Charger.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=Top_Level.SchDoc|FileName=Controller.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=Top_Level.SchDoc|FileName=MPPT.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Top_Level.SchDoc|FileName=Umbilical_eFuse.SchDoc|SheetNumber=8
