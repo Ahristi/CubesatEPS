@@ -1,0 +1,11 @@
+Added Component: Designator=C89(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "2.2uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-6702-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21A225KBFNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C89-1
+Added Pin To Net: NetName=NetC22_2 Pin=C89-2
+Added Member To Class: ClassName=Charger Member=Component C89 CL21A225KBFNNNE

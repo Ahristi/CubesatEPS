@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=C27 Old Footprint=CAPC0805X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=R10 Old Footprint=RESC0805 New Footprint=RESC0603
+Change Component Comment : Designator=R10 Old Comment=0805W8F1002T5E New Comment=RMCF0603FT10K0
+Change Component Comment : Designator=C27 Old Comment=CL21B105KAFNNNE New Comment=C0603C472K4RECAUTO
+Change component parameters: Designator = "C27" ("C27"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\NKTBJFPE\DVGOWGWD" ("\HKTNPMJO\NKTBJFPE\DVGOWGWD")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "4.7nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "399-17879-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C472K4RECAUTO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "RESC0805"; UniqueID = "\HKTNPMJO\NKTBJFPE\LLFYUONW" ("\HKTNPMJO\NKTBJFPE\LLFYUONW")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT10K0CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT10K0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Room: Name=Top_Level

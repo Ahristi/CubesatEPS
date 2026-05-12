@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=R62 Old Footprint=RESC0805 New Footprint=RESC0603
+Change Component Comment : Designator=R62 Old Comment=RMCF0805FT71K5 New Comment=RMCF0603FT71K5
+Change component parameters: Designator = "R62" ("R62"); Footprint = "RESC0805"; UniqueID = "\HKTNPMJO\YZJOALAQ\LARQXCEU" ("\HKTNPMJO\YZJOALAQ\LARQXCEU")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT71K5CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT71K5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "71K5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"

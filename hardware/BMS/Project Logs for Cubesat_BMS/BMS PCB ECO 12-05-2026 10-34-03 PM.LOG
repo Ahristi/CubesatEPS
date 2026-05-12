@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=UMB_SHDN Pin=U8-37
+Removed Pin From Net: NetName=UMB_PG Pin=U8-38
+Change Component Footprint: Designator=C19 Old Footprint=CAPC0805X060 New Footprint=CAPC1210X090
+Change Component Footprint: Designator=C20 Old Footprint=CAPC0805X060 New Footprint=CAPC1210X090
+Change Component Footprint: Designator=C21 Old Footprint=CAPC0805X060 New Footprint=CAPC1210X090
+Change Component Comment : Designator=C19 Old Comment=CL21A225KBFNNNE New Comment=CL32B106KBJNNNE
+Change Component Comment : Designator=C20 Old Comment=CL21A225KBFNNNE New Comment=CL32B106KBJNNNE
+Change Component Comment : Designator=C21 Old Comment=CL21A225KBFNNNE New Comment=CL32B106KBJNNNE
+Change component parameters: Designator = "C19" ("C19"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\GWPBYSAH" ("\HKTNPMJO\GWPBYSAH")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-3387-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CL32B106KBJNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20" ("C20"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\ZUFINQTQ" ("\HKTNPMJO\ZUFINQTQ")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-3387-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CL32B106KBJNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C21" ("C21"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\DHJNEXJF" ("\HKTNPMJO\DHJNEXJF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-3387-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CL32B106KBJNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=UMB_SHDN Pin=U8-11
+Added Pin To Net: NetName=UMB_PG Pin=U8-24
+Added Pin To Net: NetName=BATT_VMON Pin=U8-27
+Added Pin To Net: NetName=CHG_PG Pin=R73-1
+Added Pin To Net: NetName=CHG_PG Pin=U8-37
+Added Pin To Net: NetName=CHG_PG Pin=U17-3
+Added Net: Name=CHG_PG
+Added Pin To Net: NetName=CHG_SHDN Pin=Q7-G
+Added Pin To Net: NetName=CHG_SHDN Pin=R69-2
+Added Pin To Net: NetName=CHG_SHDN Pin=U8-38
+Added Net: Name=CHG_SHDN
+Added Room: Name=Top_Level

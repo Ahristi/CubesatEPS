@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=GND Pin=C87-1
+Removed Pin From Net: NetName=GND Pin=C88-1
+Change Component Footprint: Designator=C88 Old Footprint=CAPC0805X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C87 Old Footprint=CAPC0805X060 New Footprint=CAPC0603X060
+Change Component Comment : Designator=C88 Old Comment=0805B472K500NT New Comment=C0603C472K4RECAUTO
+Change Component Comment : Designator=C87 Old Comment=CL21B103KBANNNC New Comment=CL10B103KB8NNNC
+Change component parameters: Designator = "C87" ("C87"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\NKTBJFPE\FNXZYBDL" ("\HKTNPMJO\NKTBJFPE\FNXZYBDL")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-1009-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10B103KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C88" ("C88"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\NKTBJFPE\DLDGVVFF" ("\HKTNPMJO\NKTBJFPE\DLDGVVFF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "4.7nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "399-17879-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C472K4RECAUTO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C87-2
+Added Pin To Net: NetName=GND Pin=C88-2
+Added Pin To Net: NetName=NetC87_1 Pin=C87-1
+Added Pin To Net: NetName=NetC87_1 Pin=U17-7
+Added Net: Name=NetC87_1
+Added Pin To Net: NetName=NetC88_1 Pin=C88-1
+Added Pin To Net: NetName=NetC88_1 Pin=U17-10
+Added Net: Name=NetC88_1
