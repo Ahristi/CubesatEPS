@@ -1,0 +1,120 @@
+Removed Pin From Net: NetName=VBATT+ Pin=B1-2
+Removed Pin From Net: NetName=VBATT+ Pin=R23-1
+Removed Pin From Net: NetName=VBATT+ Pin=R24-1
+Added Component: Designator=C82(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part number"; Value = "C14663"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CC0603KRX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C83(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C84(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part number"; Value = "C14663"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CC0603KRX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C85(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part number"; Value = "C15849"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL10A105KB8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C86(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part number"; Value = "C14663"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CC0603KRX7R9BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=R68(LVK12R050CER-1)
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LVK12R050CER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "50mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±50ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.25%"; VariantName = "[No Variations]"
+Added Component: Designator=U15(SOT23-5 IC)
+Add component (AddParameter): Name = "Current - Output"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "505-ADPL40502AUJZ-1.5-R7CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C (TA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ADPL40502AUJZ-1.5-R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Max)"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Dropout (Max)"; Value = "0.23V @ 200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Output"; Value = "1.5V"; VariantName = "[No Variations]"
+Added Component: Designator=U16(SOT23-6 IC)
+Add component (AddParameter): Name = "Accuracy"; Value = "0.5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-47658-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain"; Value = "100V/V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "INA181A3IDBVR"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BAT- Pin=C82-1
+Added Pin To Net: NetName=BAT_PRES Pin=C82-2
+Added Pin To Net: NetName=GND Pin=C83-1
+Added Pin To Net: NetName=+3V3 Pin=C83-2
+Added Pin To Net: NetName=+3V3A Pin=C84-1
+Added Pin To Net: NetName=GND Pin=C84-2
+Added Pin To Net: NetName=GND Pin=C85-1
+Added Pin To Net: NetName=GND Pin=C86-1
+Added Pin To Net: NetName=BAT_PRES Pin=J3-1
+Added Pin To Net: NetName=BAT_PRES Pin=J3-3
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Pin To Net: NetName=NetL2_2 Pin=L2-2
+Added Pin To Net: NetName=VBATT+ Pin=R68-4
+Added Pin To Net: NetName=+3V3 Pin=U15-1
+Added Pin To Net: NetName=GND Pin=U15-2
+Added Pin To Net: NetName=+3V3 Pin=U15-3
+Added Pin To Net: NetName=GND Pin=U16-2
+Added Pin To Net: NetName=+3V3A Pin=U16-6
+Added Pin To Net: NetName=BATT_IMON Pin=C86-2
+Added Pin To Net: NetName=BATT_IMON Pin=U8-26
+Added Pin To Net: NetName=BATT_IMON Pin=U16-1
+Added Net: Name=BATT_IMON
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_2 Pin=R23-1
+Added Pin To Net: NetName=NetB1_2 Pin=R24-1
+Added Pin To Net: NetName=NetB1_2 Pin=R68-1
+Added Net: Name=NetB1_2
+Added Pin To Net: NetName=NetR68_2 Pin=R68-2
+Added Pin To Net: NetName=NetR68_2 Pin=U16-3
+Added Net: Name=NetR68_2
+Added Pin To Net: NetName=NetR68_3 Pin=R68-3
+Added Pin To Net: NetName=NetR68_3 Pin=U16-4
+Added Net: Name=NetR68_3
+Added Pin To Net: NetName=VREF Pin=C85-2
+Added Pin To Net: NetName=VREF Pin=U15-5
+Added Pin To Net: NetName=VREF Pin=U16-5
+Added Net: Name=VREF
+Add Class: Class already exists: Charger
+Added Member To Class: ClassName=Battery Member=Component C82 CC0603KRX7R9BB104
+Added Member To Class: ClassName=Battery Member=Component C83 CL10A105KB8NNNC
+Added Member To Class: ClassName=Battery Member=Component C84 CC0603KRX7R9BB104
+Added Member To Class: ClassName=Battery Member=Component C85 CL10A105KB8NNNC
+Added Member To Class: ClassName=Battery Member=Component C86 CC0603KRX7R9BB104
+Added Member To Class: ClassName=Battery Member=Component R68 LVK12R050CER
+Added Member To Class: ClassName=Battery Member=Component U15 ADPL40502AUJZ-1.5-R7
+Added Member To Class: ClassName=Battery Member=Component U16 INA181A3IDBVR
+Added Rule: Name=Schematic Supply Nets

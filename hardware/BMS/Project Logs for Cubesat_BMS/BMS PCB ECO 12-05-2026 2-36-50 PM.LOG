@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=BAT- Pin=J4-1
+Removed Pin From Net: NetName=BAT- Pin=J4-2
+Removed Pin From Net: NetName=VBATT+ Pin=J4-4
+Removed Pin From Net: NetName=VBATT+ Pin=J4-5
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Pin To Net: NetName=NetL2_2 Pin=L2-2
+Add Class: Class already exists: Charger

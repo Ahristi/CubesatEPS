@@ -1,0 +1,626 @@
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Removed Member From Class: ClassName=Battery Member=B?
+Removed Member From Class: ClassName=Battery_eFuse Member=C?
+Removed Member From Class: ClassName=Charger Member=C?
+Removed Member From Class: ClassName=Controller Member=C?
+Removed Member From Class: ClassName=Umbilical_eFuse Member=C?
+Removed Member From Class: ClassName=Charger Member=D?
+Removed Member From Class: ClassName=Controller Member=D?
+Removed Member From Class: ClassName=Battery_eFuse Member=Q?
+Removed Member From Class: ClassName=Charger Member=Q?
+Removed Member From Class: ClassName=Umbilical_eFuse Member=Q?
+Removed Member From Class: ClassName=Battery Member=R?
+Removed Member From Class: ClassName=Battery_eFuse Member=R?
+Removed Member From Class: ClassName=Charger Member=R?
+Removed Member From Class: ClassName=Controller Member=R?
+Removed Member From Class: ClassName=Umbilical_eFuse Member=R?
+Removed Member From Class: ClassName=Battery Member=U?
+Removed Member From Class: ClassName=Battery_eFuse Member=U?
+Removed Member From Class: ClassName=Charger Member=U?
+Removed Member From Class: ClassName=Controller Member=U?
+Removed Member From Class: ClassName=Umbilical_eFuse Member=U?
+Change Component Designator: OldDesignator=B? NewDesignator=B1
+Change Component Designator: OldDesignator=C? NewDesignator=C19
+Change Component Designator: OldDesignator=C? NewDesignator=C20
+Change Component Designator: OldDesignator=C? NewDesignator=C21
+Change Component Designator: OldDesignator=C? NewDesignator=C22
+Change Component Designator: OldDesignator=C? NewDesignator=C23
+Change Component Designator: OldDesignator=C? NewDesignator=C24
+Change Component Designator: OldDesignator=C? NewDesignator=C25
+Change Component Designator: OldDesignator=C? NewDesignator=C26
+Change Component Designator: OldDesignator=C? NewDesignator=C27
+Change Component Designator: OldDesignator=C? NewDesignator=C28
+Change Component Designator: OldDesignator=C? NewDesignator=C29
+Change Component Designator: OldDesignator=C? NewDesignator=C30
+Change Component Designator: OldDesignator=C? NewDesignator=C31
+Change Component Designator: OldDesignator=C? NewDesignator=C32
+Change Component Designator: OldDesignator=C? NewDesignator=C33
+Change Component Designator: OldDesignator=C? NewDesignator=C34
+Change Component Designator: OldDesignator=C? NewDesignator=C35
+Change Component Designator: OldDesignator=C? NewDesignator=C36
+Change Component Designator: OldDesignator=C? NewDesignator=C37
+Change Component Designator: OldDesignator=C? NewDesignator=C38
+Change Component Designator: OldDesignator=C? NewDesignator=C39
+Change Component Designator: OldDesignator=C? NewDesignator=C40
+Change Component Designator: OldDesignator=C? NewDesignator=C41
+Change Component Designator: OldDesignator=C? NewDesignator=C42
+Change Component Designator: OldDesignator=C? NewDesignator=C43
+Change Component Designator: OldDesignator=C? NewDesignator=C44
+Change Component Designator: OldDesignator=C? NewDesignator=C45
+Change Component Designator: OldDesignator=C? NewDesignator=C46
+Change Component Designator: OldDesignator=C? NewDesignator=C47
+Change Component Designator: OldDesignator=C? NewDesignator=C48
+Change Component Designator: OldDesignator=C? NewDesignator=C49
+Change Component Designator: OldDesignator=C? NewDesignator=C50
+Change Component Designator: OldDesignator=C? NewDesignator=C51
+Change Component Designator: OldDesignator=C? NewDesignator=C52
+Change Component Designator: OldDesignator=C? NewDesignator=C53
+Change Component Designator: OldDesignator=C? NewDesignator=C54
+Change Component Designator: OldDesignator=C? NewDesignator=C55
+Change Component Designator: OldDesignator=C? NewDesignator=C56
+Change Component Designator: OldDesignator=C? NewDesignator=C57
+Change Component Designator: OldDesignator=C? NewDesignator=C58
+Change Component Designator: OldDesignator=D? NewDesignator=D5
+Change Component Designator: OldDesignator=D? NewDesignator=D6
+Change Component Designator: OldDesignator=D? NewDesignator=D7
+Change Component Designator: OldDesignator=D? NewDesignator=D8
+Change Component Designator: OldDesignator=D? NewDesignator=D9
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Change Component Designator: OldDesignator=J? NewDesignator=J4
+Change Component Designator: OldDesignator=L? NewDesignator=L3
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH1
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH2
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH3
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH4
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH5
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH6
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH7
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH8
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH9
+Change Component Designator: OldDesignator=MECH? NewDesignator=MECH10
+Change Component Designator: OldDesignator=Q? NewDesignator=Q3
+Change Component Designator: OldDesignator=Q? NewDesignator=Q4
+Change Component Designator: OldDesignator=Q? NewDesignator=Q5
+Change Component Designator: OldDesignator=Q? NewDesignator=Q6
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R11
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=R? NewDesignator=R13
+Change Component Designator: OldDesignator=R? NewDesignator=R14
+Change Component Designator: OldDesignator=R? NewDesignator=R15
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change Component Designator: OldDesignator=R? NewDesignator=R17
+Change Component Designator: OldDesignator=R? NewDesignator=R18
+Change Component Designator: OldDesignator=R? NewDesignator=R19
+Change Component Designator: OldDesignator=R? NewDesignator=R20
+Change Component Designator: OldDesignator=R? NewDesignator=R21
+Change Component Designator: OldDesignator=R? NewDesignator=R22
+Change Component Designator: OldDesignator=R? NewDesignator=R23
+Change Component Designator: OldDesignator=R? NewDesignator=R24
+Change Component Designator: OldDesignator=R? NewDesignator=R25
+Change Component Designator: OldDesignator=R? NewDesignator=R26
+Change Component Designator: OldDesignator=R? NewDesignator=R27
+Change Component Designator: OldDesignator=R? NewDesignator=R28
+Change Component Designator: OldDesignator=R? NewDesignator=R29
+Change Component Designator: OldDesignator=R? NewDesignator=R30
+Change Component Designator: OldDesignator=R? NewDesignator=R31
+Change Component Designator: OldDesignator=R? NewDesignator=R32
+Change Component Designator: OldDesignator=R? NewDesignator=R33
+Change Component Designator: OldDesignator=R? NewDesignator=R34
+Change Component Designator: OldDesignator=R? NewDesignator=R35
+Change Component Designator: OldDesignator=R? NewDesignator=R36
+Change Component Designator: OldDesignator=R? NewDesignator=R37
+Change Component Designator: OldDesignator=R? NewDesignator=R38
+Change Component Designator: OldDesignator=R? NewDesignator=R39
+Change Component Designator: OldDesignator=R? NewDesignator=R40
+Change Component Designator: OldDesignator=R? NewDesignator=R41
+Change Component Designator: OldDesignator=R? NewDesignator=R42
+Change Component Designator: OldDesignator=R? NewDesignator=R43
+Change Component Designator: OldDesignator=R? NewDesignator=R44
+Change Component Designator: OldDesignator=R? NewDesignator=R45
+Change Component Designator: OldDesignator=R? NewDesignator=R46
+Change Component Designator: OldDesignator=R? NewDesignator=R47
+Change Component Designator: OldDesignator=R? NewDesignator=R48
+Change Component Designator: OldDesignator=R? NewDesignator=R49
+Change Component Designator: OldDesignator=R? NewDesignator=R50
+Change Component Designator: OldDesignator=R? NewDesignator=R51
+Change Component Designator: OldDesignator=R? NewDesignator=R52
+Change Component Designator: OldDesignator=R? NewDesignator=R53
+Change Component Designator: OldDesignator=R? NewDesignator=R54
+Change Component Designator: OldDesignator=R? NewDesignator=R55
+Change Component Designator: OldDesignator=R? NewDesignator=R56
+Change Component Designator: OldDesignator=R? NewDesignator=R57
+Change Component Designator: OldDesignator=R? NewDesignator=R58
+Change Component Designator: OldDesignator=R? NewDesignator=R59
+Change Component Designator: OldDesignator=R? NewDesignator=R60
+Change Component Designator: OldDesignator=R? NewDesignator=R61
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Change Component Designator: OldDesignator=S? NewDesignator=S2
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Change Component Designator: OldDesignator=U? NewDesignator=U6
+Change Component Designator: OldDesignator=U? NewDesignator=U7
+Change Component Designator: OldDesignator=U? NewDesignator=U8
+Change Component Designator: OldDesignator=U? NewDesignator=U9
+Change Component Designator: OldDesignator=U? NewDesignator=U10
+Change Component Designator: OldDesignator=U? NewDesignator=U11
+Change Component Designator: OldDesignator=Y? NewDesignator=Y1
+Change Component Designator: OldDesignator=Y? NewDesignator=Y2
+Added Component: Designator=C59(CAPC1210X090)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-3387-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL32B106KBJNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C60(CAPC1210X090)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-3387-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL32B106KBJNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C61(CAPC0402X020)
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C62(CAPC0805X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1015-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL21B103KBANNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C63(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C64(CAPC1210X090)
+Add component (AddParameter): Name = "Capacitance"; Value = "22uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-3392-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL32B226KAJNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C65(CAPC1210X090)
+Add component (AddParameter): Name = "Capacitance"; Value = "22uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-3392-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL32B226KAJNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C66(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C104K5RACTUCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0603C104K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C67(CAPC0603X040)
+Add component (AddParameter): Name = "Capacitance"; Value = "10pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "399-C0603C100J5GACTUCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0603C100J5GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C68(CAPC0603X060)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "1276-1019-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CL10B105KO8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=L4(744316560)
+Add component (AddParameter): Name = "Current Rating"; Value = "4.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DCR"; Value = "28.5mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "732-6183-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "744316560"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "4.6A"; VariantName = "[No Variations]"
+Added Component: Designator=R62(RESC0805)
+Add component (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0805FT71K5CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0805FT71K5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "71K5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R63(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0603FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R64(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT174KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0603FT52K3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "52K3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=R65(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RMCF0603FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Component: Designator=U12(SOT-583)
+Add component (AddParameter): Name = "Current Output"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-TPS62933DRLRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 150°C (TJ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TPS62933DRLR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Max)"; Value = "30V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Min)"; Value = "3.8V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output (Max)"; Value = "22V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output (Min)"; Value = "0.8V"; VariantName = "[No Variations]"
+Added Component: Designator=U13(TLV1117-33IDCY)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "296-26777-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dropout Voltage"; Value = "1.2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Voltage - Max"; Value = "15V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Voltage - Min"; Value = "4.7V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40C~125C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TLV1117-33IDCY"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBATT+ Pin=B1-2
+Added Pin To Net: NetName=BAT- Pin=B1-7
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=C59-1
+Added Pin To Net: NetName=GND Pin=C60-1
+Added Pin To Net: NetName=GND Pin=C61-1
+Added Pin To Net: NetName=GND Pin=C62-1
+Added Pin To Net: NetName=GND Pin=C64-1
+Added Pin To Net: NetName=GND Pin=C65-1
+Added Pin To Net: NetName=GND Pin=C66-1
+Added Pin To Net: NetName=GND Pin=C68-1
+Added Pin To Net: NetName=+3V3 Pin=C68-2
+Added Pin To Net: NetName=NetD2_A Pin=L1-2
+Added Pin To Net: NetName=NetD4_A Pin=L2-2
+Added Pin To Net: NetName=GND Pin=R63-1
+Added Pin To Net: NetName=GND Pin=R65-1
+Added Pin To Net: NetName=GND Pin=U12-1
+Added Pin To Net: NetName=GND Pin=U12-4
+Added Pin To Net: NetName=GND Pin=U13-1
+Added Pin To Net: NetName=+3V3 Pin=U13-2
+Added Pin To Net: NetName=+3V3 Pin=U13-4
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC36_1
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC37_1
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC38_1
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC40_1
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC41_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC30_2
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC31_2
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC36_2
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC41_2
+Change Net Name : Old Net Name=NetD?_A New Net Name=NetD6_A
+Change Net Name : Old Net Name=NetD?_K New Net Name=NetD6_K
+Change Net Name : Old Net Name=NetJ?_1 New Net Name=NetJ3_1
+Change Net Name : Old Net Name=NetQ?_D New Net Name=NetQ4_D
+Change Net Name : Old Net Name=NetQ?_G New Net Name=NetQ4_G
+Change Net Name : Old Net Name=NetQ?_S New Net Name=NetQ4_S
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR29_1
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR30_1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR32_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR34_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR37_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR38_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR39_2
+Change Net Name : Old Net Name=NetR?_3 New Net Name=NetR58_3
+Added Pin To Net: NetName=+5V Pin=C64-2
+Added Pin To Net: NetName=+5V Pin=C65-2
+Added Pin To Net: NetName=+5V Pin=C66-2
+Added Pin To Net: NetName=+5V Pin=C67-2
+Added Pin To Net: NetName=+5V Pin=L4-2
+Added Pin To Net: NetName=+5V Pin=R64-2
+Added Pin To Net: NetName=+5V Pin=U13-3
+Added Net: Name=+5V
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=NetB1_1 Pin=B1-4
+Added Pin To Net: NetName=NetB1_1 Pin=R25-1
+Added Net: Name=NetB1_1
+Added Pin To Net: NetName=NetB1_3 Pin=B1-3
+Added Pin To Net: NetName=NetB1_3 Pin=B1-6
+Added Pin To Net: NetName=NetB1_3 Pin=R26-1
+Added Net: Name=NetB1_3
+Added Pin To Net: NetName=NetB1_5 Pin=B1-5
+Added Pin To Net: NetName=NetB1_5 Pin=B1-8
+Added Pin To Net: NetName=NetB1_5 Pin=R27-1
+Added Net: Name=NetB1_5
+Added Pin To Net: NetName=NetC23_2 Pin=C23-2
+Added Pin To Net: NetName=NetC23_2 Pin=R9-1
+Added Pin To Net: NetName=NetC23_2 Pin=U4-1
+Added Net: Name=NetC23_2
+Added Pin To Net: NetName=NetC24_1 Pin=C24-1
+Added Pin To Net: NetName=NetC24_1 Pin=U4-14
+Added Net: Name=NetC24_1
+Added Pin To Net: NetName=NetC24_2 Pin=C24-2
+Added Pin To Net: NetName=NetC24_2 Pin=D5-K
+Added Pin To Net: NetName=NetC24_2 Pin=L3-1
+Added Pin To Net: NetName=NetC24_2 Pin=U4-15
+Added Net: Name=NetC24_2
+Added Pin To Net: NetName=NetC25_2 Pin=C25-2
+Added Pin To Net: NetName=NetC25_2 Pin=U4-13
+Added Net: Name=NetC25_2
+Added Pin To Net: NetName=NetC26_2 Pin=C26-2
+Added Pin To Net: NetName=NetC26_2 Pin=R14-1
+Added Net: Name=NetC26_2
+Added Pin To Net: NetName=NetC27_2 Pin=C27-2
+Added Pin To Net: NetName=NetC27_2 Pin=R13-2
+Added Net: Name=NetC27_2
+Added Pin To Net: NetName=NetC32_1 Pin=C32-1
+Added Pin To Net: NetName=NetC32_1 Pin=U8-3
+Added Pin To Net: NetName=NetC32_1 Pin=Y1-2
+Added Net: Name=NetC32_1
+Added Pin To Net: NetName=NetC33_1 Pin=C33-1
+Added Pin To Net: NetName=NetC33_1 Pin=U8-4
+Added Pin To Net: NetName=NetC33_1 Pin=Y1-1
+Added Net: Name=NetC33_1
+Added Pin To Net: NetName=NetC34_2 Pin=C34-2
+Added Pin To Net: NetName=NetC34_2 Pin=R23-2
+Added Pin To Net: NetName=NetC34_2 Pin=U6-1
+Added Net: Name=NetC34_2
+Added Pin To Net: NetName=NetC44_2 Pin=C44-2
+Added Pin To Net: NetName=NetC44_2 Pin=U8-6
+Added Pin To Net: NetName=NetC44_2 Pin=Y2-1
+Added Net: Name=NetC44_2
+Added Pin To Net: NetName=NetC45_2 Pin=C45-2
+Added Pin To Net: NetName=NetC45_2 Pin=U8-5
+Added Pin To Net: NetName=NetC45_2 Pin=Y2-3
+Added Net: Name=NetC45_2
+Added Pin To Net: NetName=NetC47_2 Pin=C47-2
+Added Pin To Net: NetName=NetC47_2 Pin=U9-7
+Added Net: Name=NetC47_2
+Added Pin To Net: NetName=NetC48_2 Pin=C48-2
+Added Pin To Net: NetName=NetC48_2 Pin=U9-10
+Added Net: Name=NetC48_2
+Added Pin To Net: NetName=NetC49_2 Pin=C49-2
+Added Pin To Net: NetName=NetC49_2 Pin=R54-1
+Added Pin To Net: NetName=NetC49_2 Pin=R55-2
+Added Pin To Net: NetName=NetC49_2 Pin=U7-3
+Added Net: Name=NetC49_2
+Added Pin To Net: NetName=NetC51_2 Pin=C51-2
+Added Pin To Net: NetName=NetC51_2 Pin=R60-1
+Added Pin To Net: NetName=NetC51_2 Pin=R61-2
+Added Pin To Net: NetName=NetC51_2 Pin=U11-3
+Added Net: Name=NetC51_2
+Added Pin To Net: NetName=NetC59_2 Pin=C59-2
+Added Pin To Net: NetName=NetC59_2 Pin=C60-2
+Added Pin To Net: NetName=NetC59_2 Pin=C61-2
+Added Pin To Net: NetName=NetC59_2 Pin=R21-2
+Added Pin To Net: NetName=NetC59_2 Pin=R52-2
+Added Pin To Net: NetName=NetC59_2 Pin=R58-1
+Added Pin To Net: NetName=NetC59_2 Pin=R62-2
+Added Pin To Net: NetName=NetC59_2 Pin=U5-6
+Added Pin To Net: NetName=NetC59_2 Pin=U9-6
+Added Pin To Net: NetName=NetC59_2 Pin=U12-3
+Added Net: Name=NetC59_2
+Added Pin To Net: NetName=NetC62_2 Pin=C62-2
+Added Pin To Net: NetName=NetC62_2 Pin=U12-7
+Added Net: Name=NetC62_2
+Added Pin To Net: NetName=NetC63_1 Pin=C63-1
+Added Pin To Net: NetName=NetC63_1 Pin=L4-1
+Added Pin To Net: NetName=NetC63_1 Pin=U12-5
+Added Net: Name=NetC63_1
+Added Pin To Net: NetName=NetC63_2 Pin=C63-2
+Added Pin To Net: NetName=NetC63_2 Pin=U12-6
+Added Net: Name=NetC63_2
+Added Pin To Net: NetName=NetC67_1 Pin=C67-1
+Added Pin To Net: NetName=NetC67_1 Pin=R64-1
+Added Pin To Net: NetName=NetC67_1 Pin=R65-2
+Added Pin To Net: NetName=NetC67_1 Pin=U12-8
+Added Net: Name=NetC67_1
+Added Pin To Net: NetName=NetD8_A Pin=D8-A
+Added Pin To Net: NetName=NetD8_A Pin=R42-1
+Added Net: Name=NetD8_A
+Added Pin To Net: NetName=NetD9_A Pin=D9-A
+Added Pin To Net: NetName=NetD9_A Pin=R43-1
+Added Net: Name=NetD9_A
+Added Pin To Net: NetName=NetL3_2 Pin=L3-2
+Added Pin To Net: NetName=NetL3_2 Pin=R12-1
+Added Pin To Net: NetName=NetL3_2 Pin=U4-11
+Added Net: Name=NetL3_2
+Added Pin To Net: NetName=NetQ3_D Pin=Q3-D
+Added Pin To Net: NetName=NetQ3_D Pin=R16-1
+Added Pin To Net: NetName=NetQ3_D Pin=R17-2
+Added Pin To Net: NetName=NetQ3_D Pin=U5-1
+Added Net: Name=NetQ3_D
+Added Pin To Net: NetName=NetQ3_G Pin=Q3-G
+Added Pin To Net: NetName=NetQ3_G Pin=R15-2
+Added Net: Name=NetQ3_G
+Added Pin To Net: NetName=NetQ6_D Pin=Q6-D
+Added Pin To Net: NetName=NetQ6_D Pin=R47-1
+Added Pin To Net: NetName=NetQ6_D Pin=R48-2
+Added Pin To Net: NetName=NetQ6_D Pin=U9-1
+Added Net: Name=NetQ6_D
+Added Pin To Net: NetName=NetQ6_G Pin=Q6-G
+Added Pin To Net: NetName=NetQ6_G Pin=R46-2
+Added Net: Name=NetQ6_G
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=NetR10_1 Pin=R11-2
+Added Pin To Net: NetName=NetR10_1 Pin=U4-2
+Added Net: Name=NetR10_1
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR13_1 Pin=U4-9
+Added Net: Name=NetR13_1
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR14_2 Pin=U4-8
+Added Net: Name=NetR14_2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=NetR17_1 Pin=R18-2
+Added Pin To Net: NetName=NetR17_1 Pin=U5-2
+Added Net: Name=NetR17_1
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=NetR19_1 Pin=U5-3
+Added Net: Name=NetR19_1
+Added Pin To Net: NetName=NetR20_2 Pin=R20-2
+Added Pin To Net: NetName=NetR20_2 Pin=U5-9
+Added Net: Name=NetR20_2
+Added Pin To Net: NetName=NetR21_1 Pin=R21-1
+Added Pin To Net: NetName=NetR21_1 Pin=R22-2
+Added Pin To Net: NetName=NetR21_1 Pin=U5-4
+Added Net: Name=NetR21_1
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Pin To Net: NetName=NetR48_1 Pin=R49-2
+Added Pin To Net: NetName=NetR48_1 Pin=U9-2
+Added Net: Name=NetR48_1
+Added Pin To Net: NetName=NetR50_1 Pin=R50-1
+Added Pin To Net: NetName=NetR50_1 Pin=U9-3
+Added Net: Name=NetR50_1
+Added Pin To Net: NetName=NetR51_2 Pin=R51-2
+Added Pin To Net: NetName=NetR51_2 Pin=U9-9
+Added Net: Name=NetR51_2
+Added Pin To Net: NetName=NetR52_1 Pin=R52-1
+Added Pin To Net: NetName=NetR52_1 Pin=R53-2
+Added Pin To Net: NetName=NetR52_1 Pin=U9-4
+Added Net: Name=NetR52_1
+Added Pin To Net: NetName=NetR58_2 Pin=R58-2
+Added Pin To Net: NetName=NetR58_2 Pin=U10-3
+Added Net: Name=NetR58_2
+Added Pin To Net: NetName=NetR62_1 Pin=R62-1
+Added Pin To Net: NetName=NetR62_1 Pin=R63-2
+Added Pin To Net: NetName=NetR62_1 Pin=U12-2
+Added Net: Name=NetR62_1
+Add Class: Class already exists: Charger
+Added Class: Name=Step_Down
+Added Member To Class: ClassName=Battery Member=Component B1 INR18650-35E
+Added Member To Class: ClassName=Charger Member=Component C1 C0603C104K5RACTU
+Added Member To Class: ClassName=Charger Member=Component C2 C0603C104K5RACTU
+Added Member To Class: ClassName=Charger Member=Component C3 C0603C104K5RACTU
+Added Member To Class: ClassName=Charger Member=Component C4 C0603C104K5RACTU
+Added Member To Class: ClassName=Charger Member=Component C5 C0603C104K5RACTU
+Added Member To Class: ClassName=Battery_eFuse Member=Component C30 CL21B103KBANNNC
+Added Member To Class: ClassName=Battery_eFuse Member=Component C31 0805B472K500NT
+Added Member To Class: ClassName=Controller Member=Component C32 KGM05ACG1H180FH
+Added Member To Class: ClassName=Controller Member=Component C33 KGM05ACG1H180FH
+Added Member To Class: ClassName=Battery Member=Component C34 CL10A105KB8NNNC
+Added Member To Class: ClassName=Battery Member=Component C35 CL10A105KB8NNNC
+Added Member To Class: ClassName=Battery Member=Component C36 CL10A105KB8NNNC
+Added Member To Class: ClassName=Battery Member=Component C37 CL10A105KB8NNNC
+Added Member To Class: ClassName=Battery Member=Component C39 CL10A105KB8NNNC
+Added Member To Class: ClassName=Battery Member=Component C40 CL10A105KB8NNNC
+Added Member To Class: ClassName=Battery Member=Component C41 CC0603KRX7R9BB104
+Added Member To Class: ClassName=Battery Member=Component C42 CC0603KRX7R9BB104
+Added Member To Class: ClassName=Battery Member=Component C43 CC0603KRX7R9BB104
+Added Member To Class: ClassName=Controller Member=Component C44 GJM1555C1H140FB01D
+Added Member To Class: ClassName=Controller Member=Component C45 GJM1555C1H140FB01D
+Added Member To Class: ClassName=Controller Member=Component C46 CL10B104KO8NNNC
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component C47 CL21B103KBANNNC
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component C48 0805B472K500NT
+Added Member To Class: ClassName=Cubesat BMS Member=Component C49 C0603C104K5RACTU
+Added Member To Class: ClassName=Cubesat BMS Member=Component C50 C0603C104K5RACTU
+Added Member To Class: ClassName=Cubesat BMS Member=Component C51 C0603C104K5RACTU
+Added Member To Class: ClassName=Cubesat BMS Member=Component C52 C0603C104K5RACTU
+Added Member To Class: ClassName=Cubesat BMS Member=Component C53 C0603C104K5RACTU
+Added Member To Class: ClassName=Cubesat BMS Member=Component C54 CL32B106KBJNNNE
+Added Member To Class: ClassName=Cubesat BMS Member=Component C55 CL32B106KBJNNNE
+Added Member To Class: ClassName=Cubesat BMS Member=Component C56 CL32B106KBJNNNE
+Added Member To Class: ClassName=Cubesat BMS Member=Component C57 CL32B106KBJNNNE
+Added Member To Class: ClassName=Cubesat BMS Member=Component C58 CL32B106KBJNNNE
+Added Member To Class: ClassName=Charger Member=Component D2 B340LA-13-F
+Added Member To Class: ClassName=Charger Member=Component D3 SMD22WS-TP
+Added Member To Class: ClassName=Battery Member=Component D6 BAV20WS-7-F0
+Added Member To Class: ClassName=Controller Member=Component D8 LTST-C170EKT
+Added Member To Class: ClassName=Controller Member=Component D9 LTST-C170GKT
+Added Member To Class: ClassName=Cubesat BMS Member=Component J1 LS2-110-01-L-D
+Added Member To Class: ClassName=Cubesat BMS Member=Component J2 0532610671
+Added Member To Class: ClassName=Cubesat BMS Member=Component J3 0532610471
+Added Member To Class: ClassName=Top_Level Member=Component MECH1 M3 Mounting Hole
+Added Member To Class: ClassName=Top_Level Member=Component MECH2 M3 Mounting Hole
+Added Member To Class: ClassName=Top_Level Member=Component MECH3 M3 Mounting Hole
+Added Member To Class: ClassName=Top_Level Member=Component MECH4 M3 Mounting Hole
+Added Member To Class: ClassName=Top_Level Member=Component MECH5 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH6 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH7 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH9 M3x0.5x8
+Added Member To Class: ClassName=Top_Level Member=Component MECH10 M3x0.5x8
+Added Member To Class: ClassName=Charger Member=Component Q1 NTTFS5C454NLTAG
+Added Member To Class: ClassName=Battery_eFuse Member=Component Q3 T2N7002AK,LM
+Added Member To Class: ClassName=Battery Member=Component Q4 BSC026N08NS5
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component Q6 T2N7002AK,LM
+Added Member To Class: ClassName=Charger Member=Component R1 LVK12R050CER
+Added Member To Class: ClassName=Charger Member=Component R2 RMCF0603FT27K0
+Added Member To Class: ClassName=Battery_eFuse Member=Component R15 RMCF0603FT470K
+Added Member To Class: ClassName=Battery_eFuse Member=Component R16 RMCF0603FT470K
+Added Member To Class: ClassName=Battery_eFuse Member=Component R17 RMCF0603FT11K3
+Added Member To Class: ClassName=Battery_eFuse Member=Component R18 RMCF0603FT37K4
+Added Member To Class: ClassName=Battery_eFuse Member=Component R19 0603WAF4702T5E
+Added Member To Class: ClassName=Battery_eFuse Member=Component R20 RMCF0603FT750R
+Added Member To Class: ClassName=Battery_eFuse Member=Component R21 0603WAF4702T5E
+Added Member To Class: ClassName=Battery_eFuse Member=Component R22 RMCF0603FT3K48
+Added Member To Class: ClassName=Battery Member=Component R23 0603WAF1001T5E
+Added Member To Class: ClassName=Battery Member=Component R24 0603WAF560JT5E
+Added Member To Class: ClassName=Battery Member=Component R25 0603WAF560JT5E
+Added Member To Class: ClassName=Battery Member=Component R26 0603WAF560JT5E
+Added Member To Class: ClassName=Battery Member=Component R27 0603WAF560JT5E
+Added Member To Class: ClassName=Battery Member=Component R28 0603WAF560JT5E
+Added Member To Class: ClassName=Battery Member=Component R29 0603WAF1000T5E
+Added Member To Class: ClassName=Battery Member=Component R30 0603WAF1000T5E
+Added Member To Class: ClassName=Battery Member=Component R31 LVK12R010FER
+Added Member To Class: ClassName=Battery Member=Component R32 0603WAF4701T5E
+Added Member To Class: ClassName=Battery Member=Component R33 0603WAF1004T5E
+Added Member To Class: ClassName=Battery Member=Component R34 0603WAF1001T5E
+Added Member To Class: ClassName=Battery Member=Component R35 0603WAF1004T5E
+Added Member To Class: ClassName=Battery Member=Component R36 0603WAF1004T5E
+Added Member To Class: ClassName=Battery Member=Component R37 0603WAF4703T5E
+Added Member To Class: ClassName=Battery Member=Component R38 0805W8F1002T5E
+Added Member To Class: ClassName=Battery Member=Component R39 0603WAF6043T5E
+Added Member To Class: ClassName=Battery Member=Component R40 0805W8F1002T5E
+Added Member To Class: ClassName=Battery Member=Component R41 TT6-10KC8-9-25
+Added Member To Class: ClassName=Controller Member=Component R42 RMCF0805FT120R
+Added Member To Class: ClassName=Controller Member=Component R43 RMCF0805FT120R
+Added Member To Class: ClassName=Controller Member=Component R44 CRCW080510K0FKEA
+Added Member To Class: ClassName=Controller Member=Component R45 CRCW080510K0FKEA
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component R46 RMCF0603FT470K
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component R47 RMCF0603FT470K
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component R48 RMCF0805FT6K19
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component R49 RMCF0603FT28K0
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component R50 0603WAF4702T5E
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component R51 RMCF0603FT1K2
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component R52 0603WAF4702T5E
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component R53 RMCF0603FT3K48
+Added Member To Class: ClassName=Cubesat BMS Member=Component R54 RMCF0603FT59K0
+Added Member To Class: ClassName=Cubesat BMS Member=Component R55 RMCF0603FT10K0
+Added Member To Class: ClassName=Cubesat BMS Member=Component R56 0805W8F4703T5E
+Added Member To Class: ClassName=Cubesat BMS Member=Component R57 0805W8F1003T5E
+Added Member To Class: ClassName=Cubesat BMS Member=Component R58 LVK12R050CER
+Added Member To Class: ClassName=Cubesat BMS Member=Component R60 RMCF0603FT59K0
+Added Member To Class: ClassName=Cubesat BMS Member=Component R61 RMCF0603FT10K0
+Added Member To Class: ClassName=Controller Member=Component S2 B3U-1000P
+Added Member To Class: ClassName=Charger Member=Component U2 INA139NA/250
+Added Member To Class: ClassName=Charger Member=Component U3 MCP6007T-E/SN
+Added Member To Class: ClassName=Battery_eFuse Member=Component U5 TPS259474LRPWR
+Added Member To Class: ClassName=Battery Member=Component U6 BQ7791500PWR
+Added Member To Class: ClassName=Cubesat BMS Member=Component U7 MCP6007T-E/SN
+Added Member To Class: ClassName=Controller Member=Component U8 STM32F446RET7
+Added Member To Class: ClassName=Umbilical_eFuse Member=Component U9 TPS259474LRPWR
+Added Member To Class: ClassName=Cubesat BMS Member=Component U10 INA139NA/250
+Added Member To Class: ClassName=Controller Member=Component Y1 CM7VT1A32.768KHZ125PF20PPMTBQAT3
+Added Rule: Name=Schematic Supply Nets_8

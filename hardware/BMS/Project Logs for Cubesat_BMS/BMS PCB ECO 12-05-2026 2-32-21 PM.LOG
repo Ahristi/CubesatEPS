@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=J5-1
+Removed Pin From Net: NetName=NetD1_A Pin=J5-2
+Removed Pin From Net: NetName=GND Pin=J6-1
+Removed Pin From Net: NetName=NetD1_A Pin=J6-2
+Removed Pin From Net: NetName=GND Pin=J7-1
+Removed Pin From Net: NetName=NetD3_A Pin=J7-2
+Removed Pin From Net: NetName=GND Pin=J8-1
+Removed Pin From Net: NetName=NetD3_A Pin=J8-2
+Removed Member From Class: ClassName=Cubesat BMS Member=J5
+Removed Member From Class: ClassName=Cubesat BMS Member=J8
+Added Pin To Net: NetName=NetD1_A Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=NetD3_A Pin=J7-1
+Added Pin To Net: NetName=GND Pin=J7-2
+Added Pin To Net: NetName=NetD2_A Pin=L1-2
+Added Pin To Net: NetName=NetD4_A Pin=L2-2
+Add Class: Class already exists: Charger

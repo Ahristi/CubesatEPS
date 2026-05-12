@@ -1,0 +1,18 @@
+Change component parameters: Designator = "C47" ("C47"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\YHPYETPL\BUJHSWMG" ("\HKTNPMJO\YHPYETPL\BUJHSWMG")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-1015-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL21B103KBANNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U9" ("U9"); Footprint = "VFQFN-10"; UniqueID = "\HKTNPMJO\YHPYETPL\KGRSAAML" ("\HKTNPMJO\YHPYETPL\KGRSAAML")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "296-TPS259474LRPWRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Current"; Value = "5.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "TPS259474LRPWR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Input"; Value = "2.7V~23V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD2_A Pin=L1-1
+Added Pin To Net: NetName=NetD4_A Pin=L2-1
+Add Class: Class already exists: Charger
