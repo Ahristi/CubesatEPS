@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=BATT_VMON Pin=U7-1
+Removed Pin From Net: NetName=BATT_VMON Pin=U7-2
+Removed Pin From Net: NetName=NetC49_2 Pin=U7-3
+Removed Pin From Net: NetName=SYS_VMON Pin=U11-1
+Removed Pin From Net: NetName=SYS_VMON Pin=U11-2
+Removed Pin From Net: NetName=NetC51_2 Pin=U11-3
+Removed Pin From Net: NetName=GND Pin=U11-4
+Removed Pin From Net: NetName=+3V3A Pin=U11-8
+Removed Member From Class: ClassName=Cubesat BMS Member=U11
+Change Component Designator: OldDesignator=U7 NewDesignator=U11
+Added Pin To Net: NetName=SYS_VMON Pin=U11-1
+Added Pin To Net: NetName=SYS_VMON Pin=U11-2
+Added Pin To Net: NetName=NetC51_2 Pin=U11-3
+Added Pin To Net: NetName=NetC49_2 Pin=U11-5
+Added Pin To Net: NetName=BATT_VMON Pin=U11-6
+Added Pin To Net: NetName=BATT_VMON Pin=U11-7

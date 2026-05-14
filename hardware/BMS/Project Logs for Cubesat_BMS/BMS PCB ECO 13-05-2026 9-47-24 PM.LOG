@@ -1,0 +1,22 @@
+Change Component Footprint: Designator=C31 Old Footprint=CAPC0805X060 New Footprint=CAPC0603X040
+Change Component Footprint: Designator=C30 Old Footprint=CAPC0805X060 New Footprint=CAPC0603X060
+Change Component Comment : Designator=C31 Old Comment=0805B472K500NT New Comment=C0603C472K4RECAUTO
+Change Component Comment : Designator=C30 Old Comment=CL21B103KBANNNC New Comment=CL10B103KB8NNNC
+Change component parameters: Designator = "C30" ("C30"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\JYEVXYAX\KQPIZRIN" ("\HKTNPMJO\JYEVXYAX\KQPIZRIN")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-1009-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL10B103KB8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C31" ("C31"); Footprint = "CAPC0805X060"; UniqueID = "\HKTNPMJO\JYEVXYAX\CSCOETZF" ("\HKTNPMJO\JYEVXYAX\CSCOETZF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "4.7nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part number"; Value = "399-17879-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "C0603C472K4RECAUTO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Cubesat BMS Member=Component U11 MCP6007T-E/SN

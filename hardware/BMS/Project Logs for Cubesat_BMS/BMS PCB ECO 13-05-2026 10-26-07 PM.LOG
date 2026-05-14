@@ -1,0 +1,3 @@
+Added Component: Designator=MECH13(M2.5 Mounting Hole)
+Added Pin To Net: NetName=GND Pin=MECH13-1
+Added Member To Class: ClassName=Top_Level Member=Component MECH13 M2.5 Mounting Hole

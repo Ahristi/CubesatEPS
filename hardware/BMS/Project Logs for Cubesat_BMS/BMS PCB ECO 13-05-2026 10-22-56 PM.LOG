@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=MECH NewDesignator=MECH14
+Added Pin To Net: NetName=GND Pin=MECH11-1
+Added Pin To Net: NetName=GND Pin=MECH12-1
+Added Pin To Net: NetName=GND Pin=MECH13-1
+Added Pin To Net: NetName=GND Pin=MECH14-1

@@ -1,0 +1,3 @@
+Change Net Name : Old Net Name=NetR58_2 New Net Name=SYS_SHUNT_N
+Change Net Name : Old Net Name=NetR58_3 New Net Name=SYS_SHUNT_P
+Added Differential Pair: Name=SYS_SHUNT

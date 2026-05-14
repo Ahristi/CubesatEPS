@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=UMB_SHDN Pin=U8-11
+Removed Pin From Net: NetName=UMB_PG Pin=U8-33
+Added Pin To Net: NetName=UMB_SHDN Pin=U8-33
+Added Pin To Net: NetName=UMB_PG Pin=U8-34

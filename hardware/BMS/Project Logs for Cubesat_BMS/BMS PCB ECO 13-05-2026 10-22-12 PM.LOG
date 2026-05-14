@@ -1,0 +1,9 @@
+Added Component: Designator=MECH11(M2.5 Mounting Hole)
+Added Component: Designator=MECH12(M2.5 Mounting Hole)
+Added Component: Designator=MECH13(M2.5 Mounting Hole)
+Added Component: Designator=MECH(M2.5 Mounting Hole)
+Added Member To Class: ClassName=Battery Member=Component B1 INR18650-35E
+Added Member To Class: ClassName=Top_Level Member=Component MECH11 M2.5 Mounting Hole
+Added Member To Class: ClassName=Top_Level Member=Component MECH12 M2.5 Mounting Hole
+Added Member To Class: ClassName=Top_Level Member=Component MECH13 M2.5 Mounting Hole
+Added Member To Class: ClassName=Top_Level Member=Component MECH M2.5 Mounting Hole

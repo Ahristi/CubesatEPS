@@ -1,0 +1,22 @@
+Change Component Footprint: Designator=R44 Old Footprint=RESC0805 New Footprint=RESC0603
+Change Component Footprint: Designator=R45 Old Footprint=RESC0805 New Footprint=RESC0603
+Change Component Comment : Designator=R44 Old Comment=CRCW080510K0FKEA New Comment=RMCF0603FT100K
+Change Component Comment : Designator=R45 Old Comment=CRCW080510K0FKEA New Comment=RMCF0603FT100K
+Change component parameters: Designator = "R44" ("R44"); Footprint = "RESC0805"; UniqueID = "\HKTNPMJO\SSYFLYAY\YDVSMGXB" ("\HKTNPMJO\SSYFLYAY\YDVSMGXB")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT100KCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT100K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R45" ("R45"); Footprint = "RESC0805"; UniqueID = "\HKTNPMJO\SSYFLYAY\TMNEJMPW" ("\HKTNPMJO\SSYFLYAY\TMNEJMPW")
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "RMCF0603FT100KCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RMCF0603FT100K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Room: Name=Battery
+Added Room: Name=Controller
+Added Room: Name=Power_Path
+Added Room: Name=Top_Level

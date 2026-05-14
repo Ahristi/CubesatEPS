@@ -1,0 +1,7 @@
+Change Net Name : Old Net Name=CHG_SHUNT_N New Net Name=NetL3_2
+Change Net Name : Old Net Name=CHG_SHUNT_P New Net Name=VBATT+
+Change Net Name : Old Net Name=NetR68_2 New Net Name=BAT_SHUNT_P
+Change Net Name : Old Net Name=NetR68_3 New Net Name=BAT_SHUNT_N
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Lime
+Added Differential Pair: Name=BAT_SHUNT
+Added Rule: Name=Schematic Supply Nets_3

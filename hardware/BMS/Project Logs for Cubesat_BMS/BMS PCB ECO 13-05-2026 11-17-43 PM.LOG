@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=NetL3_2 New Net Name=CHG_SHUNT_N
+Change Net Name : Old Net Name=VBATT+ New Net Name=CHG_SHUNT_P
+Change Net Color : Old Net Color=Lime New Net Color=Default
+Added Rule: Name=Schematic Supply Nets_12

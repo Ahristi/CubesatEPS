@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=BAT_PG Pin=U8-28
+Added Pin To Net: NetName=BAT_PG Pin=U8-29

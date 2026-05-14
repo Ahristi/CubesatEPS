@@ -1,0 +1,33 @@
+Change Component Footprint: Designator=C41 Old Footprint=CAPC0603X040 New Footprint=CAPC0402X020
+Change Component Footprint: Designator=C42 Old Footprint=CAPC0603X040 New Footprint=CAPC0402X020
+Change Component Footprint: Designator=C43 Old Footprint=CAPC0603X040 New Footprint=CAPC0402X020
+Change Component Comment : Designator=C41 Old Comment=CC0603KRX7R9BB104 New Comment=CL05B104KB5NNNC
+Change Component Comment : Designator=C42 Old Comment=CC0603KRX7R9BB104 New Comment=CL05B104KB5NNNC
+Change Component Comment : Designator=C43 Old Comment=CC0603KRX7R9BB104 New Comment=CL05B104KB5NNNC
+Change component parameters: Designator = "C41" ("C41"); Footprint = "CAPC0603X040"; UniqueID = "\HKTNPMJO\NQFMJMPW\EQGUIWSN" ("\HKTNPMJO\NQFMJMPW\EQGUIWSN")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C42" ("C42"); Footprint = "CAPC0603X040"; UniqueID = "\HKTNPMJO\NQFMJMPW\QUHAZSZF" ("\HKTNPMJO\NQFMJMPW\QUHAZSZF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C43" ("C43"); Footprint = "CAPC0603X040"; UniqueID = "\HKTNPMJO\NQFMJMPW\VBEDHQHC" ("\HKTNPMJO\NQFMJMPW\VBEDHQHC")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "1276-CL05B104KB5NNNCCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Initial Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CL05B104KB5NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"

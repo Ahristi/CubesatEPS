@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=VBATT+ Pin=R68-1
+Removed Pin From Net: NetName=BAT_SHUNT_P Pin=R68-2
+Removed Pin From Net: NetName=BAT_SHUNT_N Pin=R68-3
+Removed Pin From Net: NetName=NetB1_2 Pin=R68-4
+Added Pin To Net: NetName=NetB1_2 Pin=R68-1
+Added Pin To Net: NetName=BAT_SHUNT_N Pin=R68-2
+Added Pin To Net: NetName=BAT_SHUNT_P Pin=R68-3
+Added Pin To Net: NetName=VBATT+ Pin=R68-4
+Added Member To Class: ClassName=Battery Member=Component R68 LVK12R050CER

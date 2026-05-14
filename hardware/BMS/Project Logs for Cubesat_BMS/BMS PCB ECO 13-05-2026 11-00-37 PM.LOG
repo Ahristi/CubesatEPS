@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=R5 Old Footprint=LVK12R050CER-1 New Footprint=LVK12R050CER-2
+Added Component: Designator=B1(4S Battery Direct Solder)
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_3 Pin=B1-3
+Added Pin To Net: NetName=NetB1_1 Pin=B1-4
+Added Pin To Net: NetName=NetB1_5 Pin=B1-5
+Added Pin To Net: NetName=NetB1_3 Pin=B1-6
+Added Pin To Net: NetName=BAT- Pin=B1-7
+Added Pin To Net: NetName=NetB1_5 Pin=B1-8
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Pin To Net: NetName=GND Pin=B1-CASE
+Added Member To Class: ClassName=Battery Member=Component B1 INR18650-35E

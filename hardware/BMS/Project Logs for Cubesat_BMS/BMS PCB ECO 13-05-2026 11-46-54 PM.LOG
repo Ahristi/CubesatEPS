@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=VBATT+ Pin=R68-1
+Removed Pin From Net: NetName=BAT_SHUNT_P Pin=R68-2
+Removed Pin From Net: NetName=BAT_SHUNT_N Pin=R68-3
+Removed Pin From Net: NetName=NetB1_2 Pin=R68-4
+Removed Member From Class: ClassName=Battery Member=R68
+Added Component: Designator=68(LVK12R050CER-2)
+Add component (AddParameter): Name = "Distributor"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LVK12R050CER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.5W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "50mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±50ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.25%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetB1_2 Pin=68-1
+Added Pin To Net: NetName=BAT_SHUNT_N Pin=68-2
+Added Pin To Net: NetName=BAT_SHUNT_P Pin=68-3
+Added Pin To Net: NetName=VBATT+ Pin=68-4
+Change Net Name : Old Net Name=NetB1_2 New Net Name=Net68_1
+Change Net Color : Old Net Color=Lime New Net Color=Default
+Added Member To Class: ClassName=Battery Member=Component 68 LVK12R050CER
