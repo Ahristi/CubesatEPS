@@ -1,3 +1,2 @@
 Layer Pairs Export File for PCB: C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\BMS.PcbDoc
-LayersSetName=Top_Bot_Thru_Holes|DrillFile=bms-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
-LayersSetName=Top_Bot_Slot_Holes|DrillFile=bms-slotholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=bms.txt|DrillLayers=gtl,gp1,g1,g2,g3,g4,gp2,gbl

@@ -1,10 +1,12 @@
-Output: Generates pick and place files
-Type  : Pick Place
-From  : Variant [[No Variations]] of Project [Cubesat_BMS.PrjPcb]
-   Generated File[Pick Place for BMS.csv]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Cubesat_BMS.PrjPcb]
+   Generated File[BMS.TXT]
+   Generated File[BMS.LDP]
+   Generated File[BMS.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 9:24:03 PM On 28/01/2026
+Finished Output Generation At 3:11:53 PM On 16/05/2026
