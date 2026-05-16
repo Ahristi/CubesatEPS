@@ -1,0 +1,21 @@
+Added Component: Designator=D10(LEDR_0805)
+Add component (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "160-1427-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-30?~+85?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LTST-C171KRKT"; VariantName = "[No Variations]"
+Added Component: Designator=R77(RESC0603)
+Add component (AddParameter): Name = "Case Code"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "C4190"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0603WAF2201T5E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "2K2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D10-K
+Added Pin To Net: NetName=SYS Pin=R77-2
+Added Pin To Net: NetName=NetD10_A Pin=D10-A
+Added Pin To Net: NetName=NetD10_A Pin=R77-1
+Added Net: Name=NetD10_A
+Added Member To Class: ClassName=Power_Path Member=Component D10 LTST-C171KRKT
+Added Member To Class: ClassName=Power_Path Member=Component R77 0603WAF2201T5E

@@ -1,0 +1,57 @@
+Removed Pin From Net: NetName=NetB1_1 Pin=B1-4
+Removed Pin From Net: NetName=NetB1_3 Pin=B1-6
+Removed Pin From Net: NetName=NetB1_5 Pin=B1-8
+Removed Pin From Net: NetName=NetB1_1 Pin=R25-1
+Removed Pin From Net: NetName=NetB1_3 Pin=R26-1
+Removed Pin From Net: NetName=NetB1_5 Pin=R27-1
+Added Component: Designator=F1(SF-1206SA300W-2)
+Add component (AddParameter): Name = "Breaking Capacity"; Value = "50A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "118-SF-1206SA300W-2CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "9.73 mm x 5.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interrupt Rating"; Value = "50A at 125VAC 50A at 125VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Temperature"; Value = "125C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Temperature"; Value = "-55C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SF-1206SA300W-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating - DC"; Value = "65V"; VariantName = "[No Variations]"
+Added Component: Designator=F2(SF-1206SA300W-2)
+Add component (AddParameter): Name = "Breaking Capacity"; Value = "50A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "118-SF-1206SA300W-2CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "9.73 mm x 5.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interrupt Rating"; Value = "50A at 125VAC 50A at 125VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Temperature"; Value = "125C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Temperature"; Value = "-55C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SF-1206SA300W-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating - DC"; Value = "65V"; VariantName = "[No Variations]"
+Added Component: Designator=F3(SF-1206SA300W-2)
+Add component (AddParameter): Name = "Breaking Capacity"; Value = "50A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part Number"; Value = "118-SF-1206SA300W-2CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "9.73 mm x 5.03 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interrupt Rating"; Value = "50A at 125VAC 50A at 125VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Temperature"; Value = "125C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Temperature"; Value = "-55C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SF-1206SA300W-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating - DC"; Value = "65V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetB1_5 Pin=F1-2
+Added Pin To Net: NetName=NetB1_3 Pin=F2-2
+Added Pin To Net: NetName=NetB1_1 Pin=F3-2
+Added Pin To Net: NetName=VC1 Pin=B1-8
+Added Pin To Net: NetName=VC1 Pin=F1-1
+Added Pin To Net: NetName=VC1 Pin=R27-1
+Added Net: Name=VC1
+Added Pin To Net: NetName=VC2 Pin=B1-6
+Added Pin To Net: NetName=VC2 Pin=F2-1
+Added Pin To Net: NetName=VC2 Pin=R26-1
+Added Net: Name=VC2
+Added Pin To Net: NetName=VC3 Pin=B1-4
+Added Pin To Net: NetName=VC3 Pin=F3-1
+Added Pin To Net: NetName=VC3 Pin=R25-1
+Added Net: Name=VC3
+Added Member To Class: ClassName=Battery Member=Component F1 SF-1206SA300W-2
+Added Member To Class: ClassName=Battery Member=Component F2 SF-1206SA300W-2
+Added Member To Class: ClassName=Battery Member=Component F3 SF-1206SA300W-2

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=CHG_SHDN Pin=U8-61
+Removed Pin From Net: NetName=CHG_PG Pin=U8-62
+Added Pin To Net: NetName=CHG_PG Pin=U8-61
+Added Pin To Net: NetName=CHG_SHDN Pin=U8-62

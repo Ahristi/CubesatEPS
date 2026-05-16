@@ -1,0 +1,39 @@
+Change Component Comment : Designator=F1 Old Comment=SF-1206SA300W-2 New Comment=SF-1206SA500W-2
+Change Component Comment : Designator=F2 Old Comment=SF-1206SA300W-2 New Comment=SF-1206SA500W-2
+Change Component Comment : Designator=F3 Old Comment=SF-1206SA300W-2 New Comment=SF-1206SA500W-2
+Change Component Description : Designator=F1 Old Description=Fuse Surface Mount 3A Slow Blow 50A Interrupt 1206 New Description=Fuse Surface Mount 5A Slow Blow 50A Interrupt 1206
+Change Component Description : Designator=F2 Old Description=Fuse Surface Mount 3A Slow Blow 50A Interrupt 1206 New Description=Fuse Surface Mount 5A Slow Blow 50A Interrupt 1206
+Change Component Description : Designator=F3 Old Description=Fuse Surface Mount 3A Slow Blow 50A Interrupt 1206 New Description=Fuse Surface Mount 5A Slow Blow 50A Interrupt 1206
+Change component parameters: Designator = "F1" ("F1"); Footprint = "SF-1206SA300W-2"; UniqueID = "\HKTNPMJO\NQFMJMPW\AHAKKGBO" ("\HKTNPMJO\NQFMJMPW\AHAKKGBO")
+Change component parameters (AddParameter): Name = "Breaking Capacity"; Value = "50A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "118-SF-1206SA500W-2CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fuse Size"; Value = "9.73 mm x 5.03 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interrupt Rating"; Value = "50A at 125VAC 50A at 125VDC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Temperature"; Value = "125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Temperature"; Value = "-55C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SF-1206SA500W-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating - DC"; Value = "65V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "F2" ("F2"); Footprint = "SF-1206SA300W-2"; UniqueID = "\HKTNPMJO\NQFMJMPW\JQVLVLUB" ("\HKTNPMJO\NQFMJMPW\JQVLVLUB")
+Change component parameters (AddParameter): Name = "Breaking Capacity"; Value = "50A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "118-SF-1206SA500W-2CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fuse Size"; Value = "9.73 mm x 5.03 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interrupt Rating"; Value = "50A at 125VAC 50A at 125VDC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Temperature"; Value = "125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Temperature"; Value = "-55C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SF-1206SA500W-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating - DC"; Value = "65V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "F3" ("F3"); Footprint = "SF-1206SA300W-2"; UniqueID = "\HKTNPMJO\NQFMJMPW\RMDWOXMP" ("\HKTNPMJO\NQFMJMPW\RMDWOXMP")
+Change component parameters (AddParameter): Name = "Breaking Capacity"; Value = "50A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part Number"; Value = "118-SF-1206SA500W-2CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fuse Size"; Value = "9.73 mm x 5.03 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interrupt Rating"; Value = "50A at 125VAC 50A at 125VDC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Temperature"; Value = "125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Temperature"; Value = "-55C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SF-1206SA500W-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating - DC"; Value = "65V"; VariantName = "[No Variations]"

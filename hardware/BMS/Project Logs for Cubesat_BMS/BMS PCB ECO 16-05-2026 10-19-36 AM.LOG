@@ -1,0 +1,26 @@
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=GND Pin=J1-7
+Added Pin To Net: NetName=GND Pin=J1-8
+Added Pin To Net: NetName=GND Pin=J1-13
+Added Pin To Net: NetName=GND Pin=J1-14
+Added Pin To Net: NetName=GND Pin=J1-17
+Added Pin To Net: NetName=GND Pin=J1-19
+Added Pin To Net: NetName=BMS_nCE Pin=J1-11
+Added Pin To Net: NetName=BMS_nCE Pin=U8-42
+Added Net: Name=BMS_nCE
+Added Pin To Net: NetName=BMS_nINT Pin=J1-10
+Added Pin To Net: NetName=BMS_nINT Pin=U8-45
+Added Net: Name=BMS_nINT
+Added Pin To Net: NetName=BMS_nQON Pin=J1-12
+Added Pin To Net: NetName=BMS_nQON Pin=U8-44
+Added Net: Name=BMS_nQON
+Added Pin To Net: NetName=BMS_nSTAT Pin=J1-9
+Added Pin To Net: NetName=BMS_nSTAT Pin=U8-43
+Added Net: Name=BMS_nSTAT
+Added Pin To Net: NetName=BMS_SCL Pin=J1-16
+Added Pin To Net: NetName=BMS_SCL Pin=U8-41
+Added Net: Name=BMS_SCL
+Added Pin To Net: NetName=BMS_SDA Pin=J1-15
+Added Pin To Net: NetName=BMS_SDA Pin=U8-40
+Added Net: Name=BMS_SDA
