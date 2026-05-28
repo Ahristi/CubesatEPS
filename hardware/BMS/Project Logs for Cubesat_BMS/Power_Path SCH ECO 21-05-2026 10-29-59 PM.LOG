@@ -1,0 +1,9 @@
+Removed Parameter Manufacturer:UNI-ROYAL from Part R77
+Change Component Parameter Comment in R77 Old= New=RMCF0603FT2K26
+Change Component Parameter Description in R77 Old=2.2kOhms 75V Thick Film Resistor ±1% ±100ppm/? 0603 Chip Resistor - Surface Mount ROHS New=2.26 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Value of Parameter Distributor Part Number in Part R77 Old=C4190 New=RMCF0603FT2K26CT-ND
+Change Value of Parameter Distributor in Part R77 Old=JLCPCB New=Digikey
+Change Component Parameter Library Reference in R77 Old=0603WAF2201T5E New=RMCF0603FT2K26
+Change Value of Parameter Part Number in Part R77 Old=0603WAF2201T5E New=RMCF0603FT2K26
+Change Value of Parameter Resistance in Part R77 Old=2K2 New=2K26
+Replace Part R77 RMCF0603FT2K26 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Power_Path.SchDoc with RMCF0603FT2K26 from Ahristi_Library.IntLib

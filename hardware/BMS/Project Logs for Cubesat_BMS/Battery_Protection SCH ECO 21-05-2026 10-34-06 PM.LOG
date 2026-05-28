@@ -1,0 +1,34 @@
+Removed Parameter Distributor:JLCPCB from Part Q4
+Removed Parameter Distributor:JLCPCB from Part Q5
+Removed Parameter Drive Voltage:6V~10V from Part Q4
+Removed Parameter Drive Voltage:6V~10V from Part Q5
+Removed Parameter Id:23 from Part Q4
+Removed Parameter Id:23 from Part Q5
+Removed Parameter Manufacturer Part Number:BSC026N08NS5 from Part Q4
+Removed Parameter Manufacturer Part Number:BSC026N08NS5 from Part Q5
+Removed Parameter Power Dissipation (Max):2.5W (Ta), 156W (Tc) from Part Q4
+Removed Parameter Power Dissipation (Max):2.5W (Ta), 156W (Tc) from Part Q5
+Removed Parameter Power Dissipation:3.1W from Part Q4
+Removed Parameter Power Dissipation:3.1W from Part Q5
+Removed Parameter Qg:92nC@10V from Part Q4
+Removed Parameter Qg:92nC@10V from Part Q5
+Removed Parameter Rds On (Max) @ Id, Vgs:2.6mOhm @ 50A, 10V from Part Q4
+Removed Parameter Rds On (Max) @ Id, Vgs:2.6mOhm @ 50A, 10V from Part Q5
+Removed Parameter Vds (Max):4 from Part Q4
+Removed Parameter Vds (Max):4 from Part Q5
+Removed Parameter Vgs (Max):20 from Part Q4
+Removed Parameter Vgs (Max):20 from Part Q5
+Removed Parameter Vth:3.8V from Part Q4
+Removed Parameter Vth:3.8V from Part Q5
+Change Component Parameter Comment in Q4 Old= New=BZT52C12T-7
+Change Component Parameter Comment in Q5 Old= New=BZT52C12T-7
+Change Component Parameter Description in Q4 Old=80V N-Channel 23A (Ta), 100A (Tc) 2.5W (Ta), 156W (Tc) Surface Mount PG-TDSON-8-6 New=Zener Diode 12 V 300 mW ±5% Surface Mount SOD-523
+Change Component Parameter Description in Q5 Old=80V N-Channel 23A (Ta), 100A (Tc) 2.5W (Ta), 156W (Tc) Surface Mount PG-TDSON-8-6 New=Zener Diode 12 V 300 mW ±5% Surface Mount SOD-523
+Change Value of Parameter Distributor Part Number in Part Q4 Old=C5955453 New=BZT52C12T-7DICT-ND
+Change Value of Parameter Distributor Part Number in Part Q5 Old=C5955453 New=BZT52C12T-7DICT-ND
+Change Component Parameter Library Reference in Q4 Old=BSC026N08NS5 New=BZT52C12T-7
+Change Component Parameter Library Reference in Q5 Old=BSC026N08NS5 New=BZT52C12T-7
+Change Value of Parameter Operating Temperature in Part Q4 Old=-55°C ~ 150°C (TJ) New=-65°C ~ 150°C
+Change Value of Parameter Operating Temperature in Part Q5 Old=-55°C ~ 150°C (TJ) New=-65°C ~ 150°C
+Replace Part Q4 BZT52C12T-7 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with BZT52C12T-7 from Ahristi_Library.IntLib
+Replace Part Q5 BZT52C12T-7 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with BZT52C12T-7 from Ahristi_Library.IntLib

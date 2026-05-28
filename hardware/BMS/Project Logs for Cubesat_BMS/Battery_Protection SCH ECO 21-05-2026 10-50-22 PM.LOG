@@ -1,0 +1,24 @@
+Removed Parameter Manufacturer:UNI-ROYAL from Part R33
+Removed Parameter Manufacturer:UNI-ROYAL from Part R35
+Removed Parameter Manufacturer:UNI-ROYAL from Part R36
+Change Component Parameter Comment in R33 Old= New=RMCF0603FT1M00
+Change Component Parameter Comment in R35 Old= New=RMCF0603FT1M00
+Change Component Parameter Comment in R36 Old= New=RMCF0603FT1M00
+Change Component Parameter Description in R33 Old=1 MOhms 75V Thick Film Resistor ±1% ±100ppm/? 0603 Chip Resistor - Surface Mount ROHS New=1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Parameter Description in R36 Old=1 MOhms 75V Thick Film Resistor ±1% ±100ppm/? 0603 Chip Resistor - Surface Mount ROHS New=1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Parameter Description in R35 Old=1 MOhms 75V Thick Film Resistor ±1% ±100ppm/? 0603 Chip Resistor - Surface Mount ROHS New=1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Value of Parameter Distributor Part Number in Part R36 Old=C22935 New=RMCF0603FT1M00CT-ND
+Change Value of Parameter Distributor Part Number in Part R33 Old=C22935 New=RMCF0603FT1M00CT-ND
+Change Value of Parameter Distributor Part Number in Part R35 Old=C22935 New=RMCF0603FT1M00CT-ND
+Change Value of Parameter Distributor in Part R36 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part R35 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part R33 Old=JLCPCB New=Digikey
+Change Component Parameter Library Reference in R36 Old=0603WAF1004T5E New=RMCF0603FT1M00
+Change Component Parameter Library Reference in R33 Old=0603WAF1004T5E New=RMCF0603FT1M00
+Change Component Parameter Library Reference in R35 Old=0603WAF1004T5E New=RMCF0603FT1M00
+Change Value of Parameter Part Number in Part R35 Old=0603WAF1004T5E New=RMCF0603FT1M00
+Change Value of Parameter Part Number in Part R33 Old=0603WAF1004T5E New=RMCF0603FT1M00
+Change Value of Parameter Part Number in Part R36 Old=0603WAF1004T5E New=RMCF0603FT1M00
+Replace Part R33 RMCF0603FT1M00 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT1M00 from Ahristi_Library.IntLib
+Replace Part R35 RMCF0603FT1M00 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT1M00 from Ahristi_Library.IntLib
+Replace Part R36 RMCF0603FT1M00 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT1M00 from Ahristi_Library.IntLib

@@ -1,0 +1,9 @@
+Removed Parameter Manufacturer:UNI-ROYAL from Part R39
+Change Value of Parameter Case Code in Part R39 Old=0805 New=0603
+Change Component Parameter Comment in R39 Old= New=RMCF0603FT604K
+Change Component Parameter Description in R39 Old=604 kOhms 75V Thick Film Resistor ±1% ±100ppm/? 0603 Chip Resistor - Surface Mount ROHS New=604 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Value of Parameter Distributor Part Number in Part R39 Old=C23216 New=RMCF0603FT604KCT-ND
+Change Value of Parameter Distributor in Part R39 Old=JLCPCB New=Digikey
+Change Component Parameter Library Reference in R39 Old=0603WAF6043T5E New=RMCF0603FT604K
+Change Value of Parameter Part Number in Part R39 Old=0603WAF6043T5E New=RMCF0603FT604K
+Replace Part R39 RMCF0603FT604K in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT604K from Ahristi_Library.IntLib

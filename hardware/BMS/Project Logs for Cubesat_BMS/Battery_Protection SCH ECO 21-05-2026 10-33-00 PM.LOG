@@ -1,0 +1,5 @@
+Removed Parameter Distributor Part Number:C151448 from Part D6
+Removed Parameter Distributor:JLCPCB from Part D6
+Removed Parameter Part Number:BAV20WS-7-F from Part D6
+Added Parameter Manufacturer Part Number=BAV20WS-7-F to Part D6
+Replace Part D6 BAV20WS-7-F0 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with BAV20WS-7-F0 from Ahristi_Library.IntLib

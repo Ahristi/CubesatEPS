@@ -1,0 +1,16 @@
+Removed Parameter Manufacturer:UNI-ROYAL from Part R29
+Removed Parameter Manufacturer:UNI-ROYAL from Part R30
+Change Component Parameter Comment in R29 Old= New=RMCF0603FT100R
+Change Component Parameter Comment in R30 Old= New=RMCF0603FT100R
+Change Component Parameter Description in R29 Old=100 Ohms 75V Thick Film Resistor ±1% ±100ppm/? 0603 Chip Resistor - Surface Mount ROHS New=100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Parameter Description in R30 Old=100 Ohms 75V Thick Film Resistor ±1% ±100ppm/? 0603 Chip Resistor - Surface Mount ROHS New=100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Value of Parameter Distributor Part Number in Part R29 Old=C22775 New=RMCF0603FT100RCT-ND
+Change Value of Parameter Distributor Part Number in Part R30 Old=C22775 New=RMCF0603FT100RCT-ND
+Change Value of Parameter Distributor in Part R29 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part R30 Old=JLCPCB New=Digikey
+Change Component Parameter Library Reference in R29 Old=0603WAF1000T5E New=RMCF0603FT100R
+Change Component Parameter Library Reference in R30 Old=0603WAF1000T5E New=RMCF0603FT100R
+Change Value of Parameter Part Number in Part R29 Old=0603WAF1000T5E New=RMCF0603FT100R
+Change Value of Parameter Part Number in Part R30 Old=0603WAF1000T5E New=RMCF0603FT100R
+Replace Part R29 RMCF0603FT100R in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT100R from Ahristi_Library.IntLib
+Replace Part R30 RMCF0603FT100R in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT100R from Ahristi_Library.IntLib

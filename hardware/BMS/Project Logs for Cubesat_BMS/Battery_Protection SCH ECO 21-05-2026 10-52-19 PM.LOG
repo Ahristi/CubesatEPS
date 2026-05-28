@@ -1,0 +1,24 @@
+Removed Parameter Dielectric:X7R from Part C82
+Removed Parameter Dielectric:X7R from Part C84
+Removed Parameter Dielectric:X7R from Part C86
+Change Component Parameter Comment in C82 Old= New=C0603C104K5RACTU
+Change Component Parameter Comment in C84 Old= New=C0603C104K5RACTU
+Change Component Parameter Comment in C86 Old= New=C0603C104K5RACTU
+Change Component Parameter Description in C82 Old=100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Parameter Description in C86 Old=100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Component Parameter Description in C84 Old=100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New=0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+Change Value of Parameter Distributor Part number in Part C86 Old=C14663 New=399-C0603C104K5RACTUCT-ND
+Change Value of Parameter Distributor Part number in Part C82 Old=C14663 New=399-C0603C104K5RACTUCT-ND
+Change Value of Parameter Distributor Part number in Part C84 Old=C14663 New=399-C0603C104K5RACTUCT-ND
+Change Value of Parameter Distributor in Part C86 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part C84 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part C82 Old=JLCPCB New=Digikey
+Change Component Parameter Library Reference in C86 Old=CC0603KRX7R9BB104 New=C0603C104K5RACTU
+Change Component Parameter Library Reference in C82 Old=CC0603KRX7R9BB104 New=C0603C104K5RACTU
+Change Component Parameter Library Reference in C84 Old=CC0603KRX7R9BB104 New=C0603C104K5RACTU
+Change Value of Parameter Part Number in Part C84 Old=CC0603KRX7R9BB104 New=C0603C104K5RACTU
+Change Value of Parameter Part Number in Part C82 Old=CC0603KRX7R9BB104 New=C0603C104K5RACTU
+Change Value of Parameter Part Number in Part C86 Old=CC0603KRX7R9BB104 New=C0603C104K5RACTU
+Replace Part C82 C0603C104K5RACTU in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with C0603C104K5RACTU from Ahristi_Library.IntLib
+Replace Part C84 C0603C104K5RACTU in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with C0603C104K5RACTU from Ahristi_Library.IntLib
+Replace Part C86 C0603C104K5RACTU in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with C0603C104K5RACTU from Ahristi_Library.IntLib

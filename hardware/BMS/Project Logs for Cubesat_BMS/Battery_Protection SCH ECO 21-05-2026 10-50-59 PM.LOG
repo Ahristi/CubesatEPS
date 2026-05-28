@@ -1,0 +1,9 @@
+Removed Parameter Manufacturer:UNI-ROYAL from Part R32
+Change Component Parameter Comment in R32 Old= New=RMCF0603FT4K7
+Change Component Parameter Description in R32 Old=4.7 kOhms 75V Thick Film Resistor ±1% ±100ppm/? 0603 Chip Resistor - Surface Mount ROHS New=4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Value of Parameter Distributor Part Number in Part R32 Old=C23162 New=RMCF0603FT4K70CT-ND
+Change Value of Parameter Distributor in Part R32 Old=JLCPCB New=Digikey
+Change Component Parameter Library Reference in R32 Old=0603WAF4701T5E New=RMCF0603FT4K7
+Change Value of Parameter Part Number in Part R32 Old=0603WAF4701T5E New=RMCF0603FT4K7
+Change Value of Parameter Resistance in Part R32 Old=4.7K New=4K7
+Replace Part R32 RMCF0603FT4K7 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT4K7 from Ahristi_Library.IntLib

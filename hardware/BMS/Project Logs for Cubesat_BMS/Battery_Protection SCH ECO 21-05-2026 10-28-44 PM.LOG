@@ -1,0 +1,40 @@
+Removed Parameter Manufacturer:UNI-ROYAL from Part R24
+Removed Parameter Manufacturer:UNI-ROYAL from Part R25
+Removed Parameter Manufacturer:UNI-ROYAL from Part R26
+Removed Parameter Manufacturer:UNI-ROYAL from Part R27
+Removed Parameter Manufacturer:UNI-ROYAL from Part R28
+Change Component Parameter Comment in R24 Old= New=RMCF0603FT56R0
+Change Component Parameter Comment in R26 Old= New=RMCF0603FT56R0
+Change Component Parameter Comment in R25 Old= New=RMCF0603FT56R0
+Change Component Parameter Comment in R28 Old= New=RMCF0603FT56R0
+Change Component Parameter Comment in R27 Old= New=RMCF0603FT56R0
+Change Component Parameter Description in R28 Old=56 Ohms 75V Thick Film Resistor ±1% ±200ppm/? 0603 Chip Resistor - Surface Mount ROHS New=56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Parameter Description in R25 Old=56 Ohms 75V Thick Film Resistor ±1% ±200ppm/? 0603 Chip Resistor - Surface Mount ROHS New=56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Parameter Description in R24 Old=56 Ohms 75V Thick Film Resistor ±1% ±200ppm/? 0603 Chip Resistor - Surface Mount ROHS New=56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Parameter Description in R26 Old=56 Ohms 75V Thick Film Resistor ±1% ±200ppm/? 0603 Chip Resistor - Surface Mount ROHS New=56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Component Parameter Description in R27 Old=56 Ohms 75V Thick Film Resistor ±1% ±200ppm/? 0603 Chip Resistor - Surface Mount ROHS New=56 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+Change Value of Parameter Distributor Part Number in Part R28 Old=C25196 New=RMCF0603FT56R0CT-ND
+Change Value of Parameter Distributor Part Number in Part R26 Old=C25196 New=RMCF0603FT56R0CT-ND
+Change Value of Parameter Distributor Part Number in Part R25 Old=C25196 New=RMCF0603FT56R0CT-ND
+Change Value of Parameter Distributor Part Number in Part R27 Old=C25196 New=RMCF0603FT56R0CT-ND
+Change Value of Parameter Distributor Part Number in Part R24 Old=C25196 New=RMCF0603FT56R0CT-ND
+Change Value of Parameter Distributor in Part R28 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part R27 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part R26 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part R25 Old=JLCPCB New=Digikey
+Change Value of Parameter Distributor in Part R24 Old=JLCPCB New=Digikey
+Change Component Parameter Library Reference in R26 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Component Parameter Library Reference in R28 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Component Parameter Library Reference in R25 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Component Parameter Library Reference in R27 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Component Parameter Library Reference in R24 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Value of Parameter Part Number in Part R25 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Value of Parameter Part Number in Part R27 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Value of Parameter Part Number in Part R24 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Value of Parameter Part Number in Part R26 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Change Value of Parameter Part Number in Part R28 Old=0603WAF560JT5E New=RMCF0603FT56R0
+Replace Part R24 RMCF0603FT56R0 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT56R0 from Ahristi_Library.IntLib
+Replace Part R25 RMCF0603FT56R0 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT56R0 from Ahristi_Library.IntLib
+Replace Part R26 RMCF0603FT56R0 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT56R0 from Ahristi_Library.IntLib
+Replace Part R27 RMCF0603FT56R0 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT56R0 from Ahristi_Library.IntLib
+Replace Part R28 RMCF0603FT56R0 in C:\Users\Tom\Documents\CubesatEPS\hardware\BMS\Battery_Protection.SchDoc with RMCF0603FT56R0 from Ahristi_Library.IntLib
