@@ -34,9 +34,9 @@
 //-------------Typedef and Enums-------------
 typedef struct {
     uint16_t raw_panel0_vmon;
+    uint16_t raw_panel0_imon;
+    uint16_t raw_panel1_vmon;
     uint16_t raw_panel1_imon;
-    uint16_t raw_panel2_vmon;
-    uint16_t raw_panel2_imon;
     uint16_t raw_sys_vmon;
     uint16_t raw_sys_imon;
     uint16_t raw_batt_tmon;
@@ -45,9 +45,9 @@ typedef struct {
     uint16_t raw_batt_imon;
 
     float    voltage_panel0_vmon;
+    float    voltage_panel0_imon;
+    float    voltage_panel1_vmon;
     float    voltage_panel1_imon;
-    float    voltage_panel2_vmon;
-    float    voltage_panel2_imon;
     float    voltage_sys_vmon;
     float    voltage_sys_imon;
     float    voltage_batt_tmon;
@@ -56,9 +56,9 @@ typedef struct {
     float    voltage_batt_imon;
 
     float    panel0_vmon;
+    float    panel0_imon;
+    float    panel1_vmon;
     float    panel1_imon;
-    float    panel2_vmon;
-    float    panel2_imon;
     float    sys_vmon;
     float    sys_imon;
     float    batt_tmon;

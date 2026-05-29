@@ -21,9 +21,9 @@ void TELEMETRY_Task(void)
 
     // Raw ADC values
     htelemetry.raw_panel0_vmon = adc_snapshot[0];
-    htelemetry.raw_panel1_imon = adc_snapshot[1];
-    htelemetry.raw_panel2_vmon = adc_snapshot[2];
-    htelemetry.raw_panel2_imon = adc_snapshot[3];
+    htelemetry.raw_panel0_imon = adc_snapshot[1];
+    htelemetry.raw_panel1_vmon = adc_snapshot[2];
+    htelemetry.raw_panel1_imon = adc_snapshot[3];
     htelemetry.raw_sys_vmon    = adc_snapshot[4];
     htelemetry.raw_sys_imon    = adc_snapshot[5];
     htelemetry.raw_batt_tmon    = adc_snapshot[6];
@@ -36,9 +36,9 @@ void TELEMETRY_Task(void)
 
     // ADC pin voltages
     htelemetry.voltage_panel0_vmon = TELEMETRY_RawToAdcVoltage(htelemetry.raw_panel0_vmon, vdda);
+    htelemetry.voltage_panel0_imon = TELEMETRY_RawToAdcVoltage(htelemetry.raw_panel0_imon, vdda);
+    htelemetry.voltage_panel1_vmon = TELEMETRY_RawToAdcVoltage(htelemetry.raw_panel1_vmon, vdda);
     htelemetry.voltage_panel1_imon = TELEMETRY_RawToAdcVoltage(htelemetry.raw_panel1_imon, vdda);
-    htelemetry.voltage_panel2_vmon = TELEMETRY_RawToAdcVoltage(htelemetry.raw_panel2_vmon, vdda);
-    htelemetry.voltage_panel2_imon = TELEMETRY_RawToAdcVoltage(htelemetry.raw_panel2_imon, vdda);
     htelemetry.voltage_sys_vmon    = TELEMETRY_RawToAdcVoltage(htelemetry.raw_sys_vmon, vdda);
     htelemetry.voltage_sys_imon    = TELEMETRY_RawToAdcVoltage(htelemetry.raw_sys_imon, vdda);
     htelemetry.voltage_batt_tmon    = TELEMETRY_RawToAdcVoltage(htelemetry.raw_batt_tmon, vdda);
@@ -48,9 +48,9 @@ void TELEMETRY_Task(void)
 
     // True engineering values
     htelemetry.panel0_vmon = TELEMETRY_ConvertPanelVmon(htelemetry.voltage_panel0_vmon);
+    htelemetry.panel0_imon = TELEMETRY_ConvertPanelImon(htelemetry.voltage_panel0_imon);
+    htelemetry.panel1_vmon = TELEMETRY_ConvertPanelVmon(htelemetry.voltage_panel1_vmon);
     htelemetry.panel1_imon = TELEMETRY_ConvertPanelImon(htelemetry.voltage_panel1_imon);
-    htelemetry.panel2_vmon = TELEMETRY_ConvertPanelVmon(htelemetry.voltage_panel2_vmon);
-    htelemetry.panel2_imon = TELEMETRY_ConvertPanelImon(htelemetry.voltage_panel2_imon);
 
     htelemetry.sys_vmon    = TELEMETRY_ConvertSysVmon(htelemetry.voltage_sys_vmon);
     htelemetry.sys_imon    = TELEMETRY_ConvertSysImon(htelemetry.voltage_sys_imon);
