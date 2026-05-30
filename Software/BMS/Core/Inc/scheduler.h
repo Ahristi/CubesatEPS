@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include "telemetry.h"
 #include "powerpath.h"
+#include "analog.h"
 
 typedef void (*TaskFunction)();
 

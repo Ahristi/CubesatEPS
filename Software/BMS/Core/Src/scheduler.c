@@ -3,10 +3,10 @@
 
 
 Task tasks[] = {
-    {default_Task,      1000, 0, 0},
-    {TELEMETRY_Task,      1, 0, 0},
-    {POWERPATH_Task,      100, 0, 0}
-};
+        {default_Task,    1000, 0, 0},
+        {ANALOG_Task,      100, 0, 0},
+        {POWERPATH_Task,   100, 0, 0},
+    };
 
 
 #define NUM_TASKS ((uint8_t)(sizeof(tasks) / sizeof(tasks[0])))

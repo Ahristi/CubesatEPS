@@ -6,8 +6,9 @@ TELEMETRY_Handler_t htelemetry;
 
 void TELEMETRY_Init(void)
 {
-    HAL_TIM_Base_Start(&htim2);
-    HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adc1_dma_buffer, ADC1_NUM_CHANNELS); 
+    return;
+    //HAL_TIM_Base_Start(&htim2);
+    //HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adc1_dma_buffer, ADC1_NUM_CHANNELS); 
 }
 
 
@@ -26,7 +27,7 @@ void TELEMETRY_Task(void)
     htelemetry.raw_panel1_imon = adc_snapshot[3];
     htelemetry.raw_sys_vmon    = adc_snapshot[4];
     htelemetry.raw_sys_imon    = adc_snapshot[5];
-    htelemetry.raw_batt_tmon    = adc_snapshot[6];
+    htelemetry.raw_batt_tmon   = adc_snapshot[6];
     htelemetry.raw_umb_vmon    = adc_snapshot[7];
     htelemetry.raw_batt_vmon   = adc_snapshot[8];
     htelemetry.raw_batt_imon   = adc_snapshot[9];
