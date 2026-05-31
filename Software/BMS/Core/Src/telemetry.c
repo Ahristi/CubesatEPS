@@ -19,19 +19,17 @@ void TELEMETRY_Task(void)
               "truly" directly swappable with the old BMS. I can't be fucked to do the conversions, 
               and we need to change the PDM software anyway to include the solar panel measurements.
     */
-
-
-    TELEMETRY_WriteRegU16(BMS_REG31_I_SYS,    measurements[ADC_SYS_IMON].raw);
-    TELEMETRY_WriteRegU16(BMS_REG33_I_BATT,   measurements[ADC_BATT_IMON].raw);
-    TELEMETRY_WriteRegU16(BMS_REG35_V_UMB,    measurements[ADC_UMB_VMON].raw);
-    TELEMETRY_WriteRegU16(BMS_REG37_V_PANEL0, measurements[ADC_PANEL0_VMON].raw);
-    TELEMETRY_WriteRegU16(BMS_REG39_V_PANEL1, measurements[ADC_PANEL1_VMON].raw);
-    TELEMETRY_WriteRegU16(BMS_REG3B_V_BATT,   measurements[ADC_BATT_VMON].raw);
-    TELEMETRY_WriteRegU16(BMS_REG3D_V_SYS,    measurements[ADC_SYS_VMON].raw);
-    TELEMETRY_WriteRegU16(BMS_REG3F_T_BATT,   measurements[ADC_BAT_TMON].raw);
+    TELEMETRY_WriteRegU16(BMS_REG31_I_SYS,    measurements[ADC_SYS_IMON].packed_value);
+    TELEMETRY_WriteRegU16(BMS_REG33_I_BATT,   measurements[ADC_BATT_IMON].packed_value);
+    TELEMETRY_WriteRegU16(BMS_REG35_V_UMB,    measurements[ADC_UMB_VMON].packed_value);
+    TELEMETRY_WriteRegU16(BMS_REG37_V_PANEL0, measurements[ADC_PANEL0_VMON].packed_value);
+    TELEMETRY_WriteRegU16(BMS_REG39_V_PANEL1, measurements[ADC_PANEL1_VMON].packed_value);
+    TELEMETRY_WriteRegU16(BMS_REG3B_V_BATT,   measurements[ADC_BATT_VMON].packed_value);
+    TELEMETRY_WriteRegU16(BMS_REG3D_V_SYS,    measurements[ADC_SYS_VMON].packed_value);
+    TELEMETRY_WriteRegU16(BMS_REG3F_T_BATT,   measurements[ADC_BAT_TMON].packed_value);
     TELEMETRY_WriteRegU16(BMS_REG41_DIE_TEMP, 0); //TODO: Implement die temp adc
-    TELEMETRY_WriteRegU16(BMS_REG43_I_PANEL0, measurements[ADC_PANEL0_IMON].raw);
-    TELEMETRY_WriteRegU16(BMS_REG45_I_PANEL1, measurements[ADC_PANEL1_IMON].raw);
+    TELEMETRY_WriteRegU16(BMS_REG43_I_PANEL0, measurements[ADC_PANEL0_IMON].packed_value);
+    TELEMETRY_WriteRegU16(BMS_REG45_I_PANEL1, measurements[ADC_PANEL1_IMON].packed_value);
 }
 
 void TELEMETRY_WriteRegU8(uint16_t addr, uint8_t val)

@@ -219,16 +219,25 @@ void TELEMETRY_send12VTelem(void)
 void TELEMETRY_sendBattTelem(void)
 {
 	uint8_t frame_data[8] = {0};
-	frame_data[0] = hbms.rawBatteryVoltage >> 8;
-	frame_data[1] = hbms.rawBatteryVoltage & 0xFF;
-	frame_data[2] = hbms.rawBatteryCurrent >> 8;
-	frame_data[3] = hbms.rawBatteryCurrent & 0xFF;
-	frame_data[4] = hbms.rawSysVoltage >> 8;
-	frame_data[5] = hbms.rawSysVoltage & 0xFF;
-	frame_data[6] = (uint8_t)hbms.rawBatteryTemp;
-	frame_data[7] = (uint8_t)hbms.rawDieTemp;
+	
+	frame_data[0] = bms_measurements[BMS_BATT_VMON].raw >> 8;
+	frame_data[1] = bms_measurements[BMS_BATT_VMON].raw & 0xFF;
+
+	frame_data[2] = bms_measurements[BMS_BATT_IMON].raw >> 8;
+	frame_data[3] = bms_measurements[BMS_BATT_IMON].raw & 0xFF;
+
+	frame_data[4] = bms_measurements[BMS_SYS_VMON].raw>> 8;
+	frame_data[5] = bms_measurements[BMS_SYS_VMON].raw & 0xFF;
+
+	frame_data[6] = (uint8_t)bms_measurements[BMS_BAT_TMON].raw;
+	frame_data[7] = (uint8_t)(0);//TODO: DIE TEMP;
+
 	TELEMETRY_sendCANMessage(ID_BMS_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
 }
+
+
+
+
 
 void TELEMETRY_sendSysTelem(void)
 {

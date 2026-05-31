@@ -8,77 +8,99 @@ ANALOG_Measurement_t measurements[ADC_NUM_CHANNELS] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertPanelVmon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertPanelVmon,
+        .pack_measurement    = ANALOG_PackmVbit
     },
 
     [ADC_PANEL0_IMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertPanelImon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertPanelImon,
+        .pack_measurement    = ANALOG_PackmAbit
     },
 
     [ADC_PANEL1_VMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertPanelVmon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertPanelVmon,
+        .pack_measurement    = ANALOG_PackmVbit
     },
 
     [ADC_PANEL1_IMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertPanelImon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertPanelImon,
+        .pack_measurement    = ANALOG_PackmAbit
     },
 
     [ADC_SYS_VMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertSysVmon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertSysVmon,
+        .pack_measurement    = ANALOG_PackmVbit
     },
 
     [ADC_SYS_IMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertSysImon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertSysImon,
+        .pack_measurement    = ANALOG_PackmAbit
     },
 
     [ADC_BAT_TMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertBatTmon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertBatTmon,
+        .pack_measurement    = ANALOG_PackCelsiusbit
     },
 
     [ADC_UMB_VMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertUmbVmon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertUmbVmon,
+        .pack_measurement    = ANALOG_PackmVbit
     },
 
     [ADC_BATT_VMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertBattVmon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertBattVmon,
+        .pack_measurement    = ANALOG_PackmVbit
     },
 
     [ADC_BATT_IMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertBattImon
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertBattImon,
+        .pack_measurement    = ANALOG_PackmAbit 
     },
 
     [ADC_VREFINT] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
-        .convert = ANALOG_ConvertVREF
+        .packed_value = 0,
+        .convert_measurement = ANALOG_ConvertVREF,
+        .pack_measurement    = ANALOG_PackmVbit //Note that this function isn't actually used bc we don't transmit VREF
     }
 };
 
@@ -100,9 +122,12 @@ void ANALOG_Task(void)
 
     for (uint16_t i = 0; i < ADC_NUM_CHANNELS; i++)
     {
-        measurements[i].raw     = adc_snapshot[i];
-        measurements[i].voltage = ANALOG_RawToAdcVoltage(measurements[i].raw, vref);
-        measurements[i].value   = measurements[i].convert(measurements[i].voltage);
+        measurements[i].raw            = adc_snapshot[i];
+        measurements[i].voltage        = ANALOG_RawToAdcVoltage(measurements[i].raw, vref);
+        //Convert ADC voltage to the actual measurement (ie ADC voltage -> temperature)
+        measurements[i].value          = measurements[i].convert_measurement(measurements[i].voltage);
+        //Pack measurement into telemetry format  
+        measurements[i].packed_value   = measurements[i].pack_measurement(measurements[i].value);
     }
 }
 
@@ -185,6 +210,51 @@ float ANALOG_ConvertVREF(float raw_voltage)
 {
     return raw_voltage;
 }
+
+
+
+//------------------Telemetry Packing---------------------
+uint16_t ANALOG_PackmVbit(float value_V)
+{
+    int32_t scaled = (int32_t)lroundf(value_V * 1000.0f);
+
+    if (scaled < 0) scaled = 0;
+    if (scaled > UINT16_MAX) scaled = UINT16_MAX;
+
+    return (uint16_t)scaled;
+}
+
+uint16_t ANALOG_PackmAbit(float value_A)
+{
+    int32_t scaled = (int32_t)lroundf(value_A * 1000.0f);
+
+    if (scaled < 0) scaled = 0;
+    if (scaled > UINT16_MAX) scaled = UINT16_MAX;
+
+    return (uint16_t)scaled;
+}
+
+uint16_t ANALOG_PackSignedmAbit(float value_A)
+{
+    int32_t scaled = (int32_t)lroundf(value_A * 1000.0f);
+
+    if (scaled > INT16_MAX) scaled = INT16_MAX;
+    if (scaled < INT16_MIN) scaled = INT16_MIN;
+
+    return (uint16_t)((int16_t)scaled);
+}
+
+uint16_t ANALOG_PackCelsiusbit(float value_C)
+{
+    int32_t scaled = (int32_t)lroundf(value_C);
+
+    if (scaled > INT16_MAX) scaled = INT16_MAX;
+    if (scaled < INT16_MIN) scaled = INT16_MIN;
+
+    return (uint16_t)((int16_t)scaled);
+}
+
+
 
 
 
