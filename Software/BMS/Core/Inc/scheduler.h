@@ -2,7 +2,6 @@
 #define __SCHEDULER_H__
 
 #include <stdint.h>
-#include "telemetry.h"
 #include "powerpath.h"
 #include "analog.h"
 

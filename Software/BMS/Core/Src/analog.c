@@ -11,21 +11,21 @@ ANALOG_Measurement_t measurements[ADC_NUM_CHANNELS] = {
         .convert = ANALOG_ConvertPanelVmon
     },
 
-    [ADC_PANEL1_IMON] = {
+    [ADC_PANEL0_IMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
         .convert = ANALOG_ConvertPanelImon
     },
 
-    [ADC_PANEL2_VMON] = {
+    [ADC_PANEL1_VMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,
         .convert = ANALOG_ConvertPanelVmon
     },
 
-    [ADC_PANEL2_IMON] = {
+    [ADC_PANEL1_IMON] = {
         .raw = 0,
         .voltage = 0.0f,
         .value = 0.0f,

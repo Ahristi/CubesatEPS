@@ -66,17 +66,23 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : BAT_PG_Pin UMB_PG_Pin CHG_PG_Pin */
-  GPIO_InitStruct.Pin = BAT_PG_Pin|UMB_PG_Pin|CHG_PG_Pin;
+  /*Configure GPIO pin : BAT_PG_Pin */
+  GPIO_InitStruct.Pin = BAT_PG_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(BAT_PG_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : UMB_SHDN_Pin PB6 CHG_SHDN_Pin */
   GPIO_InitStruct.Pin = UMB_SHDN_Pin|GPIO_PIN_6|CHG_SHDN_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : UMB_PG_Pin CHG_PG_Pin */
+  GPIO_InitStruct.Pin = UMB_PG_Pin|CHG_PG_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pins : BMS_nCE_Pin BMS_nQON_Pin */

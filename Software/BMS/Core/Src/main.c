@@ -27,7 +27,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "scheduler.h"
-#include "telemetry.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -99,8 +99,11 @@ int main(void)
   /* USER CODE BEGIN 2 */
   SCHEDULER_Init();
   ANALOG_Init();
+  HAL_Delay(500);
+  MPPT_Init();
   HAL_Delay(500); //Let DMA and timers bootup before powerpath
   POWERPATH_Init();
+  MPPT_Init();
 
 
   /* USER CODE END 2 */

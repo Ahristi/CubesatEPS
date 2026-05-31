@@ -9,16 +9,16 @@ MPPT_Handler_t hmppt1;
 void MPPT_Init(void)
 {
     hmppt0.htim    = &htim3;
-    hmppt0.channel = TIM_CHANNEL_1;
+    hmppt0.channel = TIM_CHANNEL_2;
     hmppt0.duty    = (uint16_t) MPPT_PWM_PERIOD/2;
     hmppt0.enable  = false;
+    hmppt0.direction = 1;
 
     hmppt1.htim    = &htim3;
-    hmppt1.channel = TIM_CHANNEL_2;
+    hmppt1.channel = TIM_CHANNEL_1;
     hmppt1.duty    = (uint16_t) MPPT_PWM_PERIOD/2;
     hmppt1.enable  = false;
-
-
+    hmppt1.direction = 1;
 
     MPPT_disable(&hmppt0);
     MPPT_disable(&hmppt1);
@@ -27,15 +27,19 @@ void MPPT_Init(void)
 
 void MPPT_Task(void)
 {
-    float panel0_voltage = htelemetry.panel0_vmon;
-    float panel0_current = htelemetry.panel0_imon;
+    
+    float panel0_voltage = measurements[ADC_PANEL0_VMON].value;
+    float panel0_current = measurements[ADC_PANEL0_IMON].value;
     hmppt0.power_now = panel0_voltage*panel0_current;
-    hmppt0.output_voltage = htelemetry.batt_vmon;
+    hmppt0.output_voltage = measurements[ADC_BATT_VMON].value;
 
-    float panel1_voltage = htelemetry.panel1_vmon;
-    float panel1_current = htelemetry.panel1_imon;
+    float panel1_voltage = measurements[ADC_PANEL1_VMON].value;
+    float panel1_current = measurements[ADC_PANEL1_IMON].value;
     hmppt1.power_now = panel1_voltage*panel1_current;
-    hmppt1.output_voltage = htelemetry.batt_vmon;
+    hmppt1.output_voltage = measurements[ADC_BATT_VMON].value;
+
+    MPPT_update(&hmppt0);
+    MPPT_update(&hmppt1);
 }
 
 bool MPPT_enable(MPPT_Handler_t* hmppt)

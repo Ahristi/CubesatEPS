@@ -5,6 +5,7 @@
 Task tasks[] = {
         {default_Task,    1000, 0, 0},
         {ANALOG_Task,      100, 0, 0},
+        {MPPT_Task,        100, 0, 0},
         {POWERPATH_Task,   100, 0, 0},
     };
 

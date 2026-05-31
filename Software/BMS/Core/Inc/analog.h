@@ -13,16 +13,16 @@
 
 
 #define PANEL_VOLTAGE_GAIN_VV 0.2702702703f
-#define PANEL_CURRENT_GAIN_VA 1.0f
+#define PANEL_CURRENT_GAIN_VA 5.0f
 
 #define SYS_VOLTAGE_GAIN_VV 0.1449275362f
-#define SYS_CURRENT_GAIN_VA 1.0f
+#define SYS_CURRENT_GAIN_VA 5.0f
 
 #define UMB_VOLTAGE_GAIN_VV 0.1449275362f
-#define UMB_CURRENT_GAIN_VA 1.0f
+#define UMB_CURRENT_GAIN_VA 5.0f
 
 #define BATT_VOLTAGE_GAIN_VV 0.1449275362f
-#define BATT_CURRENT_GAIN_VA 1.0f
+#define BATT_CURRENT_GAIN_VA 5.0f
 #define BATT_CURRENT_OFFSET_V 2.45
 
 
@@ -47,9 +47,9 @@ typedef struct{
 
 typedef enum {
     ADC_PANEL0_VMON = 0,
+    ADC_PANEL0_IMON,
+    ADC_PANEL1_VMON,
     ADC_PANEL1_IMON,
-    ADC_PANEL2_VMON,
-    ADC_PANEL2_IMON,
     ADC_SYS_VMON,
     ADC_SYS_IMON,
     ADC_BAT_TMON,
@@ -60,7 +60,7 @@ typedef enum {
     ADC_NUM_CHANNELS
 } ADC_ChannelIndex_t;
 //-------------Variables-------------
-
+extern ANALOG_Measurement_t measurements[ADC_NUM_CHANNELS];
 
 
 

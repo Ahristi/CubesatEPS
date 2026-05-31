@@ -2,7 +2,7 @@
 #define __MPPT_H__
 #include <stdbool.h>
 #include "tim.h"
-#include "telemetry.h"
+#include "analog.h"
 //-------------Defines-------------
 #define MPPT_MAX_OUTPUT_VOLTAGE 16.0f //Before taper charge to be safe
 #define MPPT_STEP 1
@@ -32,4 +32,5 @@ void MPPT_Task(void);
 bool MPPT_disable(MPPT_Handler_t* hmppt);
 bool MPPT_enable(MPPT_Handler_t* hmppt);
 bool MPPT_setDuty(MPPT_Handler_t* hmppt, uint32_t duty);
+void MPPT_update(MPPT_Handler_t *hmppt);
 #endif
