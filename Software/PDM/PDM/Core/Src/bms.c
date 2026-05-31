@@ -25,7 +25,7 @@ static inline uint16_t bq25792_addr8_to_hal(uint8_t addr7)
 void BMS_init(I2C_HandleTypeDef* hi2c)
 {
 	hbms.hi2c= hi2c;
-	BMS_configureADCs();
+	//BMS_configureADCs();
 }
 
 void BMS_read_u8(BMS_handlerTypedef* hbms, uint8_t reg, uint8_t* val)
@@ -153,13 +153,19 @@ void BMS_resetWatchdog()
 void BMS_readBMS()
 {
 	BMS_getBatteryVoltage();
+	HAL_Delay(1);
 	BMS_getBatteryTemperature();
+	HAL_Delay(1);
 	BMS_getDieTemperature();
+	HAL_Delay(1);
 	BMS_getBusCurrent();
+	HAL_Delay(1);
 	BMS_getBatteryCurrent();
+	HAL_Delay(1);
 	BMS_getBusVoltage();
+	HAL_Delay(1);
 	BMS_getSysVoltage();
-	BMS_resetWatchdog();
+	HAL_Delay(1);
 }
 
 

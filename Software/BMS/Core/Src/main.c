@@ -104,6 +104,7 @@ int main(void)
   HAL_Delay(500); //Let DMA and timers bootup before powerpath
   POWERPATH_Init();
   MPPT_Init();
+  TELEMETRY_Init();
 
 
   /* USER CODE END 2 */

@@ -13,10 +13,10 @@
 ../Core/Src/bms.c:139:6:BMS_getSysVoltage	1
 ../Core/Src/bms.c:147:6:BMS_resetWatchdog	1
 ../Core/Src/bms.c:153:6:BMS_readBMS	1
-../Core/Src/bms.c:166:6:BMS_configureADCs	1
-../Core/Src/bms.c:189:7:BMS_convertBatteryTemp	2
-../Core/Src/bms.c:202:7:BMS_convertDieTemp	1
-../Core/Src/bms.c:208:7:BMS_convertBusCurrent	1
-../Core/Src/bms.c:214:7:BMS_convertBatteryCurrent	1
-../Core/Src/bms.c:218:7:BMS_convertBusVoltage	1
-../Core/Src/bms.c:222:7:BMS_convertSysVoltage	1
+../Core/Src/bms.c:172:6:BMS_configureADCs	1
+../Core/Src/bms.c:195:7:BMS_convertBatteryTemp	2
+../Core/Src/bms.c:208:7:BMS_convertDieTemp	1
+../Core/Src/bms.c:214:7:BMS_convertBusCurrent	1
+../Core/Src/bms.c:220:7:BMS_convertBatteryCurrent	1
+../Core/Src/bms.c:224:7:BMS_convertBusVoltage	1
+../Core/Src/bms.c:228:7:BMS_convertSysVoltage	1
