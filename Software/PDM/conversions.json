@@ -169,13 +169,13 @@
         "unit": "A"
       },
       "panel1_voltage": {
-        "offset": 0,
+        "offset": 4,
         "type": "s16",
         "scale": 0.001,
         "unit": "V"
       },
       "panel1_current": {
-        "offset": 2,
+        "offset": 6,
         "type": "s16",
         "scale": 0.001,
         "unit": "A"

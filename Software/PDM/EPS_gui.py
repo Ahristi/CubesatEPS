@@ -59,6 +59,15 @@ class BMSTelemetry:
 
 
 @dataclass
+class MPPTTelemetry:
+    name: str
+    panel0_voltage: float
+    panel0_current: float
+    panel1_voltage: float
+    panel1_current: float
+
+
+@dataclass
 class SystemTelemetry:
     name: str
     efuse_states_mask: int
@@ -132,6 +141,23 @@ def decode_bms_telem(msg: can.Message, msg_cfg: dict) -> BMSTelemetry:
         sys_voltage=raw_sys_voltage * signals["sys_voltage"]["scale"],
         battery_temp=raw_battery_temp * signals["battery_temp"]["scale"],
         die_temp=raw_die_temp * signals["die_temp"]["scale"],
+    )
+
+
+def decode_mppt_telem(msg: can.Message, msg_cfg: dict) -> MPPTTelemetry:
+    signals = msg_cfg["signals"]
+
+    raw_panel0_voltage = read_s16(msg.data, signals["panel0_voltage"]["offset"])
+    raw_panel0_current = read_s16(msg.data, signals["panel0_current"]["offset"])
+    raw_panel1_voltage = read_s16(msg.data, signals["panel1_voltage"]["offset"])
+    raw_panel1_current = read_s16(msg.data, signals["panel1_current"]["offset"])
+
+    return MPPTTelemetry(
+        name=msg_cfg["name"],
+        panel0_voltage=raw_panel0_voltage * signals["panel0_voltage"]["scale"],
+        panel0_current=raw_panel0_current * signals["panel0_current"]["scale"],
+        panel1_voltage=raw_panel1_voltage * signals["panel1_voltage"]["scale"],
+        panel1_current=raw_panel1_current * signals["panel1_current"]["scale"],
     )
 
 
@@ -213,7 +239,7 @@ class TelemetryUI:
             msg_type = msg_cfg.get("type")
             name = msg_cfg.get("name", can_id)
 
-            if msg_type not in ("regulator_telem", "BMS_telem"):
+            if msg_type not in ("regulator_telem", "BMS_telem", "MPPT_telem"):
                 continue
 
             frame = ttk.LabelFrame(container, text=name, padding=10)
@@ -270,6 +296,32 @@ class TelemetryUI:
                     "sys_voltage": sys_voltage_var,
                     "battery_temp": batt_temp_var,
                     "die_temp": die_temp_var,
+                }
+
+            elif msg_type == "MPPT_telem":
+                panel0_voltage_var = tk.StringVar(value="--- V")
+                panel0_current_var = tk.StringVar(value="--- A")
+                panel1_voltage_var = tk.StringVar(value="--- V")
+                panel1_current_var = tk.StringVar(value="--- A")
+
+                ttk.Label(frame, text="Panel 0 Voltage:").grid(row=0, column=0, sticky="w")
+                ttk.Label(frame, textvariable=panel0_voltage_var).grid(row=0, column=1, sticky="w", padx=10)
+
+                ttk.Label(frame, text="Panel 0 Current:").grid(row=1, column=0, sticky="w")
+                ttk.Label(frame, textvariable=panel0_current_var).grid(row=1, column=1, sticky="w", padx=10)
+
+                ttk.Label(frame, text="Panel 1 Voltage:").grid(row=2, column=0, sticky="w")
+                ttk.Label(frame, textvariable=panel1_voltage_var).grid(row=2, column=1, sticky="w", padx=10)
+
+                ttk.Label(frame, text="Panel 1 Current:").grid(row=3, column=0, sticky="w")
+                ttk.Label(frame, textvariable=panel1_current_var).grid(row=3, column=1, sticky="w", padx=10)
+
+                self.widgets[can_id] = {
+                    "type": "MPPT_telem",
+                    "panel0_voltage": panel0_voltage_var,
+                    "panel0_current": panel0_current_var,
+                    "panel1_voltage": panel1_voltage_var,
+                    "panel1_current": panel1_current_var,
                 }
 
             row += 1
@@ -416,6 +468,18 @@ class TelemetryUI:
         w["battery_temp"].set(f"{bms.battery_temp:.1f} °C")
         w["die_temp"].set(f"{bms.die_temp:.1f} °C")
 
+    def update_mppt(self, can_id: str, mppt: MPPTTelemetry):
+        if can_id not in self.widgets:
+            return
+        w = self.widgets[can_id]
+        if w["type"] != "MPPT_telem":
+            return
+
+        w["panel0_voltage"].set(f"{mppt.panel0_voltage:.3f} V")
+        w["panel0_current"].set(f"{mppt.panel0_current:.3f} A")
+        w["panel1_voltage"].set(f"{mppt.panel1_voltage:.3f} V")
+        w["panel1_current"].set(f"{mppt.panel1_current:.3f} A")
+
     def update_system(self, sys_telem: SystemTelemetry):
         if "sys_telem" not in self.diag_widgets:
             return
@@ -514,6 +578,10 @@ class App:
                         elif msg_type == "BMS_telem":
                             bms = decode_bms_telem(msg, msg_cfg)
                             self.ui.update_bms(can_id, bms)
+
+                        elif msg_type == "MPPT_telem":
+                            mppt = decode_mppt_telem(msg, msg_cfg)
+                            self.ui.update_mppt(can_id, mppt)
 
                         elif msg_type == "sys_telem":
                             sys_telem = decode_sys_telem(msg, msg_cfg)
