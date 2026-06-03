@@ -289,6 +289,7 @@ void telemetryTask(void *argument)
 		TELEMETRY_send12VTelem();
 		TELEMETRY_sendSysTelem();
 		TELEMETRY_sendBattTelem();
+		TELEMETRY_sendMPPTTelem();
 		TELEMETRY_printf("Sent CAN telemetry\r\n");
 		TELEMETRY_updateWatchdog();
 		osDelay(100);

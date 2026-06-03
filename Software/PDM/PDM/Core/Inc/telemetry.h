@@ -45,8 +45,9 @@ typedef enum
 	ID_5V_MEASUREMENTS   = 0x321,
 	ID_6V_MEASUREMENTS   = 0x322,
 	ID_12V_MEASUREMENTS  = 0x323,
-	ID_BMS_MEASUREMENTS = 0x324,
+	ID_BMS_MEASUREMENTS  = 0x324,
 	ID_SYS_MEASUREMENTS  = 0x325,
+	ID_MPPT_MEASUREMENTS = 0x326,
 } EPSTelemType_t;
 
 
@@ -95,6 +96,7 @@ void TELEMETRY_send5VTelem(void);
 void TELEMETRY_send6VTelem(void);
 void TELEMETRY_send12VTelem(void);
 void TELEMETRY_sendBattTelem(void);
+void TELEMETRY_sendMPPTTelem(void);
 void TELEMETRY_sendSysTelem(void);
 void TELEMETRY_CANCMDHandler(CAN_CommandTypedef* can_msg);
 void TELEMETRY_updateWatchdog();

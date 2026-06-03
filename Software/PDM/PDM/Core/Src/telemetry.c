@@ -235,6 +235,24 @@ void TELEMETRY_sendBattTelem(void)
 	TELEMETRY_sendCANMessage(ID_BMS_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
 }
 
+void TELEMETRY_sendMPPTTelem(void)
+{
+	uint8_t frame_data[8] = {0};
+
+	frame_data[0] = bms_measurements[BMS_PANEL0_VMON].raw >> 8;
+	frame_data[1] = bms_measurements[BMS_PANEL0_VMON].raw & 0xFF;
+
+	frame_data[2] = bms_measurements[BMS_PANEL0_IMON].raw >> 8;
+	frame_data[3] = bms_measurements[BMS_PANEL0_IMON].raw & 0xFF;
+
+	frame_data[4] = bms_measurements[BMS_PANEL1_VMON].raw>> 8;
+	frame_data[5] = bms_measurements[BMS_PANEL1_VMON].raw & 0xFF;
+
+	frame_data[6] = bms_measurements[BMS_PANEL1_IMON].raw>> 8;
+	frame_data[7] = bms_measurements[BMS_PANEL1_IMON].raw & 0xFF;
+
+	TELEMETRY_sendCANMessage(ID_MPPT_MEASUREMENTS, frame_data, CAN_FRAME_LENGTH);
+}
 
 
 
