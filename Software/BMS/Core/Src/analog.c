@@ -91,7 +91,7 @@ ANALOG_Measurement_t measurements[ADC_NUM_CHANNELS] = {
         .value = 0.0f,
         .packed_value = 0,
         .convert_measurement = ANALOG_ConvertBattImon,
-        .pack_measurement    = ANALOG_PackmAbit 
+        .pack_measurement    = ANALOG_PackSignedmAbit 
     },
 
     [ADC_VREFINT] = {
