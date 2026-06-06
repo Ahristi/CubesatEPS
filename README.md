@@ -32,8 +32,7 @@ The EPS is comprised of two boards:
   </tr>
 </table>
 
-
-The firmware is written primarily in C for STM32 microcontrollers, with Python utilities for CAN communication, telemetry monitoring, plotting, and test automation.
+The firmware for the PDM is an STM32 eclipse project. With code generated using HAL libraries from CubeMX. The firmware for the BMS is a platformIO project, with code also generated from STM32CubeMX
 
 ## Repository Structure
 
@@ -45,7 +44,6 @@ CubesatEPS/
 │   ├── BMS_Test/         # BMS test firmware/software
 │   ├── PDM/              # PDM firmware, CAN tools, telemetry scripts
 │   └── control_panel.py  # Simple serial control utility
-├── core/                 # Shared or generated core project files
 ├── hardware/             # PCB design files
 │   ├── BMS/              # BMS Altium hardware project files
 │   └── PDM/              # PDM Altium hardware project files
