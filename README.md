@@ -3,13 +3,11 @@
 Electrical Power System (EPS) hardware and firmware for a Docker-1 Cubesat. The project contains Altium projects and embedded firmware for the two EPS PCBs: The Battery Management System (BMS) and the Power Distribution Module (PDM).
 ![System Dashboard](Images/EPS_Assembly.jpg)
 ## Overview
+The EPS is comprised of two boards:
+- **BMS — Battery Management System**: Contains a 4S Li-Ion battery directly soldered to the PCB. Performs battery protection, battery seperation, umbilical charging and solar panel charging via two MPPT boost circuits.
+![System Dashboard](Images/bms_top.jpg)![System Dashboard](Images/batteries.jpg)
 
-The EPS is the satellite's primary energy storage, containing a 4S Li-Ion battery. The BMS performs battery monitoring, safety and charging while the PDM safely regulates the raw battery voltage to the levels required by other satellite subsystesms. The full assembly is shown below:
-
-
-
-- **BMS — Battery Management System**: battery protection, charging, MPPT solar input control, umbilical charging, and low-level power-path management.
-- **PDM — Power Distribution Module**: regulated spacecraft power rails, eFuse/load-switch protection, current/voltage telemetry, and CAN-based communication with the rest of the spacecraft.
+- **PDM — Power Distribution Module**: Regulates the raw battery voltage from the BMS to the voltages required by other subsystems on the satellite.
 
 The firmware is written primarily in C for STM32 microcontrollers, with Python utilities for CAN communication, telemetry monitoring, plotting, and test automation.
 
