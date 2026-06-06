@@ -98,7 +98,7 @@ These folders contain the Altium projects for battery management and power distr
 - I2C is a bit finnicky for the PDM to BMS link. In a future revision I would probably change it to be directly on the CANbus.
 - Ideal diodes on the PDM are legacy hardware that are unused as MPPT is done directly on the BMS. Previously on the V1 of the BMS, the BMS contained a single MPPT circuit and these ideal diodes would output whichever panel was the most illuminated.
 - Change the buck converter ICs from TPS6993 to AP64501. I was planning on doing this in a second revision of the PDM but unfortunately ran out of time since I had 5 other PCBs to design for the satellite.
-- If you have to do one thing I beg you to replace all the PDM efuses with TPS25497. The TPS16410 that I used for all the PDM outputs (except for the 6V output) is a piece of shit and really hard to solder. The TPS25947 is marginally more expensive, but has a higher current rating and reverse current blocking. We had some issues plugging USBs into boards downstream. The TPS25947 is much easier to solder as well from my experience.
+- If you have to do one thing I beg you to replace all the PDM efuses with TPS25497. The TPS16410 that I used for all the PDM outputs (except for the 6V output) is a piece of shit and really hard to solder. The TPS25947 is marginally more expensive, but has a higher current rating and reverse current blocking. We had some issues plugging USBs into boards downstream using the TPS16410. The TPS25947 is much easier to solder as well from my experience.
 
 
 ## Author
