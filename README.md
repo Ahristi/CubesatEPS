@@ -12,15 +12,27 @@ The EPS is comprised of two boards:
       <b>BMS PCB</b>
     </td>
     <td align="center">
-      <img src="Images/batteries.jpg" width="100%" alt="Battery pack"><br>
+      <img src="Images/batteries.jpg" width="100%" alt="Bottom of BMS showing battery mounting"><br>
       <b>Battery Pack</b>
     </td>
   </tr>
 </table>
 
 - **PDM — Power Distribution Module**: Regulates the raw battery voltage from the BMS to the voltages required by other subsystems on the satellite.
+<table>
+  <tr>
+    <td align="center">
+      <img src="Images/pdm_top.jpg" width="100%" alt="PDM PCB top view"><br>
+      <b>BMS PCB</b>
+    </td>
+    <td align="center">
+      <img src="Images/pdm_bottom.jpg" width="100%" alt="PDM PCB bottom view"><br>
+      <b>Battery Pack</b>
+    </td>
+  </tr>
+</table>
 
-The firmware is written primarily in C for STM32 microcontrollers, with Python utilities for CAN communication, telemetry monitoring, plotting, and test automation.
+The firmware for the PDM is an STM32 eclipse project. With code generated using HAL libraries from CubeMX. The firmware for the BMS is a platformIO project, with code also generated from STM32CubeMX
 
 ## Repository Structure
 
@@ -32,7 +44,6 @@ CubesatEPS/
 │   ├── BMS_Test/         # BMS test firmware/software
 │   ├── PDM/              # PDM firmware, CAN tools, telemetry scripts
 │   └── control_panel.py  # Simple serial control utility
-├── core/                 # Shared or generated core project files
 ├── hardware/             # PCB design files
 │   ├── BMS/              # BMS Altium hardware project files
 │   └── PDM/              # PDM Altium hardware project files
