@@ -43,7 +43,8 @@ CubesatEPS/
 │   ├── BMS/              # STM32 BMS firmware project
 │   ├── BMS_Test/         # BMS test firmware/software
 │   ├── PDM/              # PDM firmware, CAN tools, telemetry scripts
-│   └── control_panel.py  # Simple serial control utility
+│       ├──  PDM/         # STM32 project for PDM
+|       └──  EPS_gui.py   # Python script used to monitor EPS CAN telemetry and turn eFuses on/off.
 ├── hardware/             # PCB design files
 │   ├── BMS/              # BMS Altium hardware project files
 │   └── PDM/              # PDM Altium hardware project files
@@ -86,103 +87,19 @@ hardware/BMS/
 hardware/PDM/
 ```
 
-These folders contain the PCB design files for the battery management and power distribution boards. The project appears to use Altium Designer project/schematic/PCB file formats.
+These folders contain the Altium projects for battery management and power distribution boards.
+## Known Issues
+- Battery current measurement is a quite poor. This is because the current measurement instrumentation amplifier is backfeeding current to the 1.5V reference which causes the reference to rise to about 2.4V. This needs to be fixed by adding a lower output impedance bbuffer ont he output of the LDO.
+- PDM 6V enable MOSFET circuit is incorrect. R33 should be pulled directly to 5V5. This was fixed by a small rework on the board, but should be fixed in the next revision.
+- Legacy GPIOs on the mezzanine connector which do nothing currently. This were to ensure backwards compatibility with old V1 hardware but aren't used anymore.
+- Heater driver is currently untested as we didn't use it in the end for the DOCKER-1 project.
 
-## Firmware
+## Future improvements
+- I2C is a bit finnicky for the PDM to BMS link. In a future revision I would probably change it to be directly on the CANbus.
+- Ideal diodes on the PDM are legacy hardware that are unused as MPPT is done directly on the BMS. Previously on the V1 of the BMS, the BMS contained a single MPPT circuit and these ideal diodes would output whichever panel was the most illuminated.
+- Change the buck converter ICs from TPS6993 to AP64501. I was planning on doing this in a second revision of the PDM but unfortunately ran out of time since I had 5 other PCBs to design for the satellite.
+- If you have to do one thing I beg you to replace all the PDM efuses with TPS25497. The TPS16410 that I used for all the PDM outputs (except for the 6V output) is a piece of shit and really hard to solder. The TPS25947 is marginally more expensive, but has a higher current rating and reverse current blocking. We had some issues plugging USBs into boards downstream. The TPS25947 is much easier to solder as well from my experience.
 
-The main BMS firmware project is located at:
-
-```text
-Software/BMS/
-```
-
-The BMS firmware uses:
-
-- STM32Cube framework
-- STM32F446RE target
-- PlatformIO project configuration
-- ST-Link for upload/debug
-
-### Building the BMS Firmware
-
-From the BMS firmware directory:
-
-```bash
-cd Software/BMS
-pio run
-```
-
-### Uploading to the MCU
-
-```bash
-pio run --target upload
-```
-
-### Debugging
-
-```bash
-pio debug
-```
-
-## Python Utilities
-
-Python scripts are stored mainly in:
-
-```text
-Software/PDM/
-Software/control_panel.py
-```
-
-These tools support:
-
-- Sending EPS commands
-- Listening to CAN telemetry
-- Applying telemetry conversions
-- Plotting rail current measurements
-- Basic serial register reads
-
-Install the likely required Python packages with:
-
-```bash
-pip install pyserial python-can matplotlib pandas
-```
-
-Some scripts may require editing the serial/CAN interface configuration before use.
-
-## Typical Development Workflow
-
-1. Modify the hardware design in the relevant `hardware/BMS` or `hardware/PDM` project.
-2. Update firmware in `Software/BMS` or `Software/PDM`.
-3. Build and flash firmware using PlatformIO or STM32Cube tooling.
-4. Use the Python tools to send commands, monitor telemetry, and validate rail behaviour.
-5. Record and analyse telemetry/current data during bench testing.
-
-## Safety Notes
-
-This project involves spacecraft power electronics, battery charging, high-current rails, and protected power distribution. When testing:
-
-- Use a current-limited bench supply.
-- Validate rail voltages before connecting flight or expensive loads.
-- Confirm battery polarity and protection settings before charging.
-- Avoid hot-plugging boards unless the design explicitly supports it.
-- Treat early firmware as unsafe until protection paths are verified on hardware.
-
-## Suggested Improvements
-
-Useful future additions to this README would include:
-
-- System block diagram
-- Rail voltage/current table
-- CAN message map
-- Battery pack configuration
-- MPPT operating limits
-- Bring-up checklist
-- Test procedure for BMS and PDM boards
-- Known hardware revisions and errata
-
-## Status
-
-This repository is under active development. Interfaces, firmware structure, telemetry formats, and hardware revisions may change as the EPS design matures.
 
 ## Author
 
