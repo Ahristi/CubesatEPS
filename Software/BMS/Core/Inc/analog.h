@@ -36,13 +36,16 @@
 
 
 //-------------Typedef and Enums-------------
-typedef float (*ANALOG_convertFunction)(float);
+typedef float (*ANALOG_convertMeasurement)(float);  //Convert ADC voltage to the actual measurement (ie to temperature in degree C)
+typedef uint16_t (*ANALOG_packMeasurement)(float);  //Convert the actual measurement to a 2 byte value to be sent on I2C to PDM. (used by telemetry.c)
 
 typedef struct{
     uint16_t raw;
     float voltage;
     float value;
-    ANALOG_convertFunction convert;
+    uint16_t packed_value;
+    ANALOG_convertMeasurement convert_measurement;
+    ANALOG_packMeasurement pack_measurement;
 }ANALOG_Measurement_t;
 
 typedef enum {
@@ -81,6 +84,10 @@ float ANALOG_ConvertVREF(float raw_voltage);
 
 
 
+uint16_t ANALOG_PackmVbit(float value_V);
+uint16_t ANALOG_PackmAbit(float value_A);
+uint16_t ANALOG_PackSignedmAbit(float value_A);
+uint16_t ANALOG_PackCelsiusbit(float value_C);
 
 
 

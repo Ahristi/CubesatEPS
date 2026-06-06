@@ -7,6 +7,7 @@ Task tasks[] = {
         {ANALOG_Task,      100, 0, 0},
         {MPPT_Task,        100, 0, 0},
         {POWERPATH_Task,   100, 0, 0},
+        {TELEMETRY_Task,   200, 0, 0},
     };
 
 

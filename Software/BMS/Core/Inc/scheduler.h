@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include "powerpath.h"
 #include "analog.h"
-
+#include "telemetry.h"
 typedef void (*TaskFunction)();
 
 typedef struct{

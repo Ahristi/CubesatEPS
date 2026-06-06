@@ -151,6 +151,35 @@
         "unit": "°C"
       }
     }
+  },
+  "0x326": {
+    "name": "MPPT_telem",
+    "type": "MPPT_telem",
+    "signals": {
+      "panel0_voltage": {
+        "offset": 0,
+        "type": "s16",
+        "scale": 0.001,
+        "unit": "V"
+      },
+      "panel0_current": {
+        "offset": 2,
+        "type": "s16",
+        "scale": 0.001,
+        "unit": "A"
+      },
+      "panel1_voltage": {
+        "offset": 4,
+        "type": "s16",
+        "scale": 0.001,
+        "unit": "V"
+      },
+      "panel1_current": {
+        "offset": 6,
+        "type": "s16",
+        "scale": 0.001,
+        "unit": "A"
+      }
+    }
   }
-
 }
