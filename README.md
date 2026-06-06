@@ -12,13 +12,26 @@ The EPS is comprised of two boards:
       <b>BMS PCB</b>
     </td>
     <td align="center">
-      <img src="Images/batteries.jpg" width="100%" alt="Battery pack"><br>
+      <img src="Images/batteries.jpg" width="100%" alt="Bottom of BMS showing battery mounting"><br>
       <b>Battery Pack</b>
     </td>
   </tr>
 </table>
 
 - **PDM — Power Distribution Module**: Regulates the raw battery voltage from the BMS to the voltages required by other subsystems on the satellite.
+<table>
+  <tr>
+    <td align="center">
+      <img src="Images/pdm_top.jpg" width="100%" alt="PDM PCB top view"><br>
+      <b>BMS PCB</b>
+    </td>
+    <td align="center">
+      <img src="Images/pdm_bottom.jpg" width="100%" alt="PDM PCB bottom view"><br>
+      <b>Battery Pack</b>
+    </td>
+  </tr>
+</table>
+
 
 The firmware is written primarily in C for STM32 microcontrollers, with Python utilities for CAN communication, telemetry monitoring, plotting, and test automation.
 
