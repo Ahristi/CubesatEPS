@@ -103,4 +103,4 @@ These folders contain the Altium projects for battery management and power distr
 
 ## Author
 
-Developed by Tom Holland / Ahristi as part of a CubeSat Electrical Power System project.
+Developed by Tom Holland / Ahristi as part of the DOCKER-1 project for AERO4701 at the University of Sydney
