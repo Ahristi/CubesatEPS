@@ -5,11 +5,11 @@ Electrical Power System (EPS) hardware and firmware for a Docker-1 Cubesat. The 
   <tr>
     <td align="center">
       <img src="Images/EPS_assembly_top.png" width="100%" alt="EPS Assembly top view"><br>
-      <b>BMS PCB</b>
+      <b>EPS Assembly top view</b>
     </td>
     <td align="center">
       <img src="Images/EPS_assembly_bottom.png" width="100%" alt="EPS Assembly bottom view"><br>
-      <b>Battery Pack</b>
+      <b>EPS Assembly bottom view</b>
     </td>
   </tr>
 </table>
