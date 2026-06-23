@@ -13,6 +13,7 @@ Electrical Power System (EPS) hardware and firmware for a Docker-1 Cubesat. The 
     </td>
   </tr>
 </table>
+
 ## Overview
 The EPS is comprised of two boards:
 - **BMS — Battery Management System**: Contains a 4S Li-Ion battery directly soldered to the PCB. Performs battery protection, battery seperation, umbilical charging and solar panel charging via two MPPT boost circuits.
